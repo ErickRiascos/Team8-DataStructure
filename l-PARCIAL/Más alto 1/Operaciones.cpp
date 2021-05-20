@@ -25,6 +25,10 @@ template <typename tipoDato>
 void Operaciones<tipoDato>::setValor2(tipoDato b){
 	valor2=b;
 }
+plantilla < typename tipoDato>
+tipoDato Operaciones <tipoDato> :: suma () {
+	return valor1+valor2;
+}
 template <typename tipoDato>
 tipoDato Operaciones<tipoDato>::resta(){
 	return valor1-valor2;
