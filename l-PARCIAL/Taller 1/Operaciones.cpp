@@ -26,6 +26,10 @@ void Operaciones<tipoDato>::setValor2(tipoDato b){
 	valor2=b;
 }
 template <typename tipoDato>
+tipoDato Operaciones<tipoDato>::resta(){
+	return valor1-valor2;
+}
+template <typename tipoDato>
 tipoDato Operaciones<tipoDato>::division(){
 	if(valor2==0){
 		printf("No se puede dividir!\n");
