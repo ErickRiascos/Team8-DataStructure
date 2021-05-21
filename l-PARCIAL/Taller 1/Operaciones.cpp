@@ -40,6 +40,10 @@ tipoDato Operaciones<tipoDato>::suma(){
 	return valor1+valor2;//@return dato abstracto
 }
 template <typename tipoDato>
+tipoDato Operaciones<tipoDato>::multiplicacion(){
+	return valor1*valor2;//@return dato abstracto
+}
+template <typename tipoDato>
 tipoDato Operaciones<tipoDato>::division(){
 	if(valor2==0){
 		printf("No se puede dividir!\n");
