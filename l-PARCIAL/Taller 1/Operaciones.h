@@ -19,8 +19,10 @@ class Operaciones
 		void setValor2(tipoDato b);
 		tipoDato resta();
 		tipoDato division();
-		tipoDato suma();
 		tipoDato multiplicacion();
+		tipoDato suma();
+	
+		
 		
 		
 };
