@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores: Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Taller de operaciones basicas
+Fecha creacion: 19/05/2021
+Fecha modificacion: 20/05/2021*/
 #include "Operaciones.h"
 #include "stdio.h"
 /*@author Leonado Sandoval
