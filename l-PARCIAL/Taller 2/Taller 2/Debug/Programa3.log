@@ -1,0 +1,7 @@
+﻿  Programa3.cpp
+C:\Users\Leo\Desktop\Programa3\Programa3\Programa3.cpp(21,23): warning C4244: 'argument': conversion from 'double' to 'Data', possible loss of data
+          with
+          [
+              Data=float
+          ]
+  Programa3.vcxproj -> C:\Users\Leo\Desktop\Programa3\Debug\Programa3.exe
