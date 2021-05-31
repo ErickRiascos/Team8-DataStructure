@@ -22,7 +22,7 @@ public:
    Persona(std::string _nombre, std::string _apellido, std::string _cedula);
    ~Persona();
 
-   Fecha** fecha;
+   Fecha* fecha;
 
 protected:
 private:
