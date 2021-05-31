@@ -31,7 +31,7 @@ void Operaciones::ingresar(){
 	return promedio/10;
 }*/
 void Operaciones::imprimir(){
-	int* v1 = v.getVect();
+	int* v1= v.getVect();
 	std::cout<<"\nVector=\{";
 	for(int i=0;i<10;i++){
 		std::cout<<v1[i]<<" ";
