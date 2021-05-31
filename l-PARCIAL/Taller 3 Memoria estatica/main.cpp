@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
 	Operaciones op;
 	op.encerar();
 	op.ingresar();
-	op.procesar();
+	std::cout<<"Promedio: "<<op.procesar();
 	op.imprimir();
 	return 0;
 }
