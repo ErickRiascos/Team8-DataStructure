@@ -24,6 +24,7 @@ void Operaciones::ingresar(){
 	this->v.setVect(vec);
 }
 float Operaciones::procesar(){
+	int vec[10];
 	float promedio=0.0;
 	for(int i=0;i<10;i++){
 		promedio+=vec[i];
