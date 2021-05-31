@@ -36,6 +36,5 @@ void Operaciones::imprimir(){
 	for(int i=0;i<10;i++){
 		std::cout<<vec[i]<<" ";
 	}
-	this->v.setVect(vec);
 	std::cout<<"\}";
 }
