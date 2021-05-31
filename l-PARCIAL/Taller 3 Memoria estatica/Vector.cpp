@@ -18,3 +18,6 @@ void Vector::setVect(int vec[10]){
 int* Vector::getVect(){
 	return vect;
 }
+Vector::~Vector(){
+	
+}

@@ -6,7 +6,7 @@ Fecha creación: 30/05/2021
 Fecha modificación: 30/05/2021*/
 #include "Operaciones.h"
 #include <stdlib.h>
-Operaciones::Operaciones(Vector vec){
+Operaciones::Operaciones(Vector& vec){
 	this->v=vec;
 }
 void Operaciones::encerar(){
@@ -29,11 +29,12 @@ void Operaciones::ingresar(){
 		promedio+=vec[i];
 	}
 	return promedio/10;
-}
-void Operaciones::imprimir(int vec[10]){
+}*/
+void Operaciones::imprimir(){
+	int* v1 = v.getVect();
 	std::cout<<"\nVector=\{";
 	for(int i=0;i<10;i++){
-		std::cout<<vec[i]<<" ";
+		std::cout<<v1[i]<<" ";
 	}
 	std::cout<<"\}";
-}*/
+}

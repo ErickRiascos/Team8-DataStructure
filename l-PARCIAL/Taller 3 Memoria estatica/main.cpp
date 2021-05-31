@@ -7,11 +7,10 @@ Fecha modificación: 30/05/2021*/
 #include <iostream>
 #include "Operaciones.h"
 int main(int argc, char** argv) {
-	/*int v[10];
-	Operaciones op
-	op.encerar(v);
-	op.ingresar(v);
-	std::cout<<"Promedio: "<<op.procesar(v);
-	op.imprimir(v);*/
+	std::cout<<"Taller Numero 3 Memoria Estatica Vectores"<<std::endl;
+	Operaciones op;
+	op.encerar();
+	op.ingresar();
+	op.imprimir();
 	return 0;
 }

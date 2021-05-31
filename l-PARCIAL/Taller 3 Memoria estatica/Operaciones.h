@@ -12,7 +12,7 @@ class Operaciones{
 		Vector v;
 	public:
 		Operaciones()=default;
-		Operaciones(Vector);
+		Operaciones(Vector&);
 		void encerar();
 		void ingresar();
 		float procesar();
