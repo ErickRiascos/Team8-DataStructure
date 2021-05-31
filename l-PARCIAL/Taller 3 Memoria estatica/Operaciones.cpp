@@ -23,13 +23,14 @@ void Operaciones::ingresar(){
 	}
 	this->v.setVect(vec);
 }
-/*float Operaciones::procesar(int vec[10]){
+float Operaciones::procesar(){
 	float promedio=0.0;
 	for(int i=0;i<10;i++){
 		promedio+=vec[i];
 	}
+	this->v.setVect(vec);
 	return promedio/10;
-}*/
+}
 void Operaciones::imprimir(){
 	int* v1= v.getVect();
 	std::cout<<"\nVector=\{";
