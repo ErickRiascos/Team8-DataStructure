@@ -1,9 +1,9 @@
 /*Universidad de las Fuerzas Armadas "ESPE"
 Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
-Taller de Memoria Est·tica
-Fecha creaciÛn: 30/05/2021
-Fecha modificaciÛn: 30/05/2021*/
+Taller de Memoria Est√°tica
+Fecha creaci√≥n: 30/05/2021
+Fecha modificaci√≥n: 30/05/2021*/
 #include "Operaciones.h"
 #include <stdlib.h>
 Operaciones::Operaciones(Vector vec){
@@ -29,11 +29,13 @@ void Operaciones::ingresar(){
 		promedio+=vec[i];
 	}
 	return promedio/10;
-}
-void Operaciones::imprimir(int vec[10]){
+}*/
+void Operaciones::imprimir(){
+	int vec[10]
 	std::cout<<"\nVector=\{";
 	for(int i=0;i<10;i++){
 		std::cout<<vec[i]<<" ";
 	}
+	this->v.setVect(vec);
 	std::cout<<"\}";
-}*/
+}
