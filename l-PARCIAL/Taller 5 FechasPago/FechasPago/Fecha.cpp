@@ -91,9 +91,9 @@ Fecha::Fecha(int _dia, int _mes, int _anio)
 
 int Fecha::calcularDia() {
 	int diaResultado;
-	int a = this->anio;
-	int d = this->dia;
-	int m = this->m;
+	int a= this->anio;
+	int d= this->dia;
+	int m=this->m;
 	diaResultado = ((anio - 1) % 7 + ((anio - 1) / 4 - (3 * ((anio - 1) / 100 + 1) / 4)) % 7 + m + dia % 7) % 7;
 	return diaResultado;
 }
