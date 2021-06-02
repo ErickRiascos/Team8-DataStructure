@@ -1,0 +1,4 @@
+﻿  Multiplicacion Test.cpp
+C:\Users\Erick\Documents\Curso cshar\netcore\Multiplicacion de matrices\Multiplicacion Test\Multiplicacion Test.cpp(15,11): warning C4101: 'res': variable local sin referencia
+C:\Users\Erick\Documents\Curso cshar\netcore\Multiplicacion de matrices\Multiplicacion Test\Multiplicacion Test.cpp(18,14): warning C4101: 'op': variable local sin referencia
+  Multiplicacion Test.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Multiplicacion de matrices\Debug\Multiplicacion Test.dll

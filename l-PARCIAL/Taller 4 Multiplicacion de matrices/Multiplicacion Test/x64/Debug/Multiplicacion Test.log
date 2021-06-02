@@ -1,0 +1,4 @@
+﻿  Multiplicacion Test.cpp
+     Creando biblioteca C:\Users\Erick\Documents\Curso cshar\netcore\Multiplicacion de matrices\x64\Debug\Multiplicacion Test.lib y objeto C:\Users\Erick\Documents\Curso cshar\netcore\Multiplicacion de matrices\x64\Debug\Multiplicacion Test.exp
+Multiplicacion Test.obj : error LNK2019: símbolo externo "public: class Matriz __cdecl Operacion::multiplicarMatriz(class Matriz,class Matriz)" (?multiplicarMatriz@Operacion@@QEAA?AVMatriz@@V2@0@Z) sin resolver al que se hace referencia en la función "public: void __cdecl MultiplicacionTest::MultiplicacionTest::MultiplicacionMatricesTest(void)" (?MultiplicacionMatricesTest@MultiplicacionTest@1@QEAAXXZ)
+C:\Users\Erick\Documents\Curso cshar\netcore\Multiplicacion de matrices\x64\Debug\Multiplicacion Test.dll : fatal error LNK1120: 1 externos sin resolver
