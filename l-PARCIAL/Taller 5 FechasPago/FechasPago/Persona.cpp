@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Taller 5 Fechas de Pago
+Fecha creación: 1/6/2021
+Fecha modificación: 1/6/2021*/
 #include "Persona.h"
 Persona::Persona(std::string _nombre, Fecha _fecha_Inicio,int _mes_Pago)
 {
