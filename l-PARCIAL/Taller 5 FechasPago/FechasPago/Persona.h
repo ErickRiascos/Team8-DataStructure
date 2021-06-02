@@ -3,16 +3,15 @@
 #include "Fecha.h"
 class Persona
 {
-private:
+
+private: 
 	std::string nombre;
 	Fecha fecha_Inicio;
 	int mes_Pago;
 public:
-	Persona(std::string, Fecha,int);
+	Persona(std::string, Fecha, int);
 	~Persona();
 	Fecha* calcularPago();
-
-
 
 };
 
