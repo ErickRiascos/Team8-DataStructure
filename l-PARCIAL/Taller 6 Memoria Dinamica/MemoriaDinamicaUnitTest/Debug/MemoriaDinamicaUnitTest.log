@@ -1,4 +1,2 @@
 ﻿  MemoriaDinamicaUnitTest.cpp
-C:\Users\Erick\Documents\Curso cshar\netcore\Memoria Dinamica\MemoriaDinamicaUnitTest\MemoriaDinamicaUnitTest.cpp(13,11): warning C4101: 'm': variable local sin referencia
-     Creando biblioteca C:\Users\Erick\Documents\Curso cshar\netcore\Memoria Dinamica\Debug\MemoriaDinamicaUnitTest.lib y objeto C:\Users\Erick\Documents\Curso cshar\netcore\Memoria Dinamica\Debug\MemoriaDinamicaUnitTest.exp
   MemoriaDinamicaUnitTest.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Memoria Dinamica\Debug\MemoriaDinamicaUnitTest.dll

@@ -6,7 +6,6 @@
 
 #ifndef PCH_H
 #define PCH_H
-#include "../Memoria Dinamica/Operaciones.h"
 
 // agregue aquí los encabezados que desea precompilar
 
