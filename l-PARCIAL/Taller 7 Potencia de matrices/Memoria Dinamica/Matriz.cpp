@@ -19,8 +19,8 @@ Matriz::Matriz(int _d)
 int** Matriz::segmentar()
 {
 	this->matriz = (int**)malloc(dim*sizeof(int *));
-	for (int i = 0; i < dim; i++)	{
-		*(this->matriz + i) = (int*)malloc(dim * sizeof(int));
+	for(int i=0;i < dim; i++) {
+		*(this->matriz + i) =(int*)malloc(dim*sizeof(int));
 	}
 	return matriz;
 }
