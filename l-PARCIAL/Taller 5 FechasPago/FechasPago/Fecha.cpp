@@ -140,8 +140,6 @@ int Fecha::getAnio()
 	return anio;
 }
 
-
-
 Fecha::~Fecha() {
 
 }

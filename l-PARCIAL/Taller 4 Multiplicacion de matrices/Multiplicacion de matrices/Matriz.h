@@ -17,6 +17,7 @@ public:
    void llenarMatriz();
    void imprimirMatriz();
    Matriz()=default;
+   void encerar();
    int matriz[10][10];
 };
 #endif

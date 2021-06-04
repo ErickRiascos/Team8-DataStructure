@@ -1,0 +1,4 @@
+﻿  FechaPagoTest.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 5 FechasPago\FechasPago\Persona.cpp(42): warning C4172: devolución de dirección de la variable local o temporal: vec
+     Creando biblioteca C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 5 FechasPago\Debug\FechaPagoTest.lib y objeto C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 5 FechasPago\Debug\FechaPagoTest.exp
+  FechaPagoTest.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 5 FechasPago\Debug\FechaPagoTest.dll

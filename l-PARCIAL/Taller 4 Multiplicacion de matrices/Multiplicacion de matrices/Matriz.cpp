@@ -50,6 +50,15 @@ void Matriz::imprimirMatriz(){
 	}
 }
 
+void Matriz::encerar()
+{
+	for (int i = 0;i < 10;i++) {
+		for (int j = 0; j < 10;j++) {
+			matriz[i][j] = 0;
+		}
+	}
+}
+
 
 ////////////////////////////////////////////////////////////////////////
 // Name:       Matriz::Matriz(int _filas, int _columnas)

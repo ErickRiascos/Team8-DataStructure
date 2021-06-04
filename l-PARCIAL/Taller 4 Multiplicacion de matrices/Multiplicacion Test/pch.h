@@ -6,7 +6,7 @@
 
 #ifndef PCH_H
 #define PCH_H
-#include "../Multiplicacion de matrices/Operacion.h"
+
 
 // agregue aquí los encabezados que desea precompilar
 

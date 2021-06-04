@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Matriz">
-    <Position X="3.75" Y="1.25" Width="1.5" />
+    <Position X="4.25" Y="1.5" Width="2" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAACAAABAIAIAgACIAACAgAAAAAAQAAAAAAAA=</HashCode>
       <FileName>Matriz.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Operaciones">
-    <Position X="5.5" Y="1.25" Width="1.5" />
+    <Position X="6.5" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
       <FileName>Operaciones.h</FileName>
