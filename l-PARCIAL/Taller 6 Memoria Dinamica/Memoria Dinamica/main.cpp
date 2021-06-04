@@ -9,7 +9,7 @@ Fecha modificación: 03/05/2021*/
 
 int main()
 {
-	int d;
+	ind d;
 	std::cout << "Ingrese la dimension de las matrices: ";
 	std::cin >> d;
 	Matriz m(d);
