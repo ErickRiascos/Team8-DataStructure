@@ -27,7 +27,6 @@ Matriz Operaciones::calcular(Matriz a,int e)
 			}
 		}
 		aux.setMatriz(resul.getMatriz());
-		aux.imprimir();
 		resul.segmentar();
 		resul.encerar();
 	}
