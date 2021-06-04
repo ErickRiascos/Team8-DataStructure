@@ -19,8 +19,8 @@ int main()
 	m.encerar();
 	m.ingresar();
 	Operaciones op;
-	//std::cout << "\nMatriz Original: " << std::endl;
+	std::cout << "\nMatriz Original: " << std::endl;
 	m.imprimir();
 	std::cout << "\nMatriz Resultado: " << std::endl;
-	op.calcular(m, e);
+	op.calcular(m, e).imprimir();
 }
