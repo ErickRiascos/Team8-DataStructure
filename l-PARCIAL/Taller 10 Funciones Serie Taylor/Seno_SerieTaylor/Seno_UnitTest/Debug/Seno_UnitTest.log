@@ -1,0 +1,5 @@
+﻿  Seno_UnitTest.cpp
+C:\Users\Leo\source\repos\Seno_SerieTaylor\Seno_UnitTest\Seno_UnitTest.cpp(18,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Leo\source\repos\Seno_SerieTaylor\Seno_UnitTest\Seno_UnitTest.cpp(25,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Leo\source\repos\Seno_SerieTaylor\Seno_UnitTest\Seno_UnitTest.cpp(27,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Seno_UnitTest.vcxproj -> C:\Users\Leo\source\repos\Seno_SerieTaylor\Debug\Seno_UnitTest.dll
