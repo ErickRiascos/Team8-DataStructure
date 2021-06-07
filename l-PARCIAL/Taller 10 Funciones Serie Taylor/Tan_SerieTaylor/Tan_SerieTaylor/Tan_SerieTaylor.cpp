@@ -1,7 +1,7 @@
 /*Universidad de las Fuerzas Armadas "ESPE"
 Software
 Autores:  Ibarra Deyvid
-Memoria Dinamica: Potencia de Matrices
+Funcion Tangente
 Fecha creación: 06/05/2021
 Fecha modificación: 07/05/2021*/
 #include <iostream>
