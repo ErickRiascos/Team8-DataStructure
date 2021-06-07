@@ -1,4 +1,10 @@
-﻿#include "Tangente.h"
+﻿/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Ibarra Deyvid
+Memoria Dinamica: Potencia de Matrices
+Fecha creación: 06/05/2021
+Fecha modificación: 07/05/2021*/
+#include "Tangente.h"
 #include "Math.h"
 #include <iostream>
 double numero = 12;
