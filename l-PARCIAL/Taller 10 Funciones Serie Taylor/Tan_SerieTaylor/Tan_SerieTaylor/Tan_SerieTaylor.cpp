@@ -1,9 +1,9 @@
 /*Universidad de las Fuerzas Armadas "ESPE"
 Software
-Autores:  Riascos Erick
+Autores:  Ibarra Deyvid
 Memoria Dinamica: Potencia de Matrices
-Fecha creación: 05/05/2021
-Fecha modificación: 05/05/2021*/
+Fecha creación: 06/05/2021
+Fecha modificación: 07/05/2021*/
 #include <iostream>
 #include "Tangente.h"
 
