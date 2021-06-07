@@ -1,0 +1,4 @@
+﻿  TanTest.cpp
+C:\Users\Usuario\Desktop\Tan_SerieTaylor\Tan_SerieTaylor\Tangente.cpp(49): warning C4715: 'Tan::calcular_Tan': no todas las rutas de acceso de control devuelven un valor
+     Creando biblioteca C:\Users\Usuario\Desktop\Tan_SerieTaylor\Debug\TanTest.lib y objeto C:\Users\Usuario\Desktop\Tan_SerieTaylor\Debug\TanTest.exp
+  TanTest.vcxproj -> C:\Users\Usuario\Desktop\Tan_SerieTaylor\Debug\TanTest.dll
