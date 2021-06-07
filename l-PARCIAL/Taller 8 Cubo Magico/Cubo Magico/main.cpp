@@ -1,6 +1,11 @@
 // Cubo Magico.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
-
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Memoria Dinamica: Potencia de Matrices
+Fecha creación: 05/05/2021
+Fecha modificación: 05/05/2021*/
 #include <iostream>
 #include "Vector.h"
 #include "Cubo.h"
