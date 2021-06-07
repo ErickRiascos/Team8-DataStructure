@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Ibarra Deyvid
+Funcion Tangente
+Fecha creación: 06/05/2021
+Fecha modificación: 07/05/2021*/
 #pragma once
 #include <Math.h>
 
