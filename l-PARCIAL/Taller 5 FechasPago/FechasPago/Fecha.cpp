@@ -52,6 +52,7 @@ void Fecha::setMes(int _mes)
 	if (mes==12) {
 		mes = 1;
 		anio += 1;
+		m = 0;
 	}
 	else {
 		this->mes = _mes;
