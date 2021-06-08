@@ -6,96 +6,20 @@ Fecha::Fecha(int _dia, int _mes, int _anio)
 	this->dia = _dia;
 	this->mes = _mes;
 	this->anio = _anio;
-
-	if (anio%4==0) {
-		switch (this->mes) {
-			case 1:
-				m = 0;
-				break;
-			case 2:
-				m = 3;
-				break;
-			case 3:
-				m = 4;
-				break;
-			case 4:
-				m = 0;
-				break;
-			case 5:
-				m = 2;
-				break;
-			case 6:
-				m = 5;
-				break;
-			case 7:
-				m = 0;
-				break;
-			case 8:
-				m = 3;
-				break;
-			case 9:
-				m = 6;
-				break;
-			case 10:
-				m = 1;
-				break;
-			case 11:
-				m = 4;
-				break;
-			case 12:
-				m = 6;
-				break;
+	int mesesAnioBisiesto[] = {0,3,4,0,2,5,0,3,6,1,4,6};
+	int mesesAnioNormal[] = {0,3,3,6,1,4,6,2,5,0,3,5};
+	for (int i = 0; i < 12; i++){
+		if (anio % 4 == 0 && i+1 == mes){
+			m = mesesAnioBisiesto[i];
 		}
-	}
-	else {
-		switch (this->mes) {
-			case 1:
-				m = 0;
-				break;
-			case 2:
-				m = 3;
-				break;
-			case 3:
-				m = 3;
-				break;
-			case 4:
-				m = 6;
-				break;
-			case 5:
-				m = 1;
-				break;
-			case 6:
-				m = 4;
-				break;
-			case 7:
-				m = 6;
-				break;
-			case 8:
-				m = 2;
-				break;
-			case 9:
-				m = 5;
-				break;
-			case 10:
-				m = 0;
-				break;
-			case 11:
-				m = 3;
-				break;
-			case 12:
-				m = 5;
-				break;
+		if (anio % 4 != 0 && i + 1 == mes) {
+			m = mesesAnioNormal[i];
 		}
 	}
 }
 
 int Fecha::calcularDia() {
-	int diaResultado;
-	int a= this->anio;
-	int d= this->dia;
-	int m=this->m;
-	diaResultado = ((anio - 1) % 7 + ((anio - 1) / 4 - (3 * ((anio - 1) / 100 + 1) / 4)) % 7 + m + dia % 7) % 7;
-	return diaResultado;
+	return ((anio - 1) % 7 + ((anio - 1) / 4 - (3 * ((anio - 1) / 100 + 1) / 4)) % 7 + m + dia % 7) % 7;
 }
 
 void Fecha::imprimirFecha()
@@ -115,6 +39,16 @@ int Fecha::getDia()
 
 void Fecha::setMes(int _mes)
 {	
+	int mesesAnioBisiesto[] = { 0,3,4,0,2,5,0,3,6,1,4,6 };
+	int mesesAnioNormal[] = { 0,3,3,6,1,4,6,2,5,0,3,5 };
+	for (int i = 0; i < 12; i++) {
+		if (anio % 4 == 0 && i + 1 == _mes) {
+			m = mesesAnioBisiesto[i];
+		}
+		if (anio % 4 != 0 && i + 1 == _mes) {
+			m = mesesAnioNormal[i];
+		}
+	}
 	if (mes==12) {
 		mes = 1;
 		anio += 1;
@@ -139,6 +73,8 @@ int Fecha::getAnio()
 {
 	return anio;
 }
+
+
 
 Fecha::~Fecha() {
 

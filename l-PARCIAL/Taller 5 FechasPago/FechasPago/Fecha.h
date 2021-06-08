@@ -18,7 +18,5 @@ public:
 	int getMes();
 	void setAnio(int);
 	int getAnio();
-	
-
 };
 
