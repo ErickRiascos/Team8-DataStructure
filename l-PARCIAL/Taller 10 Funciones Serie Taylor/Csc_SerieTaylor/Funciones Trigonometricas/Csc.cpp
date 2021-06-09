@@ -2,8 +2,8 @@
 Software
 Autores:  Riascos Erick
 Csc Serie de Taylor
-Fecha creación: 05/05/2021
-Fecha modificación: 05/05/2021*/
+Fecha creación: 05/06/2021
+Fecha modificación: 05/06/2021*/
 #include "Csc.h"
 #include <math.h>
 #include <iostream>
