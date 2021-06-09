@@ -1,0 +1,5 @@
+﻿  Operacion.cpp
+C:\Users\LENOVO\Music\dsf\MatrizIdentidad\Operacion.cpp(53,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\LENOVO\Music\dsf\MatrizIdentidad\Operacion.cpp(72,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\LENOVO\Music\dsf\MatrizIdentidad\Operacion.cpp(80,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  MatrizIdentidad.vcxproj -> C:\Users\LENOVO\Music\dsf\MatrizIdentidad\Debug\MatrizIdentidad.exe
