@@ -2,7 +2,7 @@
 class Nodo
 {
 private:
-	int valor;
+	Persona persona;
 	Nodo* siguiente;
 public:
 	Nodo(int);
