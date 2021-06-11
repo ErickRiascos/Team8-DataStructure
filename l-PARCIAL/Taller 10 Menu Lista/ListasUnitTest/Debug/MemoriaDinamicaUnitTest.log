@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (MemoriaDinamicaUnitTest.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  PotenciaUnitTest.cpp
+     Creando biblioteca C:\Users\Erick\Documents\Curso cshar\netcore\Potencia de matrices\Debug\Potencia de Matrices Test.lib y objeto C:\Users\Erick\Documents\Curso cshar\netcore\Potencia de matrices\Debug\Potencia de Matrices Test.exp
+  MemoriaDinamicaUnitTest.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Potencia de matrices\Debug\Potencia de Matrices Test.dll
