@@ -17,10 +17,10 @@ int main()
 	int resid = a % c;
 	Datos<float> dato(b, d);
 	Operaciones operacion(dato);
-	cout << "La suma de dos numeros es: " << operacion.operator+()<<endl;
-	cout << "La suma con dos parametros y una constante es: " << operacion.operator+(b)<<endl;
-	cout << "La resta de dos numeros es: " << operacion.operator-()<< endl;
-	cout << "La resta de dos numeros y una constante es: " << operacion.operator-(b)<< endl;
+	cout << "La suma de dos numeros es: " << operacion.operator+() << endl;
+	cout << "La suma con dos parametros y una constante es: " << operacion.operator+(b) << endl;
+	cout << "La resta de dos numeros es: " << operacion.operator-() << endl;
+	cout << "La resta de dos numeros y una constante es: " << operacion.operator-(b) << endl;
 	cout << "La división de un numero y una constante es: " << operacion.operator/(b) << endl;
 	cout << "El modulo de dos numeros enteros es: " << resid;
 	return 0;

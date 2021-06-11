@@ -26,10 +26,7 @@ class Operaciones
 		tipoDato resta();
 		tipoDato division();
 		tipoDato multiplicacion();
-		tipoDato suma();
-	
-		
-		
+		tipoDato suma();	
 		
 };
 
