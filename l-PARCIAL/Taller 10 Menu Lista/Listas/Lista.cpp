@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Listas: implementar un menu 
+Fecha creación: 08/06/2021
+Fecha modificación: 10/06/2021*/
 #include "Lista.h"
 #include <iostream>
 bool Lista::listaVacia(){
@@ -51,18 +57,19 @@ void Lista::eliminar_Cabeza() {
     }
 }
 
-void Lista::eliminar_Cola() {
-    if (primero == actual){
-        delete actual;
-    }
-    else {
-        Nodo* temp = this->primero;
-        while (temp->siguiente != actual) {
-            temp = temp->siguiente;
+
+ void Lista::eliminar_Cola() {
+        if(primero == actual){
+            delete actual;
         }
-        actual = temp;
+        else {
+            Nodo* temp=this->primero;
+            while(temp->siguiente != actual) {
+                temp = temp->siguiente;
+            }
+            actual = temp;
         temp = actual->siguiente;
         actual->siguiente = NULL;
-        delete temp;
-    }
+            delete temp;
+        }
 }
