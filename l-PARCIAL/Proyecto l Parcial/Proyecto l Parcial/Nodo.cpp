@@ -1,6 +1,7 @@
+#pragma once
 #include "Nodo.h"
 #include<iostream>
-Nodo::Nodo(int val) {
-	this->valor = val;
+Nodo::Nodo(Persona _persona) {
+	this->usuario = _persona;
 	this->siguiente = NULL;
 }
