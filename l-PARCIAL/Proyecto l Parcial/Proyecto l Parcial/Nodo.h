@@ -1,10 +1,11 @@
 #pragma once
+#include "Persona.h"
 class Nodo
 {
 private:
-	Persona persona;
+	Persona usuario;
 	Nodo* siguiente;
 public:
-	Nodo(int);
-	friend class Persona;
+	Nodo(Persona);
+	friend class Lista;
 };
