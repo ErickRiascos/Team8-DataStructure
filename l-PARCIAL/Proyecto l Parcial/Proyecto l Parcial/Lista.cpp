@@ -1,3 +1,4 @@
+#pragma once
 #include "Lista.h"
 #include <iostream>
 Lista::Lista() {
