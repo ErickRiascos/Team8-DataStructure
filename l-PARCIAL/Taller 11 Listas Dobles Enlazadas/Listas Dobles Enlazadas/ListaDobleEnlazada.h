@@ -8,7 +8,6 @@ public:
 	void insertarCabeza(int);
 	void insertarCola(int);
 	void recorrer(std::function<void(int,int)>recorrido);
-	Nodo* getNodo();
 private:
 	Nodo* ultimoNodo();
 	Nodo* cabeza=nullptr;
