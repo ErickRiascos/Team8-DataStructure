@@ -45,9 +45,4 @@ void ListaDobleEnlazada::recorrer(std::function<void(int, int)>recorrido) {
 	}
 }
 
-Nodo* ListaDobleEnlazada::getNodo()
-{
-	return cabeza;
-}
-
 
