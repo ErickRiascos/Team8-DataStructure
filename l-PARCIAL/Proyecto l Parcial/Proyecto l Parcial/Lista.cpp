@@ -8,7 +8,7 @@ Lista::Lista() {
 void Lista::mostrar() {
     Nodo* tmp = this->primero;
     while (tmp) {
-        std::cout<<""<< tmp->usuario.getEdad() << "->";
+        std::cout<<tmp->usuario.getEdad();
         tmp = tmp->siguiente;
     }
     std::cout << "NULL" << std::endl;

@@ -19,5 +19,6 @@ public:
 	void setMes(int);
 	int getMes();
 	void setAnio(int);
-	int getAnio();	
+	int getAnio();
+	Fecha* calcularPago(Fecha,int);
 };
