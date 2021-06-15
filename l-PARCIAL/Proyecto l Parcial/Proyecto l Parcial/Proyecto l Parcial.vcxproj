@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Cedula.h" />
     <ClInclude Include="Fecha.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cedula.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="main.cpp" />
