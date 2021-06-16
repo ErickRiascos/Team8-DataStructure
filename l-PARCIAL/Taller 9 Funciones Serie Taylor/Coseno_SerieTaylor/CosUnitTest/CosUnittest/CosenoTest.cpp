@@ -26,15 +26,7 @@ namespace CosenoTest
 			int y = s.factorial(x);
 			Assert::AreNotEqual(y, 0);
 		}
-		TEST_METHOD(grado_to_radian_and_calcular_Seno_Test)
-		{
-			Operaciones  s;
-			int n = 5;
-			int v = s.factorial(n);
-			double r = 90;
-			int x = s.grados_to_radian(r);
-			Assert::AreEqual(x, 1);
-		}
+
 		TEST_METHOD(radian_Test)
 		{
 			Operaciones s;
