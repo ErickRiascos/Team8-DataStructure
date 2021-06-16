@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "../Listas Dobles Test/ListaDobleEnlazada.h"
-#include "../Listas Dobles Test/ListaDobleEnlazada.cpp"
+#include "../ListasDoblesTest/ListaDobleEnlazada.h"
+#include "../ListasDoblesTest/ListaDobleEnlazada.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
