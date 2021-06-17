@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Taller 1 Operaciones Basicas\main.cpp(44,33): warning C4244: 'argument': conversion from 'int' to 'tipoDato', possible loss of data
+          with
+          [
+              tipoDato=float
+          ]
+C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Taller 1 Operaciones Basicas\Operaciones.cpp(60): warning C4715: 'Operaciones<float>::division': not all control paths return a value
+  Taller 1 Operaciones Basicas.vcxproj -> C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Debug\Taller 1 Operaciones Basicas.exe

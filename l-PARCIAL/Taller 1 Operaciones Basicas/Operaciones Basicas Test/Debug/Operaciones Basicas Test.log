@@ -1,0 +1,4 @@
+﻿  Operaciones Basicas Test.cpp
+C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Taller 1 Operaciones Basicas\Operaciones.cpp(60): warning C4715: 'Operaciones<int>::division': not all control paths return a value
+     Creating library C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Debug\Operaciones Basicas Test.lib and object C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Debug\Operaciones Basicas Test.exp
+  Operaciones Basicas Test.vcxproj -> C:\Users\Leo\source\repos\Taller 1 Operaciones Basicas\Debug\Operaciones Basicas Test.dll
