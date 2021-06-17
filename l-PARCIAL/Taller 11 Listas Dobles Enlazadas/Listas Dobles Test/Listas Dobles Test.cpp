@@ -1,7 +1,8 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "../ListasDoblesTest/ListaDobleEnlazada.h"
-#include "../ListasDoblesTest/ListaDobleEnlazada.cpp"
+#include "../Listas Dobles Enlazadas/ListaDobleEnlazada.h"
+#include "../Listas Dobles Enlazadas/ListaDobleEnlazada.cpp"
+
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -14,15 +15,14 @@ namespace ListasDoblesTest
 		TEST_METHOD(insertarCabezaTest)
 		{
 			ListaDobleEnlazada s;
-			int x;
-			s.insertarCabeza(x);
-			Assert::AreNorEqual(0);
+			s.insertarCabeza(5);
+			Assert::IsNull(s.getNodo()->getSiguiente());
 		}
+		/*
 		TEST_METHOD(insertarColaTest)
 		{
 			ListaDobleEnlazada s;
-			int x;
-			s.insertarCola(x);
+			s.insertarCola(5);
 			Assert::AreNorEqual(0);
 		}
 		TEST_METHOD(recorrerTest)
@@ -33,6 +33,6 @@ namespace ListasDoblesTest
 			s.insertarCabeza(x,y);
 			Assert::AreNorEqual(0);
 		}
-
+		*/
 	};
 }
