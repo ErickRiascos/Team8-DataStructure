@@ -21,4 +21,5 @@ public:
 	void setAnio(int);
 	int getAnio();
 	Fecha* calcularPago(Fecha,int);
+	bool validaFecha();
 };

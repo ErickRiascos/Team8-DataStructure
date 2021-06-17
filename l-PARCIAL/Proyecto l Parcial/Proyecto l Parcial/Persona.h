@@ -1,5 +1,6 @@
 #pragma once
 #include "Fecha.h"
+#include "Cedula.h"
 class Persona
 {
 private:
@@ -15,11 +16,12 @@ private:
 	double monto;
 	double interes;
 	int meses;
+	Cedula ci;
 public:
-	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int);
-	Persona(int);
+	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int,Cedula);
 	Persona() = default;
-	int getEdad();
 	void toString();
+	char* getNombres();
+	char* getApellidos();
 };
 

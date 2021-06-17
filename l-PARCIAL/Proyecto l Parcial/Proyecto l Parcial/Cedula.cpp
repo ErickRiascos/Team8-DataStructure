@@ -1,15 +1,24 @@
 #include "Cedula.h"
 #include <stdlib.h>
 #include <conio.h>
-void Cedula::ingresarCedula(){
+/*Ingresa la cedula y la transforma a valor entero*/
+void Cedula::ingresarCedula(char* a){
 	this->numeros=(int*)calloc(10,sizeof(int));
 	for(int i=0;i<10;i++){
-		*(numeros+i)=getch()-48;
-		std::cout<<*(numeros+i);
+		*(numeros+i)=*(a+i)-48;
 	}
 }
+/*Imprime los datos de la cedula como enteros*/
+void Cedula::mostrarCedula()
+{
+	for (int i = 0;i < 10;i++) 
+		  std::cout<< * (numeros + i);
+}
 
-void Cedula::validarCedula(){
+/*Valida que la cedula sea correcta 
+@return bool*/
+bool Cedula::validarCedula(){
+
 	int* aux=(int*)calloc(10,sizeof(int));
 	int a=0, v=0;
 	for(int i=0;i<10;i++){
@@ -29,10 +38,10 @@ void Cedula::validarCedula(){
 	v=a;
 	while(v%10!=0)
 		v++;
-	if((v-a)==*(numeros+9))
-		std::cout<<"\nCedula VERIFICADA";
+	if ((v - a) == *(numeros + 9))
+		return true;
 	else
-		std::cout<<"\nCedula INCORRECTA";
+		return false;
 }
 
 
