@@ -1,16 +1,12 @@
-/***********************************************************************
- * Module:  Operacion.cpp
- * Author:  Erick
- * Modified: lunes, 31 de mayo de 2021 18:53:25
- * Purpose: Implementation of the class Operacion
- ***********************************************************************/
-
 #include "Operacion.h"
 
 ////////////////////////////////////////////////////////////////////////
 // Name:       Operacion::multiplicarMatriz()
-// Purpose:    Implementation of Operacion::multiplicarMatriz()
-// Return:     void
+// Purpose:    Implementation de Operacion::multiplicarMatriz()
+// Parametros:
+// - a
+// - b
+// Return:    Matriz
 ////////////////////////////////////////////////////////////////////////
 
 Matriz Operacion::multiplicarMatriz(Matriz a,Matriz b)
@@ -31,7 +27,12 @@ Matriz Operacion::multiplicarMatriz(Matriz a,Matriz b)
 	}
 	return mr;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operacion::imprimir()
+// Propósito:    Implementacion de Operacion::imprimir()
+// Parametros:
+// Return:     
+////////////////////////////////////////////////////////////////////////
 void Operacion::imprimir()
 {
 	std::cout << "Hola";
