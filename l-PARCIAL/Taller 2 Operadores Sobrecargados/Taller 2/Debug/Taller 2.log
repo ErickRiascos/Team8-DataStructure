@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Programa3.vcxproj, Taller 2.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Datos.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 2 Operadores Sobrecargados\Taller 2\Datos.cpp(7,11): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+  Operaciones.cpp
+  Taller 2.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 2 Operadores Sobrecargados\Taller 2\Taller 2.cpp(22,23): warning C4244: 'argumento': conversión de 'double' a 'Data'; posible pérdida de datos
+          with
+          [
+              Data=float
+          ]
+  Generando código...
+  Taller 2.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Taller 2 Operadores Sobrecargados\Debug\Taller 2 Operadores Sobrecargados.exe
