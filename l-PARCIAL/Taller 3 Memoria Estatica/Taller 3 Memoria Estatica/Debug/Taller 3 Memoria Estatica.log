@@ -1,0 +1,6 @@
+﻿  Operaciones.cpp
+C:\Users\Erick\Documents\Curso cshar\netcore\Taller 3 Memoria Estatica\Taller 3 Memoria Estatica\Operaciones.cpp(34,13): warning C4129: '{': secuencia de escape de carácter no reconocida
+C:\Users\Erick\Documents\Curso cshar\netcore\Taller 3 Memoria Estatica\Taller 3 Memoria Estatica\Operaciones.cpp(38,13): warning C4129: '}': secuencia de escape de carácter no reconocida
+  main.cpp
+  Generando código...
+  Taller 3 Memoria Estatica.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Taller 3 Memoria Estatica\Debug\Taller 3 Memoria Estatica.exe
