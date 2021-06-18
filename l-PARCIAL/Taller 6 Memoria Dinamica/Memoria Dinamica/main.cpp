@@ -4,14 +4,29 @@ Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Deber de Memoria Dinamica
 Fecha creación: 03/06/2021
 Fecha modificación: 03/05/2021*/
+#pragma warning (disable:4996)
+#include <conio.h>
 #include <iostream>
 #include "Operaciones.h"
+char* ingresar(const char* msj)
+{
+	char* datos = (char*)calloc(10, sizeof(char));
+	int i = 0;
+	char c;
+	printf("%s", msj);
+	while ((c = getch()) != 13) {
+		if (c >= '0' && c <= '9') {
+			printf("%c", c);
+			*(datos + i++) = c;
+		}
+	}
+	return datos;
+}
 
 int main()
 {
 	int d;
-	std::cout << "Ingrese la dimension de las matrices: ";
-	std::cin >> d;
+	d = atoi(ingresar("Ingrese la dimension de las matrices: "));
 	Matriz m(d);
 	Matriz m1(d);
 	m.segmentar();
