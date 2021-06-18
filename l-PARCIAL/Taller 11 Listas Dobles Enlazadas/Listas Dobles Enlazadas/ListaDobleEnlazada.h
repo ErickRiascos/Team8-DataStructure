@@ -7,7 +7,9 @@ Fecha modificación: 17/06/2021*/
 class ListaDobleEnlazada{
 public:
 	ListaDobleEnlazada() = default;
+	void insertarCabeza();
 	void insertarCabeza(int);
+	void insertarCola();
 	void insertarCola(int);
 	void recorrer(std::function<void(int,int)>recorrido);
 	Nodo* getNodo();

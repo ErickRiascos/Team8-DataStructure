@@ -4,6 +4,7 @@ Fecha modificación: 17/06/2021*/
 class Nodo{
 public:
 	Nodo(int);
+	Nodo()=default;
 	Nodo* getSiguiente();
 	void setSiguiente(Nodo*);
 	Nodo* getAnterior();

@@ -9,21 +9,26 @@ Fecha modificación: 17/06/2021 */
 using namespace std;
 int main(int argc, char** argv) {
 	ListaDobleEnlazada lst;
-	lst.insertarCabeza(1);
-	lst.insertarCabeza(2);
-	lst.insertarCabeza(3);
-	lst.insertarCabeza(4);
-	lst.insertarCola(5);
+	//lst.insertarCabeza();
+	//lst.insertarCabeza();
+	//lst.insertarCabeza();
+	//lst.insertarCabeza();
+	//lst.insertarCola();
+	//lst.insertarCola();
+	//lst.insertarCola();
+	//lst.insertarCola();
+	//lst.recorrer([](int valor, int indice) {
+	//	std::cout << "\nIndice:  " << indice << "  valor " << valor << std::endl;
+	//	});
+	//int suma = 0;
+	//lst.recorrer([&suma](int valor, int indice) {
+	//	suma += valor;
+	//	});
+	//std::cout << "Suma de elementos: " << suma << std::endl;
+	lst.insertarCabeza(5);
 	lst.insertarCola(6);
-	lst.insertarCola(7);
-	lst.insertarCola(8);
 	lst.recorrer([](int valor, int indice) {
-		std::cout << "Indice:  " << indice << "  valor " << valor << std::endl;
+		std::cout << "\nIndice:  " << indice << "  valor " << valor << std::endl;
 		});
-	int suma = 0;
-	lst.recorrer([&suma](int valor, int indice) {
-		suma += valor;
-		});
-	std::cout << "Suma de elementos: " << suma << std::endl;
 	return 0;
 }

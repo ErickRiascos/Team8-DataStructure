@@ -1,6 +1,22 @@
 /*Fecha creación: 14/06/2021
 Fecha modificación: 17/06/2021*/
+#pragma warning(disable : 4996)
+#include <conio.h>
 #include "ListaDobleEnlazada.h"
+char* ingresar(const char* msj)
+{
+	char* datos = (char*)calloc(10, sizeof(char));
+	int i = 0;
+	char c;
+	printf("%s", msj);
+	while ((c = getch()) != 13) {
+		if (c >= '0' && c <= '9') {
+			printf("%c", c);
+			*(datos + i++) = c;
+		}
+	}
+	return datos;
+}
 ////////////////////////////////////////////////////////////////////////
 // Nombre:       ListaDobleEnlazada::insertarCabeza(int valor)
 // Propósito:    Implementacion de ListaDobleEnlazada::insertarCabeza()
@@ -8,8 +24,12 @@ Fecha modificación: 17/06/2021*/
 // -  valor
 // Return: 
 ////////////////////////////////////////////////////////////////////////
-void ListaDobleEnlazada::insertarCabeza(int valor) {
-	Nodo* nodo = new Nodo(valor);
+
+void ListaDobleEnlazada::insertarCabeza() {
+	Nodo* nodo = new Nodo();
+	int n;
+	n = atoi(ingresar("\nIngrese un valor: "));
+	nodo->setValor(n);
 	if (cabeza == nullptr) {
 		this->cabeza = nodo;
 		tamanio++;
@@ -21,6 +41,7 @@ void ListaDobleEnlazada::insertarCabeza(int valor) {
 		tamanio++;
 	}
 }
+
 ////////////////////////////////////////////////////////////////////////
 // Nombre:       ListaDobleEnlazada::insertarCola(int valor)
 // Propósito:    Implementacion de ListaDobleEnlazada::insertarCola()
@@ -28,8 +49,11 @@ void ListaDobleEnlazada::insertarCabeza(int valor) {
 // -  valor
 // Return: 
 ////////////////////////////////////////////////////////////////////////
-void ListaDobleEnlazada::insertarCola(int valor) {
-	Nodo* nodo = new Nodo(valor);
+void ListaDobleEnlazada::insertarCola() {
+	Nodo* nodo = new Nodo();
+	int n;
+	n = atoi(ingresar("\nIngrese un valor: "));
+	nodo->setValor(n);
 	if (cabeza == nullptr){
 		this->cabeza = nodo;
 		tamanio++;
@@ -41,6 +65,7 @@ void ListaDobleEnlazada::insertarCola(int valor) {
 		tamanio++;
 	}
 }
+
 ////////////////////////////////////////////////////////////////////////
 // Nombre:       ListaDobleEnlazada::ultimoNodo()
 // Propósito:    Implementacion de ListaDobleEnlazada::ultimoNodo()
@@ -79,4 +104,34 @@ Nodo* ListaDobleEnlazada::getNodo() {
 		;
 }
 
+void ListaDobleEnlazada::insertarCabeza(int valor)
+{
+	Nodo* nodo = new Nodo(valor);
+	if (cabeza == nullptr) {
+		this->cabeza = nodo;
+		tamanio++;
+		return;
+	}
+	else {
+		Nodo* ultimo = ultimoNodo();
+		ultimo->setSiguiente(nodo);
+		nodo->setAnterior(ultimo);
+		tamanio++;
+	}
+}
+void ListaDobleEnlazada::insertarCola(int valor)
+{
+	Nodo* nodo = new Nodo(valor);
+	if (cabeza == nullptr) {
+		this->cabeza = nodo;
+		tamanio++;
+		return;
+	}
+	else {
+		cabeza->setAnterior(nodo);
+		nodo->setSiguiente(cabeza);
+		cabeza = nodo;
+		tamanio++;
+	}
+}
 
