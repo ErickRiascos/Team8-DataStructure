@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Taller de Matriz identidad
+Fecha creación: 03/05/2021
+Fecha modificación: 17/06/2021 */
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>

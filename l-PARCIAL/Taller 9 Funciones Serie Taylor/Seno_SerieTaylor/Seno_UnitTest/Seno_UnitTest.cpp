@@ -18,7 +18,7 @@ namespace SenoUnitTest
 			int v =s.factorial(n);
 			Assert::AreNotEqual(v,0);
 		}
-		TEST_METHOD(grado_to_radian_and_calcular_Seno_Test)
+		TEST_METHOD(grado_to_radian_Test)
 		{
 			Seno s;
 			int n = 5;

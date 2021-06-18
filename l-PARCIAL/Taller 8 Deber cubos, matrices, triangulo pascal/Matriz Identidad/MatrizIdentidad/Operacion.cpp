@@ -1,10 +1,18 @@
+/*Fecha creación: 03/05/2021
+Fecha modificación: 17/06/2021 */
 #include "Operacion.h"
 #include <iostream>
 #include <stdlib.h>
 #include <conio.h>
 #include <stdio.h>
 using namespace std;
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operacion::segmentar(int dim) 
+// Propósito:    Implementacion de Operacion::segmentar
+// Parametros:
+// -  dim
+// Return:int**
+////////////////////////////////////////////////////////////////////////
 int** Operacion::segmentar(int dim) {
     int** matriz, j;
     matriz = (int**)malloc(dim * sizeof(int*));
@@ -14,6 +22,14 @@ int** Operacion::segmentar(int dim) {
     }
     return matriz;
 }
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operacion::encerar(int** matriz, int dim) 
+// Propósito:    Implementacion de Operacion::encerar()
+// Parametros:
+// -  matriz
+// -  dim
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Operacion::encerar(int** matriz, int dim)
 {
     int i, j;
@@ -21,7 +37,14 @@ void Operacion::encerar(int** matriz, int dim)
         for (j = 0; j < dim; j++)
             *(*(matriz + i) + j) = 0;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operacion::identidad(int** M, int n)
+// Propósito:    Implementacion de Operacion::identidad()
+// Parametros:
+// -  M
+// -  n
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Operacion::identidad(int** M, int n)
 {
     double may; //variable para almacenar el mayor de la columna k
@@ -84,6 +107,14 @@ void Operacion::identidad(int** M, int n)
         }
     }
 }
+////////////////////////////////////////////////////////////////////////
+// Nombre:        Operacion::imprimir(int** matriz, int dim)
+// Propósito:    Implementacion de Operacion::imprimir()
+// Parametros:
+// -  matriz
+// -  dim
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Operacion::imprimir(int** matriz, int dim) {
     int i, j;
     for (i = 0; i < dim; i++) 
@@ -97,6 +128,12 @@ void Operacion::imprimir(int** matriz, int dim) {
         printf("\n");
     }
 }
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operacion::Operacion()
+// Propósito:    Implementacion de Operacion::Operacion()
+// Parametros:
+// Return:
+////////////////////////////////////////////////////////////////////////
 Operacion::Operacion()
 {
 }

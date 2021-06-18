@@ -1,34 +1,70 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
-Taller Listas Dobles Enlazadas
-Fecha creación: 14/06/2021
-Fecha modificación: 14/06/2021*/
+/*Fecha creación: 14/06/2021
+Fecha modificación: 17/06/2021*/
 #include "Nodo.h"
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::Nodo(int _valor)
+// Propósito:    Implementacion de Nodo::Nodo()
+// Parametros:
+// - _valor
+// Return: double
+////////////////////////////////////////////////////////////////////////
 Nodo::Nodo(int _valor){
 	this->valor = _valor;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::getSiguiente()
+// Propósito:    Implementacion de Nodo::getSiguiente()
+// Parametros:
+// Return: Nodo*
+////////////////////////////////////////////////////////////////////////
 Nodo* Nodo::getSiguiente(){
 	return siguiente;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::setSiguiente(Nodo* _siguiente)
+// Propósito:    Implementacion de Nodo::setSiguiente()
+// Parametros:	
+// -  _siguiente
+// Return: 
+////////////////////////////////////////////////////////////////////////
 void Nodo::setSiguiente(Nodo* _siguiente){
 	this->siguiente = _siguiente;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::getAnterior()
+// Propósito:    Implementacion de Nodo::getAnterior()
+// Parametros:	
+// Return: Nodo*
+////////////////////////////////////////////////////////////////////////
 Nodo* Nodo::getAnterior(){
 	return anterior;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::setAnterior(Nodo* _anterior)
+// Propósito:    Implementacion de Nodo::setAnterior()
+// Parametros:	
+// -  _anterior
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Nodo::setAnterior(Nodo* _anterior){
 	this->anterior = _anterior;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::getValor()
+// Propósito:    Implementacion de Nodo::getValor()()
+// Parametros:	
+// Return: int
+////////////////////////////////////////////////////////////////////////
 int Nodo::getValor(){
 	return valor;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Nodo::setValor(int _valor)
+// Propósito:    Implementacion de Nodo::setValor()
+// Parametros:
+// -  _valor	
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Nodo::setValor(int _valor){
 	this->valor = _valor;
 }

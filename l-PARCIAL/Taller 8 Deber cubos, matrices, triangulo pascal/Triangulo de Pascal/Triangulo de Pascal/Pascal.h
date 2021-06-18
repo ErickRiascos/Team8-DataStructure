@@ -1,9 +1,5 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores : Ibarra Deyvid
-Triangulo de pascal
-Fecha creación : 07 / 06 / 2021
-Fecha modificación : 08 / 06 / 2021 */
+/*Fecha creación: 07/05/2021
+Fecha modificación: 17/06/2021*/
 #pragma once
 class Pascal{
 private:
