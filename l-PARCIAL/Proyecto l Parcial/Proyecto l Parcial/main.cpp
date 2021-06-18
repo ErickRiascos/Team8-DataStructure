@@ -71,6 +71,7 @@ int main() {
         case 2:
             prs.mostrar();
             system("pause");
+            system("CLS");
             break;
         case 3:op = false;
             break;
