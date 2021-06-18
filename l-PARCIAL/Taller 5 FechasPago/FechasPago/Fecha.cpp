@@ -80,3 +80,21 @@ int Fecha::getAnio()
 Fecha::~Fecha() {
 
 }
+
+bool Fecha::validaFecha()
+{
+	bool correcto = false;
+	if ((mes <= 7) && (mes % 2 != 0) && (dia < 31) && (anio > 1800))
+		correcto = true;
+	if ((mes <= 7) && (mes % 2 == 0) && (mes != 2) && (dia <= 30) && (anio > 1800))
+		correcto = true;
+	if ((mes >= 8) && (mes % 2 == 0) && (dia <= 31) && (anio > 1800))
+		correcto = true;
+	if ((mes >= 8) && (mes % 2 != 0) && (dia <= 30) && (anio > 1800))
+		correcto = true;
+	if ((mes == 2) && (anio % 4 != 0) && (dia <= 28) && (anio > 1800))
+		correcto = true;
+	if ((mes == 2) && (anio % 4 == 0) && (dia <= 29) && (anio > 1800))
+		correcto = true;
+	return correcto;
+}

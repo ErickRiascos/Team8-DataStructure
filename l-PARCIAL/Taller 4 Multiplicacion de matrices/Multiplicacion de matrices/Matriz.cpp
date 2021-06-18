@@ -1,6 +1,21 @@
+#pragma warning (disable:4996)
+#include <conio.h>
 #include "Matriz.h"
 #include<iostream>
-
+char* ingresar(const char* msj)
+{
+	char* datos=(char*)calloc(10,sizeof(char));
+	int i = 0;
+	char c;
+	printf("%s", msj);
+	while ((c = getch()) != 13) {
+		if (c >= '0' && c <= '9') {
+			printf("%c", c);
+			*(datos+ i++) = c;
+		}
+	}
+	return datos;
+}
  ////////////////////////////////////////////////////////////////////////
 // Name:       Matriz::llenarMatriz()
 // Purpose:    Implementation de Matriz::llenarMatriz()
@@ -8,10 +23,9 @@
 // Return:    
 //////////////////////////////////////////////////////////////////////// 
 void Matriz::llenarMatriz(){
-	for (int i = 0;i < 10;i++) {
-		for (int j = 0;j < 10;j++){
-			std::cout << "Ingrese numeros [" << i + 1 <<"]"<< "["<<j+1<<"]: ";
-			std::cin>>matriz[i][j];
+	for (int i = 0;i < 5;i++) {
+		for (int j = 0;j < 5;j++){
+			matriz[i][j]=atoi(ingresar("\nIngrese numero fila-columna : "));
 		}
 	}
 }
@@ -22,9 +36,9 @@ void Matriz::llenarMatriz(){
 // Return:    
 //////////////////////////////////////////////////////////////////////// 
 void Matriz::imprimirMatriz(){
-	for (int i = 0;i < 10;i++) {
+	for (int i = 0;i < 5;i++) {
 		std::cout <<std::endl;
-		for (int j = 0;j < 10;j++) {
+		for (int j = 0;j < 5;j++) {
 			std::cout << matriz[i][j]<<"\t";
 		}
 	}
@@ -37,8 +51,8 @@ void Matriz::imprimirMatriz(){
 //////////////////////////////////////////////////////////////////////// 
 void Matriz::encerar()
 {
-	for (int i = 0;i < 10;i++) {
-		for (int j = 0; j < 10;j++) {
+	for (int i = 0;i < 5;i++) {
+		for (int j = 0; j < 5;j++) {
 			matriz[i][j] = 0;
 		}
 	}

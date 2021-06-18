@@ -6,7 +6,8 @@ Fecha creación: 31/05/2021
 Fecha modificación: 01/06/2021*/
 // Multiplicacion de matrices.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
-
+#pragma warning (disable:4996)
+#include <conio.h>
 #include <iostream>
 #include "Matriz.h"
 #include"Operacion.h"
@@ -23,4 +24,5 @@ int main(){
     Operacion op;
     std::cout << "\nResultado:" << std::endl;
     op.multiplicarMatriz(m, m1).imprimirMatriz();
+    getch();
 }

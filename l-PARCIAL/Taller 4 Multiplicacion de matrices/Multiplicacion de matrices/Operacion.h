@@ -6,7 +6,7 @@ class Operacion{
 public:
 	Matriz multiplicarMatriz(Matriz, Matriz);
 	Operacion() = default;
-	void imprimir();
+
 protected:
 private:
 

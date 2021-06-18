@@ -12,6 +12,7 @@ public:
 	~Fecha();
 	int calcularDia();
 	void imprimirFecha();
+	bool validaFecha();
 	void setDia(int);
 	int getDia();
 	void setMes(int);

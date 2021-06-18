@@ -5,8 +5,6 @@
 class Matriz
 {
 public:
-   //int** getMatriz();
-   //void setMatriz(int**);
    void llenarMatriz();
    void imprimirMatriz();
    Matriz()=default;
