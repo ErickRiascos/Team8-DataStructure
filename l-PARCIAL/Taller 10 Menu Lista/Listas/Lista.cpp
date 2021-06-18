@@ -101,7 +101,12 @@ void Lista::eliminar_Cabeza() {
             delete temp;
         }
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Lista::getNodo()
+// Propósito:    Implementacion de Lista::getNodo()()
+// Parametros:
+// Return: Nodo*
+////////////////////////////////////////////////////////////////////////
  Nodo* Lista::getNodo()
  {
      return this->primero;
