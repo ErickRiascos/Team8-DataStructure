@@ -1,9 +1,3 @@
-/***********************************************************************
- * Module:  Datos.cpp
- * Author:  Erick
- * Modified: jueves, 27 de mayo de 2021 20:10:15
- * Purpose: Implementation of the class Datos
- ***********************************************************************/
  #include "Datos.h";
 template <typename Data>
 ////////////////////////////////////////////////////////////////////////

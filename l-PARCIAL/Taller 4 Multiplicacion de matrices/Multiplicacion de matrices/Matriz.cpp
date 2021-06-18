@@ -2,6 +2,13 @@
 #include <conio.h>
 #include "Matriz.h"
 #include<iostream>
+////////////////////////////////////////////////////////////////////////
+// Name:       ingresar(const char* msj)
+// Purpose:    Implementation de ingresar()
+// Parametros:
+// - msj
+// Return: datos    
+//////////////////////////////////////////////////////////////////////// 
 char* ingresar(const char* msj)
 {
 	char* datos=(char*)calloc(10,sizeof(char));

@@ -3,7 +3,7 @@ Software
 Autores: Sandoval Leonardo
 Cubo Latino
 Fecha creación: 06/06/2021
-Fecha modificación: 06/06/2021*/
+Fecha modificación: 17/06/2021*/
 #pragma warning (disable:4996)
 #include <conio.h>
 #include <iostream>

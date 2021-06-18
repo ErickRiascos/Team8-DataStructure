@@ -3,7 +3,7 @@ Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Memoria Dinamica: Potencia de Matrices
 Fecha creación: 03/06/2021
-Fecha modificación: 03/05/2021*/
+Fecha modificación: 17/06/2021*/
 #pragma warning (disable:4996)
 #include <conio.h>
 #include <iostream>

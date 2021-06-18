@@ -1,34 +1,60 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores:  Riascos Erick
-Memoria Dinamica: Potencia de Matrices
-Fecha creación: 05/05/2021
-Fecha modificación: 05/05/2021*/
 #pragma warning (disable:4996)
 #include <conio.h>
 #include "Vector.h"
 #include <stdlib.h>
 #include <iostream>
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::Vector(int _numeros)
+// Purpose:    Implementation de Vector::Vector()
+// Parametros:
+// _numeros
+// Return:   
+////////////////////////////////////////////////////////////////////////
 Vector::Vector(int _numeros){
 	this->dim = _numeros;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::getNumeros()
+// Purpose:    Implementation de Vector::getNumeros()
+// Parametros:
+// Return:   numeros
+////////////////////////////////////////////////////////////////////////
 int* Vector::getNumeros(){
 	return numeros;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::setNumeros(int* _numeros)
+// Purpose:    Implementation de Vector::setNumeros()
+// Parametros:
+// - _numeros
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Vector::setNumeros(int* _numeros)
 {
 	this->numeros = _numeros;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::segmentar()
+// Purpose:    Implementation de Vector::segmentar()
+// Parametros:
+// Return:   numeros
+////////////////////////////////////////////////////////////////////////
 int* Vector::segmentar()
 {
 	this->numeros = (int*)calloc(dim ,sizeof(int));
 	return numeros;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::ordenar()
+// Purpose:    Implementation de Vector::ordenar()
+// Parametros:
+// Return:   
+////////////////////////////////////////////////////////////////////////
 void Vector::ordenar(){
 	for (int i = 0; i < dim; i++){
 		for (int j = 0; j < dim; j++){
@@ -42,11 +68,23 @@ void Vector::ordenar(){
 	}
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::getDim()
+// Purpose:    Implementation de Vector::getDim()
+// Parametros:
+// Return:   dim
+////////////////////////////////////////////////////////////////////////
 int Vector::getDim()
 {
 	return dim;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::calcularSuma()
+// Purpose:    Implementation de Vector::calcularSuma()
+// Parametros:
+// Return:   aux
+////////////////////////////////////////////////////////////////////////
 int Vector::calcularSuma()
 {
 	int aux = 0;
@@ -57,6 +95,12 @@ int Vector::calcularSuma()
 	return aux;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::calcularPares()
+// Purpose:    Implementation de Vector::calcularPares()
+// Parametros:
+// Return:   par
+////////////////////////////////////////////////////////////////////////
 int* Vector::calcularPares()
 {
 	int* par= (int*)calloc(4, sizeof(int));
@@ -70,6 +114,12 @@ int* Vector::calcularPares()
 	return par;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::calcularImpares()
+// Purpose:    Implementation de Vector::calcularImpares()
+// Parametros:
+// Return:   impar
+////////////////////////////////////////////////////////////////////////
 int* Vector::calcularImpares()
 {
 	int* impar = (int*)calloc(4, sizeof(int));
@@ -82,6 +132,14 @@ int* Vector::calcularImpares()
 	}
 	return impar;
 }
+
+////////////////////////////////////////////////////////////////////////
+// Name:       ingresarN(const char* msj)
+// Purpose:    Implementation de ingresarN()
+// Parametros:
+// - msj
+// Return:   datos
+////////////////////////////////////////////////////////////////////////
 char* ingresarN(const char* msj)
 {
 	char* datos = (char*)calloc(10, sizeof(char));
@@ -96,12 +154,25 @@ char* ingresarN(const char* msj)
 	}
 	return datos;
 }
+
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::ingresar()
+// Purpose:    Implementation de Vector::ingresar()
+// Parametros:
+// Return:   
+////////////////////////////////////////////////////////////////////////
 void Vector::ingresar(){
 	for (int i = 0; i < dim; i++) {
 		*(numeros + i) = atoi(ingresarN("\nIngrese numero: "));
 	}
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Vector::imprimir()
+// Purpose:    Implementation de Vector::imprimir()
+// Parametros:
+// Return:   
+////////////////////////////////////////////////////////////////////////
 void Vector::imprimir()
 {
 	for (int i = 0; i < dim; i++) {

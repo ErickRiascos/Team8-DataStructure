@@ -1,9 +1,5 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
-Taller de Memoria Estática
-Fecha creación: 30/05/2021
-Fecha modificación: 30/05/2021*/
+/*Fecha creación: 30/05/2021
+Fecha modificación: 17/06/2021*/
 #pragma once
 #include <iostream>
 class Vector{

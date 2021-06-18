@@ -1,10 +1,3 @@
-  
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
-Deber de Memoria Dinamica
-Fecha creación: 03/06/2021
-Fecha modificación: 03/05/2021*/
 #pragma warning (disable:4996)
 #include <conio.h>
 #include "Matriz.h"
@@ -12,6 +5,14 @@ Fecha modificación: 03/05/2021*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
+
+////////////////////////////////////////////////////////////////////////
+// Name:       ingresarN(const char* msj)
+// Purpose:    Implementation de ingresarN()
+// Parametros:
+// - msj
+// Return:    datos
+////////////////////////////////////////////////////////////////////////
 char* ingresarN(const char* msj)
 {
 	char* datos = (char*)calloc(10, sizeof(char));
@@ -27,11 +28,24 @@ char* ingresarN(const char* msj)
 	return datos;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::Matriz(int _d)
+// Purpose:    Implementation de Matriz::Matriz()
+// Parametros:
+// - _d
+// Return:    
+////////////////////////////////////////////////////////////////////////
 Matriz::Matriz(int _d)
 {
 	this->dim = _d;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::segmentar()
+// Purpose:    Implementation de Matriz::segmentar()
+// Parametros:
+// Return:    matriz
+////////////////////////////////////////////////////////////////////////
 int** Matriz::segmentar()
 {
 	this->matriz = (int**)malloc(dim*sizeof(int *));
@@ -41,6 +55,12 @@ int** Matriz::segmentar()
 	return matriz;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::encerar()
+// Purpose:    Implementation de Matriz::encerar()
+// Parametros:
+// Return:    
+////////////////////////////////////////////////////////////////////////
 void Matriz::encerar(){
 	for (int i = 0; i < dim; i++){
 		for (int j = 0; j < dim; j++){
@@ -49,6 +69,12 @@ void Matriz::encerar(){
 	}
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::ingresar()
+// Purpose:    Implementation de Matriz::ingresar()
+// Parametros:
+// Return:    
+////////////////////////////////////////////////////////////////////////
 void Matriz::ingresar(){
 	std::cout << "\nIngrese valores de la Matriz: "<<std::endl;
 	for (int i = 0; i < dim; i++) {
@@ -58,6 +84,12 @@ void Matriz::ingresar(){
 	}
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::imprimir()
+// Purpose:    Implementation de Matriz::imprimir()
+// Parametros:
+// Return:    
+////////////////////////////////////////////////////////////////////////
 void Matriz::imprimir(){
 	for (int i = 0; i < dim; i++) {
 		for (int j = 0; j < dim; j++) {
@@ -67,20 +99,45 @@ void Matriz::imprimir(){
 	}
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::getMatriz()
+// Purpose:    Implementation de Matriz::getMatriz()
+// Parametros:
+// Return:    matriz
+////////////////////////////////////////////////////////////////////////
 int** Matriz::getMatriz()
 {
 	return  matriz;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::getDim()
+// Purpose:    Implementation de Matriz::getDim()
+// Parametros:
+// Return:    dim
+////////////////////////////////////////////////////////////////////////
 int Matriz::getDim()
 {
 	return dim;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::setMatriz(int** _matriz)
+// Purpose:    Implementation de Matriz::setMatriz()
+// Parametros:
+// Return:    
+////////////////////////////////////////////////////////////////////////
 void Matriz::setMatriz(int** _matriz){
 	this->matriz = _matriz;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz::setDim(int _d)
+// Purpose:    Implementation de Matriz::setDim()
+// Parametros:
+// - _d
+// Return:
+////////////////////////////////////////////////////////////////////////
 void Matriz::setDim(int _d)
 {
 	this->dim = _d;

@@ -3,7 +3,7 @@ Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Taller de Operaciones Básicas
 Fecha creación: 27/05/2021
-Fecha modificación: 28/05/2021*/
+Fecha modificación: 17/06/2021*/
 
 #include <iostream>
 #include "Operaciones.h"

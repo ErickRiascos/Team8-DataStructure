@@ -1,9 +1,5 @@
-/***********************************************************************
- * Module:  Datos.h
- * Author:  Leo
- * Modified: jueves, 27 de mayo de 2021 19:18:23
- * Purpose: Declaration of the class Datos
- ***********************************************************************/
+/*Fecha creación : 27 / 05 / 2021
+Fecha modificación : 17 / 06 / 2021*/
 #if !defined(__Class_Diagram_1_Datos_h)
 #define __Class_Diagram_1_Datos_h
 template <typename Data>

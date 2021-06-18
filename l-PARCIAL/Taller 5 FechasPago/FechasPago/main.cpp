@@ -1,3 +1,11 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Taller 5 Fechas de Pago
+Fecha creación: 01/05/2021
+Fecha modificación: 17/06/2021*/
+// Multiplicacion de matrices.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
 #pragma warning(disable : 4996)
 #include <conio.h>
 #include <iostream>

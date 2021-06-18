@@ -1,8 +1,4 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores: Sandoval Leonardo
-Cubo Latino
-Fecha creación: 06/06/2021
+/*Fecha creación: 06/06/2021
 Fecha modificación: 06/06/2021*/
 #pragma once
 class Matriz

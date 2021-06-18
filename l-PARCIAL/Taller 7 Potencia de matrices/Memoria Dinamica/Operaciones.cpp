@@ -1,12 +1,14 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
-Memoria Dinamica: Potencia de Matrices
-Fecha creación: 03/06/2021
-Fecha modificación: 03/05/2021*/
 #include "Operaciones.h"
 #include<iostream>
 
+////////////////////////////////////////////////////////////////////////
+// Name:       Matriz Operaciones::calcular(Matriz a,int e)
+// Purpose:    Implementation de Matriz Operaciones::calcular()
+// Parametros: 
+// - a
+// - e
+// Return:   aux
+////////////////////////////////////////////////////////////////////////
 Matriz Operaciones::calcular(Matriz a,int e)
 {
 	Matriz resul;

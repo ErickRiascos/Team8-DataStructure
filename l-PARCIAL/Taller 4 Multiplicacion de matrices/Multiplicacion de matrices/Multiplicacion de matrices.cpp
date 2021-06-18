@@ -3,7 +3,7 @@ Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Taller 4 Multiplicacion de matrices
 Fecha creación: 31/05/2021
-Fecha modificación: 01/06/2021*/
+Fecha modificación: 17/06/2021*/
 // Multiplicacion de matrices.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
 //
 #pragma warning (disable:4996)

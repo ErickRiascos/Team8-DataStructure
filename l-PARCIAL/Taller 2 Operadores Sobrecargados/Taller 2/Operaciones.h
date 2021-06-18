@@ -1,9 +1,5 @@
-/***********************************************************************
- * Module:  Operaciones.h
- * Author:  Deyvid
- * Modified: jueves, 27 de mayo de 2021 21:15:35
- * Purpose: Declaration of the class Operaciones
- ***********************************************************************/
+/*Fecha creación : 27 / 05 / 2021
+Fecha modificación : 17 / 06 / 2021*/
 #include "Datos.h"
 class Operaciones{
 	private:

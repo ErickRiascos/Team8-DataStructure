@@ -1,9 +1,4 @@
-/***********************************************************************
- * Module:  Operaciones.cpp
- * Author:  Johan
- * Modified: jueves, 27 de mayo de 2021 22:46:43
- * Purpose: Implementation of the class Operaciones
- ***********************************************************************/
+
 #include "Operaciones.h"
  ////////////////////////////////////////////////////////////////////////
  // Nombre:       Operaciones::Operaciones(Datos<float> new_data)

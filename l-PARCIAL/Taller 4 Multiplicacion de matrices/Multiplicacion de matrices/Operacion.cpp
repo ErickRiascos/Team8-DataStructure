@@ -6,7 +6,7 @@
 // Parametros:
 // - a
 // - b
-// Return:    Matriz
+// Return:    mr
 ////////////////////////////////////////////////////////////////////////
 
 Matriz Operacion::multiplicarMatriz(Matriz a,Matriz b)

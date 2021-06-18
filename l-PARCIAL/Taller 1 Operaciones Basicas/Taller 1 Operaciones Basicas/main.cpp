@@ -9,28 +9,9 @@ Fecha modificacion: 17/06/2021*/
 #include <stdio.h>
 #include <conio.h>
 #include "Operaciones.cpp"
-/*@author Erick Riascos
-* @version 0.1 20-05-2021
-* Permite correr el programa recive dos parametros
-*/
+
 using namespace std;
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-//Validacion de datos
-//char* ingresar(const char* msj)
-//{
-//	char* datos=(char*)calloc(3,sizeof(char));
-//	int i = 0;
-//	char c;
-//	printf("%s", msj);
-//	while ((c = getch()) != 13) {
-//		if (c >= '0' && c <= '9') {
-//			printf("%c", c);
-//			*(datos+i++) = c;
-//		}
-//	}
-//	return datos;
-//}
 int main(int argc, char** argv) {
 
 	float a;

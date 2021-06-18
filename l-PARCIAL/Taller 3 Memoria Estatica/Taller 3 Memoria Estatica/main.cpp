@@ -3,7 +3,7 @@ Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Taller de Memoria Estática
 Fecha creación: 30/05/2021
-Fecha modificación: 30/05/2021*/
+Fecha modificación: 17/06/2021*/
 #include <iostream>
 #include "Operaciones.h"
 int main(int argc, char** argv) {

@@ -3,7 +3,7 @@ Software
 Autores:  Riascos Erick
 Memoria Dinamica: Potencia de Matrices
 Fecha creación: 05/05/2021
-Fecha modificación: 05/05/2021*/
+Fecha modificación: 17/05/2021*/
 #pragma warning (disable:4996)
 #include <conio.h>
 #include <iostream>
