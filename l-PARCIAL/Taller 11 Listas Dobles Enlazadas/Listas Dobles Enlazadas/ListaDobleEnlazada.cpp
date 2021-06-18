@@ -3,6 +3,13 @@ Fecha modificación: 17/06/2021*/
 #pragma warning(disable : 4996)
 #include <conio.h>
 #include "ListaDobleEnlazada.h"
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ingresar(const char* msj)
+// Propósito:    Implementacion de ingresar()
+// Parametros:
+// -  msj
+// Return: char*
+////////////////////////////////////////////////////////////////////////
 char* ingresar(const char* msj)
 {
 	char* datos = (char*)calloc(10, sizeof(char));
@@ -103,7 +110,13 @@ Nodo* ListaDobleEnlazada::getNodo() {
 	return cabeza
 		;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::insertarCabeza(int valor)
+// Propósito:    Implementacion de ListaDobleEnlazada::insertarCabeza()
+// Parametros:
+// -  valor
+// Return: 
+////////////////////////////////////////////////////////////////////////
 void ListaDobleEnlazada::insertarCabeza(int valor)
 {
 	Nodo* nodo = new Nodo(valor);
@@ -119,6 +132,13 @@ void ListaDobleEnlazada::insertarCabeza(int valor)
 		tamanio++;
 	}
 }
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::insertarCola(int valor)
+// Propósito:    Implementacion de ListaDobleEnlazada::insertarCola()
+// Parametros:
+// -  valor
+// Return: 
+////////////////////////////////////////////////////////////////////////
 void ListaDobleEnlazada::insertarCola(int valor)
 {
 	Nodo* nodo = new Nodo(valor);
