@@ -1,9 +1,9 @@
 /*Universidad de las Fuerzas Armadas "ESPE"
 Software
-Autores:  Riascos Erick
-Csc Serie de Taylor
-Fecha creación: 05/06/2021
-Fecha modificación: 05/06/2021*/
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Taller de Serie Taylor funcion Cosecante
+Fecha creación: 05/05/2021
+Fecha modificación: 17/06/2021 */
 
 #include <iostream>
 #include "Csc.h"

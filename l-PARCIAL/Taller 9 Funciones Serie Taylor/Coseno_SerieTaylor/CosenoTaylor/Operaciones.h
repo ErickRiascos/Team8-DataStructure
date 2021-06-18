@@ -1,3 +1,5 @@
+/*Fecha creación: 07/05/2021
+Fecha modificación: 17/06/2021*/
 #pragma once
 
 class Operaciones

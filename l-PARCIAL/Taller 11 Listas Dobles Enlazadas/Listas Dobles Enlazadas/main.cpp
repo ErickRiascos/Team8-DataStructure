@@ -3,7 +3,7 @@ Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Taller Listas Dobles Enlazadas
 Fecha creación: 14/06/2021
-Fecha modificación: 14/06/2021*/
+Fecha modificación: 17/06/2021 */
 #include <iostream>
 #include "ListaDobleEnlazada.h"
 using namespace std;

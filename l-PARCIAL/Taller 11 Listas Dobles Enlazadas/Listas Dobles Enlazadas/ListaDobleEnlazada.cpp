@@ -1,11 +1,13 @@
-/*Universidad de las Fuerzas Armadas "ESPE"
-Software
-Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
-Taller Listas Dobles Enlazadas
-Fecha creación: 14/06/2021
-Fecha modificación: 14/06/2021*/
+/*Fecha creación: 14/06/2021
+Fecha modificación: 17/06/2021*/
 #include "ListaDobleEnlazada.h"
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::insertarCabeza(int valor)
+// Propósito:    Implementacion de ListaDobleEnlazada::insertarCabeza()
+// Parametros:
+// -  valor
+// Return: 
+////////////////////////////////////////////////////////////////////////
 void ListaDobleEnlazada::insertarCabeza(int valor) {
 	Nodo* nodo = new Nodo(valor);
 	if (cabeza == nullptr) {
@@ -19,7 +21,13 @@ void ListaDobleEnlazada::insertarCabeza(int valor) {
 		tamanio++;
 	}
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::insertarCola(int valor)
+// Propósito:    Implementacion de ListaDobleEnlazada::insertarCola()
+// Parametros:
+// -  valor
+// Return: 
+////////////////////////////////////////////////////////////////////////
 void ListaDobleEnlazada::insertarCola(int valor) {
 	Nodo* nodo = new Nodo(valor);
 	if (cabeza == nullptr){
@@ -33,7 +41,12 @@ void ListaDobleEnlazada::insertarCola(int valor) {
 		tamanio++;
 	}
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::ultimoNodo()
+// Propósito:    Implementacion de ListaDobleEnlazada::ultimoNodo()
+// Parametros:
+// Return: Nodo* 
+////////////////////////////////////////////////////////////////////////
 Nodo* ListaDobleEnlazada::ultimoNodo() {
 	Nodo* tmp = cabeza;
 	while (tmp->getSiguiente() != nullptr) {
@@ -41,7 +54,12 @@ Nodo* ListaDobleEnlazada::ultimoNodo() {
 	}
 	return tmp;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::recorrer(std::function<void(int, int)>recorrido)
+// Propósito:    Implementacion de ListaDobleEnlazada::recorrer()
+// Parametros:
+// Return: Nodo*
+////////////////////////////////////////////////////////////////////////
 void ListaDobleEnlazada::recorrer(std::function<void(int, int)>recorrido) {
 	Nodo* tmp = cabeza;
 	int indice = 0;
@@ -50,7 +68,12 @@ void ListaDobleEnlazada::recorrer(std::function<void(int, int)>recorrido) {
 		tmp = tmp->getSiguiente();
 	}
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       ListaDobleEnlazada::getNodo()
+// Propósito:    Implementacion de ListaDobleEnlazada::getNodo()
+// Parametros:
+// Return: Nodo*
+////////////////////////////////////////////////////////////////////////
 Nodo* ListaDobleEnlazada::getNodo() {
 	return cabeza
 		;

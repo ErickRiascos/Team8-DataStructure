@@ -1,9 +1,23 @@
+/***********************************************************************
+ * Module:  Coseno.cpp
+ * Author:  Johan
+ * Fecha creación: 07 de mayo del 2021
+ * Modified: jueves, 17 de junio del 2021
+ * Purpose: Implementation of the class coseno
+ ***********************************************************************/
 #include "Operaciones.h"
 #include <iostream>;
 const double PI = 3.1416;
 const double EPSILON = 0.00001;
 using namespace std;
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operaciones::pot(double base, int exponente)
+// Propósito:    Implementacion de Operaciones::pot()
+// Parametros:
+// - base
+// - exponente
+// Return: double
+////////////////////////////////////////////////////////////////////////
 double Operaciones::pot(double base, int exponente)
 {
     double num;
@@ -23,7 +37,13 @@ double Operaciones::pot(double base, int exponente)
     }
     return num;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operaciones::fact(int factor)
+// Propósito:    Implementacion de Operaciones::fact()
+// Parametros:
+// - factor
+// Return: long int
+////////////////////////////////////////////////////////////////////////
 long int Operaciones::fact(int factor)
 {
     long int num;
@@ -38,12 +58,24 @@ long int Operaciones::fact(int factor)
     } while (factor-- > 1);
     return num;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operaciones::radian(double angulo)
+// Propósito:    Implementacion de Operaciones::radian()
+// Parametros:
+// - angulo
+// Return: double
+////////////////////////////////////////////////////////////////////////
 double Operaciones::radian(double angulo)
 {
     return (angulo * PI) / 180;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operaciones::modulo(double numero)
+// Propósito:    Implementacion de Operaciones::modulo()
+// Parametros:
+// - numero
+// Return: double
+////////////////////////////////////////////////////////////////////////
 double Operaciones::modulo(double numero)
 {
     if (numero < 0)
@@ -52,7 +84,13 @@ double Operaciones::modulo(double numero)
     }
     return numero;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Nombre:       Operaciones::coseno(double x)
+// Propósito:    Implementacion de Operaciones::coseno
+// Parametros:
+// - x
+// Return: double
+////////////////////////////////////////////////////////////////////////
 double Operaciones::coseno(double x)
 {
     double num = 0;
