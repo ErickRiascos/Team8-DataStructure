@@ -1,0 +1,8 @@
+﻿  OperadoresSobrecargadosTest.cpp
+C:\Users\Leo\Desktop\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 2 Operadores Sobrecargados\OperadoresSobrecargadosTest\OperadoresSobrecargadosTest.cpp(66,25): warning C4244: 'argument': conversion from 'double' to 'Data', possible loss of data
+          with
+          [
+              Data=float
+          ]
+C:\Users\Leo\Desktop\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 2 Operadores Sobrecargados\OperadoresSobrecargadosTest\OperadoresSobrecargadosTest.cpp(69,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  OperadoresSobrecargadosTest.vcxproj -> C:\Users\Leo\Desktop\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 2 Operadores Sobrecargados\Debug\OperadoresSobrecargadosTest.dll

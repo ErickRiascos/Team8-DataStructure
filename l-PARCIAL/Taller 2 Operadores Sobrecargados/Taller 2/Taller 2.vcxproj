@@ -142,7 +142,7 @@
   <ItemGroup>
     <ClCompile Include="Datos.cpp" />
     <ClCompile Include="Operaciones.cpp" />
-    <ClCompile Include="Taller 2.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Datos.h" />
