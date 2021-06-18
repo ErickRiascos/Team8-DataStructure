@@ -2,6 +2,7 @@
 Fecha modificación: 17/06/2021 */
 #pragma once
 
+
 class Operacion
 {
 public:

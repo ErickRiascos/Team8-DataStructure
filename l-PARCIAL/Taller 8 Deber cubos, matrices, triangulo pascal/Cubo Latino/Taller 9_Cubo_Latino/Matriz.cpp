@@ -54,6 +54,7 @@ void Matriz::generar() {
 }
 
 void Matriz::imprimir() {
+	std::cout << "\n";
 	for (int i = 0; i < dim; i++) {
 		for (int j = 0; j < dim; j++) {
 			std::cout << "\t" << *(*(matriz + i) + j);

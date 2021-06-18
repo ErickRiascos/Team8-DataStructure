@@ -1,0 +1,6 @@
+﻿  MatrizIdentidadTest.cpp
+C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Operacion.cpp(76,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Operacion.cpp(95,43): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Operacion.cpp(103,43): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\x64\Debug\MatrizIdentidadTest.lib and object C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\x64\Debug\MatrizIdentidadTest.exp
+  MatrizIdentidadTest.vcxproj -> C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\x64\Debug\MatrizIdentidadTest.dll

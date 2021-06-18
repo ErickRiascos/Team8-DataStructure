@@ -4,6 +4,8 @@ Autores:  Riascos Erick
 Memoria Dinamica: Potencia de Matrices
 Fecha creación: 05/05/2021
 Fecha modificación: 05/05/2021*/
+#pragma warning (disable:4996)
+#include <conio.h>
 #include "Vector.h"
 #include <stdlib.h>
 #include <iostream>
@@ -80,11 +82,23 @@ int* Vector::calcularImpares()
 	}
 	return impar;
 }
-
+char* ingresarN(const char* msj)
+{
+	char* datos = (char*)calloc(10, sizeof(char));
+	int i = 0;
+	char c;
+	printf("%s", msj);
+	while ((c = getch()) != 13) {
+		if (c >= '0' && c <= '9') {
+			printf("%c", c);
+			*(datos + i++) = c;
+		}
+	}
+	return datos;
+}
 void Vector::ingresar(){
 	for (int i = 0; i < dim; i++) {
-		std::cout << "Ingrese el " << i + 1 << " numero: ";
-		std::cin >> *(numeros + i);
+		*(numeros + i) = atoi(ingresarN("\nIngrese numero: "));
 	}
 }
 
