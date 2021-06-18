@@ -1,4 +1,6 @@
-﻿  TanTest.cpp
-C:\Users\Usuario\Desktop\Tan_SerieTaylor\Tan_SerieTaylor\Tangente.cpp(49): warning C4715: 'Tan::calcular_Tan': no todas las rutas de acceso de control devuelven un valor
-     Creando biblioteca C:\Users\Usuario\Desktop\Tan_SerieTaylor\Debug\TanTest.lib y objeto C:\Users\Usuario\Desktop\Tan_SerieTaylor\Debug\TanTest.exp
-  TanTest.vcxproj -> C:\Users\Usuario\Desktop\Tan_SerieTaylor\Debug\TanTest.dll
+﻿  pch.cpp
+  TanTest.cpp
+C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Tan_SerieTaylor\Tan_SerieTaylor\Tangente.cpp(74): warning C4715: 'Tan::calcular_Tan': not all control paths return a value
+  LINK : C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Tan_SerieTaylor\Debug\TanTest.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Tan_SerieTaylor\Debug\TanTest.lib and object C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Tan_SerieTaylor\Debug\TanTest.exp
+  TanTest.vcxproj -> C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Tan_SerieTaylor\Debug\TanTest.dll

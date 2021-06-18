@@ -28,6 +28,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Seno_Serie_Taylor.cd" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>

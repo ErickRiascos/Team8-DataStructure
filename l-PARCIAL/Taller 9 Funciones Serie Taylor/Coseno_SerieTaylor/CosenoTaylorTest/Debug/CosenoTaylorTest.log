@@ -1,0 +1,4 @@
+﻿  CosenoTaylorTest.cpp
+C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Coseno_SerieTaylor\CosenoTaylor\Operaciones.cpp(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     Creating library C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Coseno_SerieTaylor\CosenoTaylor\Debug\CosenoTaylorTest.lib and object C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Coseno_SerieTaylor\CosenoTaylor\Debug\CosenoTaylorTest.exp
+  CosenoTaylorTest.vcxproj -> C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Coseno_SerieTaylor\CosenoTaylor\Debug\CosenoTaylorTest.dll

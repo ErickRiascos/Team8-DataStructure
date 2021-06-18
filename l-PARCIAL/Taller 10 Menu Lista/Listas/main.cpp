@@ -8,6 +8,21 @@ Fecha modificación: 17/06/2021*/
 #include <iostream>
 #include "Lista.h"
 #include "Menu.h"
+#include<conio.h>
+char* ingresar(const char* msj)
+{
+	char* datos = (char*)calloc(10, sizeof(char));
+	int i = 0;
+	char c;
+	printf("%s", msj);
+	while ((c = getch()) != 13) {
+		if (c >= '0' && c <= '9') {
+			printf("%c", c);
+			*(datos + i++) = c;
+		}
+	}
+	return datos;
+}
 int main(int argc, char** argv) {
 	Lista lst;
 	bool repite = true;
@@ -20,15 +35,15 @@ int main(int argc, char** argv) {
 		int opcion=m.getOpcion();
 		switch (opcion) {
 		case 1:
-			std::cout << "Ingrese un valor entero: " << std::endl;
-			std::cin >> n;
+			n = atoi(ingresar("Ingrese un valor entero: "));
 			lst.insertarCabeza(n);
+			std::cout << "\n";
 			system("pause");
 			break;
 		case 2:
-			std::cout << "Ingrese un valor entero: " << std::endl;
-			std::cin >> n;
+			n = atoi(ingresar("Ingrese un valor entero: "));
 			lst.insertarCola(n);
+			std::cout << "\n";
 			system("pause");
 			break;
 		case 3:

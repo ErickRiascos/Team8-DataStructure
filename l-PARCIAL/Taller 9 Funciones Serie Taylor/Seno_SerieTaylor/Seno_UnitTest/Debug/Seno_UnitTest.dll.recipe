@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Leo\source\repos\Seno_SerieTaylor\Debug\Seno_SerieTaylor.exe</FullPath>
+      <FullPath>C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Seno_SerieTaylor\Debug\Seno_SerieTaylor.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Leo\source\repos\Seno_SerieTaylor\Debug\Seno_UnitTest.dll</FullPath>
+      <FullPath>C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Seno_SerieTaylor\Debug\Seno_UnitTest.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

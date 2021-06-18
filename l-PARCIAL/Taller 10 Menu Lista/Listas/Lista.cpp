@@ -101,3 +101,8 @@ void Lista::eliminar_Cabeza() {
             delete temp;
         }
 }
+
+ Nodo* Lista::getNodo()
+ {
+     return this->primero;
+ }

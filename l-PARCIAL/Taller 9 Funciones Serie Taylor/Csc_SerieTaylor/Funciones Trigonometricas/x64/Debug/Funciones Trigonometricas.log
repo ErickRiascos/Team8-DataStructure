@@ -1,1 +1,3 @@
-﻿  Funciones Trigonometricas.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Csc_SerieTaylor\x64\Debug\Csc_SerieTaylor.exe
+﻿  main.cpp
+C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Csc_SerieTaylor\Funciones Trigonometricas\main.cpp(31,17): warning C4101: 'r': unreferenced local variable
+  Funciones Trigonometricas.vcxproj -> C:\Users\Leo\Desktop\Taller 9 Funciones Serie Taylor\Csc_SerieTaylor\x64\Debug\Csc_SerieTaylor.exe
