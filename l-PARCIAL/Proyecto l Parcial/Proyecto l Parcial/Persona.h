@@ -4,7 +4,7 @@
 class Persona
 {
 private:
-	int edad=5;
+	int edad;
 	Fecha nacimiento;
 	Fecha inicio;
 	Fecha* rolPago;
@@ -21,7 +21,8 @@ public:
 	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int,Cedula);
 	Persona() = default;
 	void toString();
-	char* getNombres();
-	char* getApellidos();
+	char* getInicialesNombres();
+	char* getApellido();
+	void setEmail(char*);
 };
 

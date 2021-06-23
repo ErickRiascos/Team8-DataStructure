@@ -5,3 +5,4 @@ Nodo::Nodo(Persona _persona) {
 	this->usuario = _persona;
 	this->siguiente = NULL;
 }
+

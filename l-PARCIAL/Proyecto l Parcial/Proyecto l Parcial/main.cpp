@@ -51,8 +51,10 @@ int main() {
             Fecha nac(atoi(ingresarNum("\nDia: ")), atoi(ingresarNum("\nMes: ")), atoi(ingresarNum("\nIngrese fecha de nacimiendo...\nAnio: ")));
             if (ci.validarCedula() && nac.validaFecha() && ini.validaFecha()) {
                 system("CLS");
-                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atoi(ingresarNum("\nIngrese monto neto: ")), ini, atoi("\nIngrese la cantidad de meses diferidos"), ci);
+                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atoi(ingresarNum("\nIngrese monto neto: ")), ini, atoi(ingresarNum("Ingrese la cantidad de meses diferidos: ")), ci);
                 prs.insertar_Persona(p);
+                std::cout << "\nPersona agregada exitosamente...\n";
+                system("pause");
                 system("CLS");
             }
             else {
@@ -63,17 +65,19 @@ int main() {
                 if (ini.validaFecha() == false)
                     std::cout << "\nIngrese una fecha de inicio valida...";
             }
-            std::cout << "\nPersona agregada exitosamente...\n";
             system("pause");
             system("CLS");
             break;
         }
         case 2:
+          
+            prs.generarCorreo();
             prs.mostrar();
             system("pause");
             system("CLS");
             break;
-        case 3:op = false;
+        case 3:
+            op = false;
             break;
         default:std::cout << "\nIngrese una opcion valida...";
             break;

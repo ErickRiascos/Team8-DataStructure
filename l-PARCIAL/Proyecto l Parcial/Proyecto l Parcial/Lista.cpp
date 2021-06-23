@@ -9,9 +9,8 @@ Lista::Lista() {
 /*Muestra los elementos existentes en una lista*/
 void Lista::mostrar() {
     Nodo* tmp = this->primero;
-    int i =1;   
     while (tmp) {
-        std::cout << "CLIENTE " << i++ << ":";
+        std::cout << "CLIENTE " << tamanio-- << ":";
         tmp->usuario.toString();
         tmp = tmp->siguiente;
     }
@@ -24,14 +23,15 @@ bool Lista::listaVacia() {
 /*Ingresa un objeto de la clase Persona en la Lista
 @parametros Persona*/
 void Lista::insertar_Persona(Persona _persona) {
+    tamanio++;
     Nodo* nuevo = new Nodo(_persona);
     if (listaVacia()) {
         this->primero = nuevo;
     }
     else {
-        this->actual->siguiente = nuevo;
+        nuevo->siguiente = primero;
     }
-    this->actual = nuevo;
+    this->primero= nuevo;
 }
 /*Elimina la ultima persona ingresada*/
 void Lista::eliminar_Persona() {
@@ -47,3 +47,70 @@ void Lista::eliminar_Persona() {
         delete aux_borrar;
     }
 }
+
+Nodo* Lista::getPrimero()
+{
+    return primero;
+}
+
+void Lista::generarCorreo()
+{
+	char* _email = (char*)calloc(30, sizeof(char));
+	char dir[] = "@espe.fin.ec";
+	Nodo* tmp = primero;
+	Nodo* aux2 = primero->siguiente;
+	if (aux2!=nullptr) {
+		while (tmp) {
+			char x = '0';
+			int j = 0;
+			aux2 = primero->siguiente;
+			while (aux2) {
+				if (x == '0') {
+					for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
+						*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
+					}
+					for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
+						*(_email + j++) = *(tmp->usuario.getApellido() + i);
+					}
+					for (int i = 0; i < strlen(dir); i++) {
+						*(_email + j++) = *(dir + i);
+					}
+					tmp->usuario.setEmail(_email);
+				}
+				else {
+					for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
+						*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
+					}
+					for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
+						*(_email + j++) = *(tmp->usuario.getApellido() + i);
+					}
+					*(_email + j++) = x;
+					for (int i = 0; i < strlen(dir); i++) {
+						*(_email + j++) = *(dir + i);
+					}
+					tmp->usuario.setEmail(_email);
+				}
+				if (!strcmp(tmp->usuario.getInicialesNombres(), aux2->usuario.getInicialesNombres()) && !strcmp(tmp->usuario.getApellido(), aux2->usuario.getApellido())) {
+					x = x + 1;
+				}
+				aux2 = aux2->siguiente;
+			}
+			tmp = tmp->siguiente;
+		}
+	}
+	else {
+		int j = 0;
+		for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
+			*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
+		}
+		for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
+			*(_email + j++) = *(tmp->usuario.getApellido() + i);
+		}
+		for (int i = 0; i <strlen(dir); i++) {
+			*(_email + j++) = *(dir + i);
+		}
+		tmp->usuario.setEmail(_email);
+	}
+}
+
+

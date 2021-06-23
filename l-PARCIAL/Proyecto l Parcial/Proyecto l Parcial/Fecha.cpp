@@ -25,7 +25,7 @@ int Fecha::calcularDia() {
 /*Imprime la fecha*/
 void Fecha::imprimirFecha()
 {
-	std::cout << dia << "-" << mes << "-" << anio << std::endl;
+	std::cout << imprimirDia()<<", "<<dia << "-" << mes << "-" << anio << std::endl;
 }
 /*Imprime en letras el dia que es ejm: "Lunes"*/
 char* Fecha::imprimirDia()

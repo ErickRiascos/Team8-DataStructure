@@ -8,4 +8,5 @@ private:
 public:
 	Nodo(Persona);
 	friend class Lista;
+	friend class Correo;
 };
