@@ -1,7 +1,7 @@
 #pragma once
 #include "Lista.h"
 #include <iostream>
-#include"Nodo.cpp"
+
 /*Constructor de la lista*/
 Lista::Lista() {
     this->primero = NULL;
@@ -10,10 +10,8 @@ Lista::Lista() {
 /*Muestra los elementos existentes en una lista*/
 void Lista::mostrar() {
     Nodo* tmp = this->primero;
-	int a = tamanio;
     while (tmp) {
-        std::cout << "\nCLIENTE " << a--<< ":";
-        tmp->usuario.toString();
+		printf("%s", tmp->usuario.toString());
         tmp = tmp->siguiente;
     }
 }

@@ -23,19 +23,27 @@ Persona::Persona(char* _nombre, char* _apellido, Cedula _ci)
 	this->apellido = _apellido;
 	this->ci = _ci;
 	this->email = nullptr;
+	encriptarCedula();
 }
 
 /*Imprime toda la informacion de la persona*/
-void Persona::toString()
+char* Persona::toString()
 {
-	int i = 0;
-	std::cout << "\nCedula: ";
-	ci.mostrarCedula();
-	int b = atoi(validarDatos1("\nIngrese numero para encriptacion: "));
-	std::cout << "\nCi encriptada: ";
-	this->ci.encriptarCedula(0, b);
-	ci.mostrarCedula();
-	std::cout<<"\nNombres: " << nombre << "\nApellidos: " << apellido << " " << "\nCorreo: "<<email<<std::endl;
+	int a = 100 + strlen(nombre) + strlen(apellido) + strlen(email) + strlen(ci.toString()) + strlen(encryp.toString());
+	char* aux=(char*)calloc(a,sizeof(char));
+	unirInfo(aux,"\nCLIENTE:");
+	unirInfo(aux, "\nCedula: ");
+	unirInfo(aux, ci.toString());
+	unirInfo(aux, "\nNombre: ");
+	unirInfo(aux, nombre);
+	unirInfo(aux,"\nApellido: ");
+	unirInfo(aux, apellido);
+	unirInfo(aux, "\nEmail: ");
+	unirInfo(aux,email);
+	unirInfo(aux, "\nCedula encriptada: ");
+	unirInfo(aux, encryp.toString());
+	unirInfo(aux, "\n");
+	return aux;
 }
 
 char* Persona::getInicialesNombres()
@@ -88,4 +96,51 @@ char* Persona::getNombre()
 {
 	return nombre;
 }
+
+void Persona::setEncryp(Cedula _ci){
+	this->encryp = _ci;
+}
+
+void Persona::setNombre(char* _nombre){
+	strcmp(nombre,_nombre);
+}
+
+void Persona::setApellidos(char* _apellido)
+{
+	strcmp(apellido,_apellido);
+}
+
+void Persona::setCedula(Cedula _ci)
+{
+	this->ci = _ci;
+}
+
+void Persona::encriptarCedula()
+{
+	this->encryp.ingresarCedula(ci.toString());
+	bool a = true;
+	while (a) {
+		int b = atoi(validarDatos1("\nIngrese numero para encriptacion: "));
+		if (b >= 1 && b <= 9) {
+			this->encryp.encriptarCedula(0, b);
+			std::cout << "\nEncriptacion exitosa... ";
+			a = false;
+		}
+		else {
+			std::cout << "\nEl numero de encriptacion nu puede ser mayor a 9, intentelo de nuevo... ";
+		}
+	}
+}
+
+void Persona::unirInfo(char* recive,const char* source)
+{
+	int k = strlen(recive);
+	int j = strlen(source);
+	int z = 0;
+	for (int i = 0;i < j + 2;i++) {
+		*(recive + k++) = *(source + z++);
+	}
+}
+
+
 

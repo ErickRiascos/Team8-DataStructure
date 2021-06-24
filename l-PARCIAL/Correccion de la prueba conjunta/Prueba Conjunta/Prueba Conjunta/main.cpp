@@ -36,6 +36,7 @@ char* ingresarLet(const char* msj)
     }
     return datos;
 }
+
 int main() {
     Lista prs;
     bool op=true;
@@ -43,16 +44,24 @@ int main() {
         switch (atoi(ingresarNum("\t\tMenu\n1) Ingresar persona.\n2) Mostrar Datos.\n3) Salir.\nIngrese una opcion: "))) {
         case 1: {      
             Cedula ci;
-            ci.ingresarCedula(ingresarNum("\nIngrese numero de cedula: "));    
-            Persona p(ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ci);
-            prs.insertar_Persona(p);
-            std::cout << "\nPersona agregada exitosamente...\n";
+            system("CLS");
+            ci.ingresarCedula(ingresarNum("Ingrese numero de cedula: "));
+            if (ci.validarCedula()) {
+                std::cout << "\nCedula VALIDA.";
+                Persona p(ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ci);
+                prs.insertar_Persona(p);
+                std::cout << "\nPersona agregada exitosamente...\n";
+            }
+            else {
+                std::cout << "\nIngrese una cedula valida...\n";
+            }
             system("pause");
             system("CLS");
             break;
         }
         case  2:
             prs.generarCorreo();
+            system("CLS");            
             prs.mostrar();
             system("pause");
             system("CLS");
@@ -60,6 +69,10 @@ int main() {
         case 3:
             std::cout << "\nSaliendo...";
             op = false;
+            break;
+        default: 
+            std::cout << "\nIngrese una opcion valida...";
+            system("CLS");
             break;
         }    
     }while (op);

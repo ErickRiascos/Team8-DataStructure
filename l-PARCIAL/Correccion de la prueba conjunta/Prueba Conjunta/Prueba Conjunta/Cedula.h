@@ -8,5 +8,8 @@ public:
 	void encriptarCedula(int,int);
 	void ingresarCedula(char*);
 	void mostrarCedula();
+	bool validarCedula();
+	char* toString();
 };
+
 

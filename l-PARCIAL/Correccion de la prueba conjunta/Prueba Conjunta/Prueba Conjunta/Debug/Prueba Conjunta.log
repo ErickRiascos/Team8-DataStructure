@@ -1,8 +1,2 @@
-﻿  Lista.cpp
-C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Prueba Conjunta\Lista.cpp(69,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Prueba Conjunta\Lista.cpp(72,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Prueba Conjunta\Lista.cpp(75,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Prueba Conjunta\Lista.cpp(80,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Prueba Conjunta\Lista.cpp(83,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Prueba Conjunta\Lista.cpp(87,22): warning C4018: '<': no coinciden signed/unsigned
-  Prueba Conjunta.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Prueba Conjunta\Debug\Prueba Conjunta.exe
+﻿  main.cpp
+  Prueba Conjunta.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Correccion de la prueba conjunta\Prueba Conjunta\Debug\Prueba Conjunta.exe
