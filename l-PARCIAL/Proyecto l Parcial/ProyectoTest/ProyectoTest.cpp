@@ -23,7 +23,7 @@ namespace ProyectoTest
 			Fecha f(9, 06, 2021);
 			char a[] = "Miercoles";
 			for (int i=0;i < 10;i++) {
-				Assert::AreEqual(a[i], f.imprimirDia()[i]);
+				Assert::AreEqual(a[i], f.get_Dia()[i]);
 			}
 		}
 

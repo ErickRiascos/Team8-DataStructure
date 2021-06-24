@@ -19,10 +19,13 @@ private:
 	Cedula ci;
 public:
 	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int,Cedula);
+	Persona(Fecha,int);
 	Persona() = default;
 	void toString();
 	char* getInicialesNombres();
 	char* getApellido();
 	void setEmail(char*);
+	void imprimirFechas();
+	Fecha* calcularPago();
 };
 

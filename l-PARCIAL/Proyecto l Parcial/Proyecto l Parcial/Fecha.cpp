@@ -25,10 +25,10 @@ int Fecha::calcularDia() {
 /*Imprime la fecha*/
 void Fecha::imprimirFecha()
 {
-	std::cout << imprimirDia()<<", "<<dia << "-" << mes << "-" << anio << std::endl;
+	std::cout << get_Dia()<<", "<<dia << "-" << mes << "-" << anio << std::endl;
 }
 /*Imprime en letras el dia que es ejm: "Lunes"*/
-char* Fecha::imprimirDia()
+char* Fecha::get_Dia()
 {
 	char* a = (char*)calloc(10, sizeof(char));
 	char dias[7][10] = { "Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado" };
@@ -60,6 +60,13 @@ int Fecha::calcularEdad(Fecha f)
 void Fecha::setDia(int _dia)
 {
 	this->dia = _dia;
+	if (validaFecha()) {
+		
+	}
+	else {
+		dia=1;
+		mes++;
+	}
 }
 
 int Fecha::getDia()
@@ -103,32 +110,7 @@ int Fecha::getAnio()
 {
 	return anio;
 }
-/*Produce un vector con todas las fechas que la persona debe pagar y valida si es un dia laboral
-@return Fecha* (arreglo)*/
-Fecha* Fecha::calcularPago(Fecha fecha_Inicio,int mes_Pago)
-{
-	Fecha* vec = (Fecha*)calloc(mes_Pago, sizeof(Fecha));
-	Fecha aux = fecha_Inicio;
-	for (int i = 0; i < mes_Pago; i++) {
-		aux.setMes(aux.getMes() + 1);
-		if (aux.calcularDia() == 0 || aux.calcularDia() == 6) {
-			if (aux.calcularDia() == 0) {
-				aux.setDia(fecha_Inicio.getDia() + 1);
-				*(vec + i) = aux;
-				aux.setDia(fecha_Inicio.getDia());
-			}
-			else {
-				aux.setDia(fecha_Inicio.getDia() + 2);
-				*(vec + i) = aux;
-				aux.setDia(fecha_Inicio.getDia());
-			}
-		}
-		else {
-			*(vec + i) = aux;
-		}
-	}
-	return vec;
-}
+
 /*Valida que la fecha ingresada exista
 @return bool*/
 bool Fecha::validaFecha()

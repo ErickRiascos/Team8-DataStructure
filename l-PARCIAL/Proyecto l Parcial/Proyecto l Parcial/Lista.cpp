@@ -6,20 +6,24 @@ Lista::Lista() {
     this->primero = NULL;
     this->actual = NULL;
 }
+
 /*Muestra los elementos existentes en una lista*/
 void Lista::mostrar() {
     Nodo* tmp = this->primero;
+	int a = tamanio;
     while (tmp) {
-        std::cout << "CLIENTE " << tamanio-- << ":";
+        std::cout << "\nCLIENTE " << a-- << ":";
         tmp->usuario.toString();
         tmp = tmp->siguiente;
     }
 }
+
 /*Determina si la lista esta vacia
 @return bool*/
 bool Lista::listaVacia() {
     return (this->primero == NULL);
 }
+
 /*Ingresa un objeto de la clase Persona en la Lista
 @parametros Persona*/
 void Lista::insertar_Persona(Persona _persona) {
@@ -33,6 +37,7 @@ void Lista::insertar_Persona(Persona _persona) {
     }
     this->primero= nuevo;
 }
+
 /*Elimina la ultima persona ingresada*/
 void Lista::eliminar_Persona() {
     Nodo* aux_borrar;
@@ -52,65 +57,55 @@ Nodo* Lista::getPrimero()
 {
     return primero;
 }
-
-void Lista::generarCorreo()
-{
-	char* _email = (char*)calloc(30, sizeof(char));
+/*Genera el correo de una lista de personas*/
+void Lista::generarCorreo() {
 	char dir[] = "@espe.fin.ec";
+	int j = 0;
 	Nodo* tmp = primero;
-	Nodo* aux2 = primero->siguiente;
-	if (aux2!=nullptr) {
-		while (tmp) {
-			char x = '0';
-			int j = 0;
-			aux2 = primero->siguiente;
-			while (aux2) {
-				if (x == '0') {
-					for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
-						*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
-					}
-					for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
-						*(_email + j++) = *(tmp->usuario.getApellido() + i);
-					}
-					for (int i = 0; i < strlen(dir); i++) {
-						*(_email + j++) = *(dir + i);
-					}
-					tmp->usuario.setEmail(_email);
-				}
-				else {
-					for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
-						*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
-					}
-					for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
-						*(_email + j++) = *(tmp->usuario.getApellido() + i);
-					}
-					*(_email + j++) = x;
-					for (int i = 0; i < strlen(dir); i++) {
-						*(_email + j++) = *(dir + i);
-					}
-					tmp->usuario.setEmail(_email);
-				}
-				if (!strcmp(tmp->usuario.getInicialesNombres(), aux2->usuario.getInicialesNombres()) && !strcmp(tmp->usuario.getApellido(), aux2->usuario.getApellido())) {
-					x = x + 1;
-				}
-				aux2 = aux2->siguiente;
+	while (tmp) {
+		char* _email = (char*)calloc(40, sizeof(char));
+		j = 0;
+		if (calcularRepeticiones(tmp) == 0) {
+			for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
+				*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
 			}
-			tmp = tmp->siguiente;
+			for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
+				*(_email + j++) = *(tmp->usuario.getApellido() + i);
+			}
+			for (int i = 0; i < strlen(dir); i++) {
+				*(_email + j++) = *(dir + i);
+			}
 		}
-	}
-	else {
-		int j = 0;
-		for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
-			*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
-		}
-		for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
-			*(_email + j++) = *(tmp->usuario.getApellido() + i);
-		}
-		for (int i = 0; i <strlen(dir); i++) {
-			*(_email + j++) = *(dir + i);
+		else {
+			for (int i = 0; i < strlen(tmp->usuario.getInicialesNombres()); i++) {
+				*(_email + j++) = *(tmp->usuario.getInicialesNombres() + i);
+			}
+			for (int i = 0; i < strlen(tmp->usuario.getApellido()); i++) {
+				*(_email + j++) = *(tmp->usuario.getApellido() + i);
+			}
+			*(_email + j++) = calcularRepeticiones(tmp) + 48;
+			for (int i = 0; i < strlen(dir); i++) {
+				*(_email + j++) = *(dir + i);
+			}
 		}
 		tmp->usuario.setEmail(_email);
+		tmp = tmp->siguiente;
 	}
+}
+
+/*Calcula el numero de repetciones de iniciales y apellido de las personas
+@parametro: Nodo
+@return: int*/
+int Lista::calcularRepeticiones(Nodo* a)
+{
+	int i = 0;
+	Nodo* aux2 = a->siguiente;
+	while (aux2) {
+		if (strcmp(a->usuario.getInicialesNombres(), aux2->usuario.getInicialesNombres()) == 0 && strcmp(a->usuario.getApellido(), aux2->usuario.getApellido()) == 0)
+			i++;
+		aux2 = aux2->siguiente;
+	}
+	return i;
 }
 
 

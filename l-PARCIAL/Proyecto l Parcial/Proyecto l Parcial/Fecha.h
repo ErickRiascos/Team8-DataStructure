@@ -12,7 +12,7 @@ public:
 	~Fecha();
 	int calcularDia();
 	void imprimirFecha();
-	char* imprimirDia();
+	char* get_Dia();
 	int calcularEdad(Fecha);
 	void setDia(int);
 	int getDia();
@@ -20,6 +20,5 @@ public:
 	int getMes();
 	void setAnio(int);
 	int getAnio();
-	Fecha* calcularPago(Fecha,int);
 	bool validaFecha();
 };

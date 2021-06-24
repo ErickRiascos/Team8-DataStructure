@@ -15,5 +15,6 @@ class Lista
 		void eliminar_Persona();
 		Nodo* getPrimero();
 		void generarCorreo();
+		int calcularRepeticiones(Nodo*);
 	};
 
