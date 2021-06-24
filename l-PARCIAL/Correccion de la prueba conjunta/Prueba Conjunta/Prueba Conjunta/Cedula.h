@@ -5,7 +5,7 @@ private:
 	int* numeros;
 public:
 	Cedula() = default;
-	void encriptarCedula(int,int);
+	void encriptar(int,int);
 	void ingresarCedula(char*);
 	void mostrarCedula();
 	bool validarCedula();

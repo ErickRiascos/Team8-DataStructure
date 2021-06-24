@@ -30,8 +30,8 @@ void Cedula::mostrarCedula()
 		  std::cout<< * (numeros + i);
 }
 
-/*Valida que la cedula sea correcta */
-void Cedula::encriptarCedula(int a,int b){
+/*Encriptar la cedula*/
+void Cedula::encriptar(int a,int b){
 	int* aux = (int*)calloc(10, sizeof(int));
 	*(numeros + a)=*(numeros+a) + b;
 	if (*(numeros+a)>9){
@@ -43,7 +43,7 @@ void Cedula::encriptarCedula(int a,int b){
 	*(numeros + a) = *(aux + a);
 	a++;
 	if (a < 10)
-		encriptarCedula(a,b);	
+		encriptar(a,b);	
 }
 /*Valida que la cedula sea correcta
 @return bool*/

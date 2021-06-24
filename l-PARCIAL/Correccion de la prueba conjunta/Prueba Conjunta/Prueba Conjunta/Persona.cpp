@@ -122,7 +122,7 @@ void Persona::encriptarCedula()
 	while (a) {
 		int b = atoi(validarDatos1("\nIngrese numero para encriptacion: "));
 		if (b >= 1 && b <= 9) {
-			this->encryp.encriptarCedula(0, b);
+			this->encryp.encriptar(0, b);
 			std::cout << "\nEncriptacion exitosa... ";
 			a = false;
 		}
