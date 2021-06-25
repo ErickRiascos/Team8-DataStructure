@@ -248,7 +248,7 @@ char* Fecha::toString()
 	itoa(anio, aux, 10);
 	unirInfo(a, aux);
 	aux = (char*)calloc(15, sizeof(char));
-	itoa(montoMens, aux, 10);
+	sprintf(aux, "%f", montoMens);
 	unirInfo(a, ", Valor a cancelar: $");
 	unirInfo(a,aux);
 	return a;

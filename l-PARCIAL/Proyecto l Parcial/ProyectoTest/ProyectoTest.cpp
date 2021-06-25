@@ -27,30 +27,6 @@ namespace ProyectoTest
 			for (int i = 0; i < 10; i++) {
 				Assert::AreEqual(a[i], f.get_Dia()[i]);
 			}
-		}
-		TEST_METHOD(listaVaciaTest) {
-
-		}
-		TEST_METHOD(insertar_PersonaTest) {
-			Lista l;
-			Fecha f(10,12,2002);
-			Cedula cd("1719851527");
-			Persona p((f),"Johan", "Godoy", "Solanda", "0998164369", 3600, 2019, 36, (cd));
-			l.insertar_Persona(p);
-
-		}
-		TEST_METHOD(eliminar_PersonaTest) {
-			Lista l;
-			Fecha f(10, 12, 2002);
-			Cedula cd(1719851527);
-			Persona p2((f), "Johan", "Godoy", "Solanda", "0998164369", 3600, 2019, 36, (cd));
-			l.eliminar_Persona(p2);
-		}
-		TEST_METHOD(generarCorreo) {
-
-		}
-		TEST_METHOD(calcularRepeticionesTest) {
-
-		}
+		}		
 	};
 }

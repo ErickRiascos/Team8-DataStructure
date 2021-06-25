@@ -18,6 +18,7 @@ Fecha modificación: 26/06/2021*/
 #include "Persona.h"
 #include <conio.h>
 #include "convertidor.h"
+#include "Menu.h"
  /**************************
   * Using Declarations
   **************************/
@@ -138,6 +139,20 @@ char* ingresarNum(const char* msj)
     }
     return datos;
 }
+char* ingresarDoubl(const char* msj)
+{
+    char* datos = (char*)calloc(30, sizeof(char));
+    int i = 0;
+    char c;
+    printf("%s", msj);
+    while ((c = getch()) != 13) {
+        if ((c >= '0' && c <= '9') || c == 46) {
+            printf("%c", c);
+            *(datos + i++) = c;
+        }
+    }
+    return datos;
+}
 void unirInfo1(char* recive, const char* source)
 {
     int k = strlen(recive);
@@ -157,9 +172,12 @@ int main()
     bool op = true;
     Lista prs;
     int opc;
+    const char* titulo = "MENU PRINCIPAL";
+    const char* opciones[] = { "Ingresar cliente","Mostrar lista de clientes","Generar PDF","Salir"};
     do {
-        std::cout << "\tMENU:\n1) Ingresar persona\n2) Mostrar personas\n3) Generar PDF\n4) Salir\nIngrese una opcion: ";
-        std::cin >> opc;
+        Menu m(titulo, opciones, 4);
+        system("CLS");
+        int opc = m.getOpcion();
         system("CLS");
         switch (opc) {
         case 1: {
@@ -169,11 +187,9 @@ int main()
             Fecha nac(atoi(ingresarNum("\nDia: ")), atoi(ingresarNum("\nMes: ")), atoi(ingresarNum("\nIngrese fecha de nacimiendo...\nAnio: ")));
             if (ci.validarCedula() && nac.validaFecha() && ini.validaFecha()) {
                 system("CLS");
-                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atoi(ingresarNum("\nIngrese monto neto: ")), ini, atoi(ingresarNum("Ingrese la cantidad de meses diferidos: ")), ci);
+                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atof(ingresarDoubl("\nIngrese monto neto: ")), ini, atoi(ingresarNum("Ingrese la cantidad de meses diferidos: ")), ci);
                 prs.insertar_Persona(p);
                 std::cout << "\nPersona agregada exitosamente...\n";
-                system("pause");
-                system("CLS");
             }
             else {
                 if (ci.validarCedula() == false)
@@ -204,13 +220,7 @@ int main()
         case 4:
             op = false;
             break;
-        default:
-            std::cout << "\nIngrese una opcion valida...";
-            system("pause");
-            system("CLS");
-            break;
         }
-
     } while (op);
 
     return 0;
