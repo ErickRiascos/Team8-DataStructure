@@ -2,8 +2,8 @@
 Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Proyecto
-Fecha creación: 15/06/2021
-Fecha modificación: 26/06/2021*/
+Fecha creaciÃ³n: 15/06/2021
+Fecha modificaciÃ³n: 26/06/2021*/
 #pragma once
 #pragma warning(disable : 4996)
 #include <iostream>
@@ -187,7 +187,7 @@ int main()
             Fecha nac(atoi(ingresarNum("\nDia: ")), atoi(ingresarNum("\nMes: ")), atoi(ingresarNum("\nIngrese fecha de nacimiendo...\nAnio: ")));
             if (ci.validarCedula() && nac.validarNacimiento() && ini.validarInicio()&&nac.calcularEdad(ini)>=18) {
                 system("CLS");
-                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atof(ingresarDoubl("\nIngrese monto neto: ")), ini, atoi(ingresarNum("\nIngrese la cantidad de meses diferidos: ")), ci,atof("Ingrese interes: "));
+                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atof(ingresarDouble("\nIngrese monto neto: ")), ini, atoi(ingresarNum("\nIngrese la cantidad de meses diferidos: ")), ci,atof("Ingrese interes: "));
                 prs.insertar_Persona(p);
                 std::cout << "\nPersona agregada exitosamente...\n";
             }
