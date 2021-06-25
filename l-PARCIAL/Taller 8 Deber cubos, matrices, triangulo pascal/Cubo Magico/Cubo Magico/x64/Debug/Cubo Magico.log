@@ -1,4 +1,8 @@
-﻿  Cubo.cpp
-  Vector.cpp
-  Generating Code...
-  Cubo Magico.vcxproj -> C:\Users\Leo\Desktop\Taller 8 Deber cubos, matrices, triangulo pascal\Cubo Magico\x64\Debug\Cubo Magico.exe
+﻿  Matriz.cpp
+  Operation.cpp
+  main.cpp
+C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Cubo Magico\Cubo Magico\main.cpp(19,21): warning C4101: 'matriz2': variable local sin referencia
+C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Cubo Magico\Cubo Magico\main.cpp(19,30): warning C4101: 'matriz3': variable local sin referencia
+C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Cubo Magico\Cubo Magico\main.cpp(17,14): warning C4101: 'pot': variable local sin referencia
+  Generando código...
+  Cubo Magico.vcxproj -> C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Cubo Magico\x64\Debug\Cubo Magico.exe

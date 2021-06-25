@@ -1,40 +1,31 @@
 /*Universidad de las Fuerzas Armadas "ESPE"
 Software
-Autores:  Riascos Erick
-Memoria Dinamica: Potencia de Matrices
-Fecha creación: 05/05/2021
-Fecha modificación: 17/05/2021*/
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Taller Cubo magico
+Fecha creación: 31/05/2021
+Fecha modificación: 24/06/2021 */
+
 #pragma warning (disable:4996)
-#include <conio.h>
 #include <iostream>
-#include "Vector.h"
-#include "Cubo.h"
-char* ingresar(const char* msj)
-{
-    char* datos = (char*)calloc(10, sizeof(char));
-    int i = 0;
-    char c;
-    printf("%s", msj);
-    while ((c = getch()) != 13) {
-        if (c >= '0' && c <= '9') {
-            printf("%c", c);
-            *(datos + i++) = c;
-        }
-    }
-    return datos;
-}
+#include "Operation.h"
+#include "Matriz.h"
+#include "Valid.h"
+using namespace std;
+
 int main()
 {
-    int dim;
-    dim = atoi(ingresar("Ingrese la cantidad de numeros con los que va a llenar el cubo(numero impar):  "));
-    Vector v(dim);
-    v.segmentar();
-    v.ingresar();
-    v.ordenar();
-    Cubo c(v);
-    c.segmentar();
-    c.llenar();
-    c.imprimir();
-    std::cout << "La suma del cubo magico es: " << v.calcularSuma();
-
+    int tam, pot;
+    Operation op;
+    Matriz matriz1, matriz2, matriz3;
+    std::cout << "---------ELABORACION DEL CUBO MAGICO---------------\n";
+    cout << "INGRESE LA DIMENSION DEL CUBO IMPAR:   ";
+    tam = Valid::Validacion::validation_numbers<int>("");
+    while (tam % 2 == 0) {
+        cout << "INGRESE LA DIMENSION DEL CUBO IMPAR:   ";
+        tam = Valid::Validacion::validation_numbers<int>("");
+    }
+    matriz1.set_matriz(op.segmentar(tam));
+    op.encerar(matriz1, tam);
+    op.cubo_magico(matriz1, tam);
+    op.imprimir(matriz1, tam);
 }

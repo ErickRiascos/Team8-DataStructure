@@ -140,12 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Cubo.cpp" />
-    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Matriz.cpp" />
+    <ClCompile Include="Operation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cubo.h" />
-    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Matriz.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="Valid.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
