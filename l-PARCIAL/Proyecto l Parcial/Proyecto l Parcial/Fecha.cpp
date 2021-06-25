@@ -1,9 +1,22 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Proyecto
+Fecha creación: 15/06/2021
+Fecha modificación: 26/06/2021*/
 #pragma once
 #pragma warning(disable : 4996)
 #include "Fecha.h"
 #include <iostream>
 #include <ctime>
 #include <conio.h>
+////////////////////////////////////////////////////////////////////////
+// Name:       Fecha(int _dia, int _mes, int _anio)
+// Purpose:    Implementation de Fecha()
+// Parametros:
+// - _dia, _mes, _anio
+// Return:  
+////////////////////////////////////////////////////////////////////////
 //Constructor de la Fecha
 Fecha::Fecha(int _dia, int _mes, int _anio)
 {
@@ -19,6 +32,13 @@ Fecha::Fecha(int _dia, int _mes, int _anio)
 			m = mesesAnioNormal[i];
 	}
 }
+
+////////////////////////////////////////////////////////////////////////
+// Name:       calcularDia()
+// Purpose:    Implementation de la funcion calcularDia()
+// Parametros:
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Calcula que dia es la fecha ingresada 
 /@return entero siendo 0 Domingo y 5 Viernes*/
 int Fecha::calcularDia() {
@@ -34,6 +54,13 @@ void Fecha::imprimirFecha()
 {
 	std::cout << get_Dia()<<", "<<dia << "-" << mes << "-" << anio << std::endl;
 }
+
+////////////////////////////////////////////////////////////////////////
+// Name:       get_Dia()
+// Purpose:    Implementation de la funcion get_Dia()
+// Parametros:
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Imprime en letras el dia que es ejm: "Lunes"*/
 char* Fecha::get_Dia()
 {
@@ -49,6 +76,13 @@ char* Fecha::get_Dia()
 	return a;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       calcularEdad(Fecha f)
+// Purpose:    Implementation de la funcion calcularEdad()
+// Parametros:
+// -f
+// Return:  anioAct - anio
+////////////////////////////////////////////////////////////////////////
 /*Calcula la edad a partir de la fecha de inicio de pagi
 @parametro Fecha inicio
 @return entero siendo la edad del usuario*/
@@ -64,6 +98,13 @@ int Fecha::calcularEdad(Fecha f)
 		return anioAct - anio;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       setDia(int _dia)
+// Purpose:    Implementation de la funcion setDia()
+// Parametros:
+// - _dia
+// Return:  
+////////////////////////////////////////////////////////////////////////
 void Fecha::setDia(int _dia)
 {
 	this->dia = _dia;
@@ -81,6 +122,13 @@ int Fecha::getDia()
 	return dia;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       setMes(int _mes)
+// Purpose:    Implementation de la funcion setMes()
+// Parametros:
+// -  _mes
+// Return:  
+////////////////////////////////////////////////////////////////////////
 void Fecha::setMes(int _mes)
 {
 	int mesesAnioBisiesto[] = { 0,3,4,0,2,5,0,3,6,1,4,6 };
@@ -118,6 +166,12 @@ int Fecha::getAnio()
 	return anio;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       validaFecha()
+// Purpose:    Implementation de la funcion validaFecha()
+// Parametros:
+// Return:  correcto
+////////////////////////////////////////////////////////////////////////
 /*Valida que la fecha ingresada exista
 @return bool*/
 bool Fecha::validaFecha()
@@ -141,6 +195,13 @@ bool Fecha::validaFecha()
 Fecha::~Fecha() {
 
 }
+////////////////////////////////////////////////////////////////////////
+// Name:       validarExceso(int a)
+// Purpose:    Implementation de la funcion validarExceso()
+// Parametros:
+// - a
+// Return:  correcto
+////////////////////////////////////////////////////////////////////////
 bool Fecha::validarExceso(int a)
 {
 	bool correcto = false;
@@ -163,7 +224,12 @@ void Fecha::setMontoMens(double a)
 {
 	this->montoMens = a;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       toString()
+// Purpose:    Implementation de la funcion toString()
+// Parametros:
+// Return:  a
+////////////////////////////////////////////////////////////////////////
 char* Fecha::toString()
 {
 	char* a = (char*)calloc(100,sizeof(char));

@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Proyecto
+Fecha creación: 15/06/2021
+Fecha modificación: 26/06/2021*/
 #pragma once
 #pragma warning(disable : 4996)
 #include "Persona.h"
@@ -23,6 +29,13 @@ Persona::Persona(Fecha a,int meses)
 	this->inicio = a;
 	this->meses = meses;
 }
+
+////////////////////////////////////////////////////////////////////////
+// Name:       toString()
+// Purpose:    Implementation de toString()
+// Parametros:
+// Return:  aux
+////////////////////////////////////////////////////////////////////////
 /*Imprime toda la informacion de la persona*/
 char* Persona::toString()
 {
@@ -47,6 +60,12 @@ char* Persona::toString()
 	return aux;
 }
 
+////////////////////////////////////////////////////////////////////////
+// Name:       getInicialesNombres()
+// Purpose:    Implementation de getInicialesNombres()
+// Parametros:
+// Return:  aux
+////////////////////////////////////////////////////////////////////////
 char* Persona::getInicialesNombres()
 {
 	int i = 0;
@@ -67,7 +86,12 @@ char* Persona::getInicialesNombres()
 	}
 	return aux;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       getApellido()
+// Purpose:    Implementation de getApellido()
+// Parametros:
+// Return: 
+////////////////////////////////////////////////////////////////////////
 char* Persona::getApellido()
 {
 	int i = 0;
@@ -97,7 +121,12 @@ char* Persona::imprimirFechas(){
 	}
 	return aux;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       calcularPago()
+// Purpose:    Implementation de calcularPago()
+// Parametros:
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Produce un vector con todas las fechas que la persona debe pagar y valida si es un dia laboral
 @return Fecha* (arreglo)*/
 void Persona::calcularPago()

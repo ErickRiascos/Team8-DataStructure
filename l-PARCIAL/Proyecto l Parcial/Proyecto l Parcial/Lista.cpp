@@ -1,4 +1,9 @@
-#pragma once
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Proyecto
+Fecha creación: 15/06/2021
+Fecha modificación: 26/06/2021*/#pragma once
 #pragma warning(disable : 4996)
 #include "Lista.h"
 #include <iostream>
@@ -7,7 +12,12 @@ Lista::Lista() {
     this->primero = NULL;
     this->actual = NULL;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       mostrar()
+// Purpose:    Implementation de mostrar()
+// Parametros:
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Muestra los elementos existentes en una lista*/
 void Lista::mostrar() {
 	Nodo* tmp = this->primero;
@@ -22,7 +32,13 @@ void Lista::mostrar() {
 bool Lista::listaVacia() {
     return (this->primero == NULL);
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       insertar_Persona(Persona _persona)
+// Purpose:    Implementation de insertar_Persona()
+// Parametros:
+// - _persona
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Ingresa un objeto de la clase Persona en la Lista
 @parametros Persona*/
 void Lista::insertar_Persona(Persona _persona) {
@@ -36,7 +52,12 @@ void Lista::insertar_Persona(Persona _persona) {
     }
     this->primero= nuevo;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       eliminar_Persona()
+// Purpose:    Implementation de eliminar_Persona()
+// Parametros:
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Elimina la ultima persona ingresada*/
 void Lista::eliminar_Persona() {
     Nodo* aux_borrar;
@@ -56,6 +77,12 @@ Nodo* Lista::getPrimero()
 {
     return primero;
 }
+////////////////////////////////////////////////////////////////////////
+// Name:       generarCorreo()
+// Purpose:    Implementation de generarCorreo()
+// Parametros:
+// Return:  
+////////////////////////////////////////////////////////////////////////
 /*Genera el correo de una lista de personas*/
 void Lista::generarCorreo() {
 	char dir[] = "@espe.fin.ec";
@@ -91,7 +118,13 @@ void Lista::generarCorreo() {
 		tmp = tmp->siguiente;
 	}
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       calcularRepeticiones(Nodo* a)
+// Purpose:    Implementation de calcularRepeticiones()
+// Parametros:
+// - a
+// Return:  i
+////////////////////////////////////////////////////////////////////////
 /*Calcula el numero de repetciones de iniciales y apellido de las personas
 @parametro: Nodo
 @return: int*/
@@ -122,7 +155,13 @@ char* Lista::getPdf()
 	}
 	return aux;
 }
-
+////////////////////////////////////////////////////////////////////////
+// Name:       unirInfo(char* recive, const char* source)
+// Purpose:    Implementation de unirInfo()
+// Parametros:
+// - recive, source
+// Return:  
+////////////////////////////////////////////////////////////////////////
 void Lista::unirInfo(char* recive, const char* source)
 {
 	int k = strlen(recive);
