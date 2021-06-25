@@ -20,7 +20,12 @@ Fecha::Fecha(int _dia, int _mes, int _anio)
 /*Calcula que dia es la fecha ingresada 
 /@return entero siendo 0 Domingo y 5 Viernes*/
 int Fecha::calcularDia() {
-	return ((anio - 1) % 7 + ((anio - 1) / 4 - (3 * ((anio - 1) / 100 + 1) / 4)) % 7 + m + dia % 7) % 7;
+	if (validaFecha()) {
+		return ((anio - 1) % 7 + ((anio - 1) / 4 - (3 * ((anio - 1) / 100 + 1) / 4)) % 7 + m + dia % 7) % 7;
+	}
+	else {
+		return -1;
+	}	
 }
 /*Imprime la fecha*/
 void Fecha::imprimirFecha()
@@ -61,10 +66,10 @@ void Fecha::setDia(int _dia)
 {
 	this->dia = _dia;
 	if (validaFecha()) {
-		
+		this->dia = _dia;
 	}
 	else {
-		dia=1;
+		this->dia = 1;
 		mes++;
 	}
 }
@@ -116,7 +121,7 @@ int Fecha::getAnio()
 bool Fecha::validaFecha()
 {
 	bool correcto = false;
-	if ((mes <= 7) && (mes % 2 != 0) && (dia < 31) && (anio > 1800))
+	if ((mes <= 7) && (mes % 2 != 0) && (dia <= 31) && (anio > 1800))
 		correcto = true;
 	if ((mes <= 7) && (mes % 2 == 0) && (mes != 2) && (dia <= 30) && (anio > 1800))
 		correcto = true;
@@ -134,6 +139,22 @@ bool Fecha::validaFecha()
 Fecha::~Fecha() {
 
 }
-
+bool Fecha::validarExceso(int a)
+{
+	bool correcto = false;
+	if ((mes <= 7) && (mes % 2 != 0) && (dia + a > 31) && (anio > 1800))
+		correcto = true;
+	if ((mes <= 7) && (mes % 2 == 0) && (mes != 2) && (dia + a > 30) && (anio > 1800))
+		correcto = true;
+	if ((mes >= 8) && (mes % 2 == 0) && (dia + a > 31) && (anio > 1800))
+		correcto = true;
+	if ((mes >= 8) && (mes % 2 != 0) && (dia + a > 30) && (anio > 1800))
+		correcto = true;
+	if ((mes == 2) && (anio % 4 != 0) && (dia + a > 28) && (anio > 1800))
+		correcto = true;
+	if ((mes == 2) && (anio % 4 == 0) && (dia + a > 29) && (anio > 1800))
+		correcto = true;
+	return correcto;
+}
 
 

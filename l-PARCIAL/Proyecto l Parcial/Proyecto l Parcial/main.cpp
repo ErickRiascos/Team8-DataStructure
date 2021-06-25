@@ -36,10 +36,7 @@ char* ingresarNum(const char* msj)
 }
 //Funcion principal main
 int main() {
-    Fecha ini(29,06,2021);
-    Persona p(ini,100);
-    p.imprimirFechas();
-    /*bool op = true;
+    bool op = true;
 	Lista prs;
     int opc;
     do {
@@ -86,5 +83,5 @@ int main() {
         }
         
     } while (op);
-    return 0;*/
+    return 0;
 }

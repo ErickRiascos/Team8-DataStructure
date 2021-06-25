@@ -26,6 +26,6 @@ public:
 	char* getApellido();
 	void setEmail(char*);
 	void imprimirFechas();
-	Fecha* calcularPago();
+	void calcularPago();
 };
 

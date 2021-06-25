@@ -7,6 +7,7 @@ Persona::Persona(Fecha _nacimiento, char* _nombres, char* _apellidos, char* _dir
 {
 	this->email = (char*)calloc(30, sizeof(char));
 	this->apellido = _apellidos;
+	this->meses = _meses;
 	this->direccion = _direccion;
 	this->edad = _nacimiento.calcularEdad(_inicio);
 	this->inicio = _inicio;
@@ -15,13 +16,12 @@ Persona::Persona(Fecha _nacimiento, char* _nombres, char* _apellidos, char* _dir
 	this->nombre = _nombres;
 	this->telefono = _telefono;
 	this->ci = _ci;
-	this->rolPago = calcularPago();
+	calcularPago();
 }
 Persona::Persona(Fecha a,int meses)
 {
 	this->inicio = a;
 	this->meses = meses;
-	this->rolPago = calcularPago();
 }
 /*Imprime toda la informacion de la persona*/
 void Persona::toString()
@@ -79,42 +79,84 @@ void Persona::imprimirFechas(){
 	for (int i = 0;i < meses;i++) {
 		Fecha a=*(rolPago + i);
 		a.imprimirFecha();
-		std::cout << std::endl;
 	}
 }
 
 /*Produce un vector con todas las fechas que la persona debe pagar y valida si es un dia laboral
 @return Fecha* (arreglo)*/
-Fecha* Persona::calcularPago()
+void Persona::calcularPago()
 {
-	Fecha* vec = (Fecha*)calloc(this->meses, sizeof(Fecha));
+	this->rolPago = (Fecha*)calloc(this->meses, sizeof(Fecha));
 	Fecha aux = inicio;
 	for (int i = 0; i < meses; i++) {
 		aux.setMes(aux.getMes() + 1);
-		if (aux.calcularDia() == 0 || aux.calcularDia() == 6) {
-			if (aux.calcularDia() == 0) {
-				aux.setDia(inicio.getDia() + 1);
-				if (aux.validaFecha()) {
-					*(vec + i) = aux;
-					aux.setDia(inicio.getDia());
+		if (aux.calcularDia() == -1) {
+			aux.setDia(1);
+			aux.setMes(aux.getMes() + 1);
+			if ((aux.calcularDia() == 0 || aux.calcularDia() == 6)) {
+				if (aux.calcularDia() == 0) {
+					if (aux.validarExceso(1)) {
+						aux.setDia(aux.getDia() + 1);
+						*(rolPago + i) = aux;
+						aux.setMes(aux.getMes() - 1);
+					}
+					else {
+						aux.setDia(aux.getDia() + 1);
+						*(rolPago + i) = aux;
+					}
 				}
 				else {
-					*(vec + i) = aux;
-					aux.setDia(inicio.getDia());
-					aux.setMes(aux.getMes() - 1);
+					if (aux.validarExceso(2)) {
+						printf("Hola");
+						aux.setDia(aux.getDia() + 2);
+						*(rolPago + i) = aux;
+						aux.setMes(aux.getMes() - 1);
+					}
+					else {
+						aux.setDia(aux.getDia() + 2);
+						*(rolPago + i) = aux;
+					}
 				}
-			}
-			else {
-				aux.setDia(inicio.getDia() + 2);
-				*(vec + i) = aux;
 				aux.setDia(inicio.getDia());
 			}
+			else {
+				*(rolPago + i) = aux;
+			}
+			aux.setDia(inicio.getDia());
+			aux.setMes(aux.getMes() - 1);
 		}
 		else {
-			*(vec + i) = aux;
+			if ((aux.calcularDia() == 0 || aux.calcularDia() == 6)) {
+				if (aux.calcularDia() == 0) {
+					if (aux.validarExceso(1)) {
+						aux.setDia(aux.getDia() + 1);
+						*(rolPago + i) = aux;
+						aux.setMes(aux.getMes() - 1);
+					}
+					else {
+						aux.setDia(aux.getDia() + 1);
+						*(rolPago + i) = aux;
+					}
+				}
+				else {
+					if (aux.validarExceso(2)) {
+						aux.setDia(aux.getDia() + 2);
+						*(rolPago + i) = aux;
+						aux.setMes(aux.getMes() - 1);
+					}
+					else {
+						aux.setDia(aux.getDia() + 2);
+						*(rolPago + i) = aux;
+					}
+				}
+				aux.setDia(inicio.getDia());
+			}
+			else {
+				*(rolPago + i) = aux;
+			}
 		}
 	}
-	return vec;
 }
+
 
 

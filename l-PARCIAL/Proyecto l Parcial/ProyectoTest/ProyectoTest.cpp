@@ -34,7 +34,7 @@ namespace ProyectoTest
 		TEST_METHOD(insertar_PersonaTest) {
 			Lista l;
 			Fecha f(10,12,2002);
-			Cedula cd(1719851527);
+			Cedula cd("1719851527");
 			Persona p((f),"Johan", "Godoy", "Solanda", "0998164369", 3600, 2019, 36, (cd));
 			l.insertar_Persona(p);
 

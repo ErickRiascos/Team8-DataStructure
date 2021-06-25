@@ -21,4 +21,5 @@ public:
 	void setAnio(int);
 	int getAnio();
 	bool validaFecha();
+	bool validarExceso(int);
 };

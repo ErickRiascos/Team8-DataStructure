@@ -1,7 +1,9 @@
 ﻿  Fecha.cpp
+  Nodo.cpp
   Persona.cpp
 C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Persona.cpp(43,20): warning C4018: '<': no coinciden signed/unsigned
 C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Persona.cpp(64,20): warning C4018: '<': no coinciden signed/unsigned
+  main.cpp
   Generando código...
 C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Persona.cpp(73): warning C4715: 'Persona::getApellido': no todas las rutas de acceso de control devuelven un valor
   Proyecto l Parcial.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\Proyecto l Parcial.exe
