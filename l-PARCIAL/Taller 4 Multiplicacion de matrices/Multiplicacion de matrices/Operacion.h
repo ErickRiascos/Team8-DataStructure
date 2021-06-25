@@ -6,7 +6,7 @@ Fecha modificación: 17/06/2021*/
 
 class Operacion{
 public:
-	Matriz multiplicarMatriz(Matriz, Matriz);
+	Matriz multiplicarMatriz(Matriz, Matriz, int);
 	Operacion() = default;
 
 protected:

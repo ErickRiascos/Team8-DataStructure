@@ -29,9 +29,10 @@ char* ingresar(const char* msj)
 // Parametros:
 // Return:    
 //////////////////////////////////////////////////////////////////////// 
-void Matriz::llenarMatriz(){
-	for (int i = 0;i < 5;i++) {
-		for (int j = 0;j < 5;j++){
+void Matriz::llenarMatriz(int dim){
+	
+	for (int i = 0;i < dim;i++) {
+		for (int j = 0;j < dim;j++){
 			matriz[i][j]=atoi(ingresar("\nIngrese numero fila-columna : "));
 		}
 	}
@@ -42,10 +43,11 @@ void Matriz::llenarMatriz(){
 // Parametros:
 // Return:    
 //////////////////////////////////////////////////////////////////////// 
-void Matriz::imprimirMatriz(){
-	for (int i = 0;i < 5;i++) {
+void Matriz::imprimirMatriz(int dim){
+	
+	for (int i = 0;i < dim; i++) {
 		std::cout <<std::endl;
-		for (int j = 0;j < 5;j++) {
+		for (int j = 0;j < dim;j++) {
 			std::cout << matriz[i][j]<<"\t";
 		}
 	}
@@ -56,10 +58,10 @@ void Matriz::imprimirMatriz(){
 // Parametros:
 // Return:    
 //////////////////////////////////////////////////////////////////////// 
-void Matriz::encerar()
+void Matriz::encerar(int dim)
 {
-	for (int i = 0;i < 5;i++) {
-		for (int j = 0; j < 5;j++) {
+	for (int i = 0;i < dim;i++) {
+		for (int j = 0; j < dim;j++) {
 			matriz[i][j] = 0;
 		}
 	}

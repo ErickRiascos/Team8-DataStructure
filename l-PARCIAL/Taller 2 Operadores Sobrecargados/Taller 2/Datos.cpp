@@ -1,77 +1,67 @@
- #include "Datos.h";
-template <typename Data>
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Datos<Data>::getDatoA(void)
-// Propósito:    Implementacion de Datos<Data>::getDatoA()
-// Parametros:
-// - void
-// Return:     Data
-////////////////////////////////////////////////////////////////////////
-Data Datos<Data>::getDatoA(void)
+/*Fecha creación : 27 / 05 / 2021
+Fecha modificación : 24 / 06 / 2021*/
+#include "Datos.h"
+double Datoss::get_B(void)
 {
-   return dato1;
+	return B;
 }
-template <typename Data>
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Datos<Data>::setDatoA(Data newDatoA)
-// Propósito:    Implementacion de Datos<Data>::setDatoA()
-// Parametros:
-// - newDatoA
-// Return:     
-////////////////////////////////////////////////////////////////////////
-void Datos<Data>::setDatoA(Data newDatoA)
+void Datoss::set_B(double new_Value_B)
 {
-   dato1 = newDatoA;
+	B = new_Value_B;
 }
-template <typename Data>
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Datos<Data>::getDatoB(void)
-// Propósito:    Implementacion de Datos<Data>::getDatoB()
-// Parametros:
-// - void
-// Return:     Data
-////////////////////////////////////////////////////////////////////////
-Data Datos<Data>::getDatoB(void)
+int Datoss::get_A(void)
 {
-   return dato2;
+	return A;
 }
-template <typename Data>
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Datos<Data>::setDatoB(Data newDatoB)
-// Propósito:    Implementacion de Datos<Data>::setDatoB()
-// Parametros:
-// - newDatoB
-// Return:     
-////////////////////////////////////////////////////////////////////////
-void Datos<Data>::setDatoB(Data newDatoB)
+void Datoss::set_A(int new_Value_A)
 {
-   dato2 = newDatoB;
+	A = new_Value_A;
 }
-template <typename Data>
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Datos<Data>::Datos(Data dato_Nuevo_1,Data dato_Nuevo_2)
-// Propósito:    Implementacion de Datos<Data>::Datos()
-// Parametros:
-// - dato_Nuevo_1  
-// - dato_Nuevo_2
-// Return:     
-////////////////////////////////////////////////////////////////////////
-Datos<Data>::Datos(Data dato_Nuevo_1,Data dato_Nuevo_2)
+float Datoss::get_C(void)
 {
-	this->dato1=dato_Nuevo_1;
-	this->dato2= dato_Nuevo_2;
-}
-template <typename Data>
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Datos<Data>::~Datos()
-// Propósito:    Implementacion de Datos<Data>::~Datos()
-// Parametros:
-// Return:     
-////////////////////////////////////////////////////////////////////////
-Datos<Data>::~Datos()
+	return C;
+}void Datoss::set_C(int new_Value_C)
 {
-	
+	C = new_Value_C;
 }
-template class Datos<int>;
-template class Datos<double>;
-template class Datos<float>;
+Datoss::Datoss(int new_Value_A, double new_Value_B, float new_Value_C)
+{
+	this->C = new_Value_C;
+	this->A = new_Value_A;
+	this->B = new_Value_B;
+}
+//suma
+double Datoss::suma(float A)
+{
+	return (this->get_A() + A);
+}
+double Datoss::suma(double B, float A)
+{
+	return (this->get_B() + A + B);
+}
+double Datoss::suma(int C, double B, float A)
+{
+	return (this->get_C() + A + B + C);
+}
+//resta
+double Datoss::resta(double B, float A)
+{
+	return (this->get_B() - A - B);
+}
+double Datoss::resta(int C, double B, float A)
+{
+	return (this->get_C() - A - B - C);
+}
+//multiplicacion
+double Datoss::multiplication(int A)
+{
+	return (this->get_A() * A);
+}
+double Datoss::multiplication(double A, int B)
+{
+	return (this->get_B() * A * B);
+}
+double Datoss::multiplication(float A, double B, int C)
+{
+	return (this->get_C() * A *B * C);
+}
