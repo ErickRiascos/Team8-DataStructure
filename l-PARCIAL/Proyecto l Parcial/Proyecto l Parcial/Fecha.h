@@ -28,4 +28,6 @@ public:
 	void setMontoMens(double);
 	char* toString();
 	void unirInfo(char*,const char*);
+	bool validarNacimiento();
+	bool validarInicio();
 };

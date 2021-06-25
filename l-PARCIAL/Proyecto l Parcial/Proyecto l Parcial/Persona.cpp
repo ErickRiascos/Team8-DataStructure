@@ -9,7 +9,7 @@ Fecha modificación: 26/06/2021*/
 #include "Persona.h"
 #include <iostream>
 /*Constructor de Persona */
-Persona::Persona(Fecha _nacimiento, char* _nombres, char* _apellidos, char* _direccion, char* _telefono, int _monto, Fecha _inicio, int _meses, Cedula _ci)
+Persona::Persona(Fecha _nacimiento, char* _nombres, char* _apellidos, char* _direccion, char* _telefono, int _monto, Fecha _inicio, int _meses, Cedula _ci,int _interes)
 {
 	this->email = (char*)calloc(30, sizeof(char));
 	this->apellido = _apellidos;
@@ -21,6 +21,7 @@ Persona::Persona(Fecha _nacimiento, char* _nombres, char* _apellidos, char* _dir
 	this->nacimiento = _nacimiento;
 	this->nombre = _nombres;
 	this->telefono = _telefono;
+	this->interes = _interes;
 	this->ci = _ci;
 	calcularPago();
 }
@@ -142,13 +143,13 @@ void Persona::calcularPago()
 				if (aux.calcularDia() == 0) {
 					if (aux.validarExceso(1)) {
 						aux.setDia(aux.getDia() + 1);
-						aux.setMontoMens((this->monto/meses * 0.12)+(this->monto/meses));
+						aux.setMontoMens((this->monto/meses * interes)+(this->monto/meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 1);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
@@ -156,20 +157,20 @@ void Persona::calcularPago()
 					if (aux.validarExceso(2)) {
 						printf("Hola");
 						aux.setDia(aux.getDia() + 2);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 2);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
 				aux.setDia(inicio.getDia());
 			}
 			else {
-				aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+				aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 				*(rolPago + i) = aux;
 			}
 			aux.setDia(inicio.getDia());
@@ -180,33 +181,33 @@ void Persona::calcularPago()
 				if (aux.calcularDia() == 0) {
 					if (aux.validarExceso(1)) {
 						aux.setDia(aux.getDia() + 1);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 1);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
 				else {
 					if (aux.validarExceso(2)) {
 						aux.setDia(aux.getDia() + 2);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 2);
-						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+						aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
 				aux.setDia(inicio.getDia());
 			}
 			else {
-				aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
+				aux.setMontoMens((this->monto / meses * interes) + (this->monto / meses));
 				*(rolPago + i) = aux;
 			}
 		}

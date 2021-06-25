@@ -263,4 +263,22 @@ void Fecha::unirInfo(char* recive, const char* source)
 	}
 }
 
+bool Fecha::validarNacimiento()
+{
+	bool correcto=false;
+	if ((anio<2021)&&validaFecha()) {
+		correcto = true;
+	}
+	return correcto;
+}
+
+bool Fecha::validarInicio()
+{
+	bool correcto=false;
+	if (anio>=2021&&validaFecha()) {
+		correcto = true;
+	}
+	return correcto;
+}
+
 

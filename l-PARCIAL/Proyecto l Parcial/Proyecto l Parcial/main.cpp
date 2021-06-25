@@ -172,7 +172,7 @@ int main()
     bool op = true;
     Lista prs;
     int opc;
-    const char* titulo = "MENU PRINCIPAL";
+    const char* titulo = "Registro de prestamos";
     const char* opciones[] = { "Ingresar cliente","Mostrar lista de clientes","Generar PDF","Salir"};
     do {
         Menu m(titulo, opciones, 4);
@@ -185,19 +185,21 @@ int main()
             Cedula ci;
             ci.ingresarCedula(ingresarNum("\nIngrese numero de cedula: "));
             Fecha nac(atoi(ingresarNum("\nDia: ")), atoi(ingresarNum("\nMes: ")), atoi(ingresarNum("\nIngrese fecha de nacimiendo...\nAnio: ")));
-            if (ci.validarCedula() && nac.validaFecha() && ini.validaFecha()) {
+            if (ci.validarCedula() && nac.validarNacimiento() && ini.validarInicio()&&nac.calcularEdad(ini)>=18) {
                 system("CLS");
-                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atof(ingresarDoubl("\nIngrese monto neto: ")), ini, atoi(ingresarNum("Ingrese la cantidad de meses diferidos: ")), ci);
+                Persona p(nac, ingresarLet("\nIngrese nombres: "), ingresarLet("\nIngrese apellidos: "), ingresarLet("\nIngrese direccion: "), ingresarNum("\nIngrese telefono: "), atof(ingresarDoubl("\nIngrese monto neto: ")), ini, atoi(ingresarNum("\nIngrese la cantidad de meses diferidos: ")), ci,atof("Ingrese interes: "));
                 prs.insertar_Persona(p);
                 std::cout << "\nPersona agregada exitosamente...\n";
             }
             else {
                 if (ci.validarCedula() == false)
-                    std::cout << "\nIngrese una cedula valida...";
-                if (nac.validaFecha() == false)
-                    std::cout << "\nIngrese una fecha de nacimiento valida...";
-                if (ini.validaFecha() == false)
-                    std::cout << "\nIngrese una fecha de inicio valida...";
+                    std::cout << "\nIngrese una cedula valida...\n";
+                if (nac.validarNacimiento() == false)
+                    std::cout << "\nIngrese una fecha de nacimiento valida...\n";
+                if (ini.validarInicio() == false)
+                    std::cout << "\nIngrese una fecha de inicio valida...\n";
+                if (nac.calcularEdad(ini) < 18)
+                    std::cout << "\nNo puede solicitar un prestamo siendo menor de edad...\n";
             }
             system("pause");
             system("CLS");

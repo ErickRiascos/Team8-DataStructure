@@ -1,1 +1,5 @@
-﻿  Proyecto l Parcial.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\Proyecto l Parcial.exe
+﻿  main.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\main.cpp(190,305): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\main.cpp(190,185): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\main.cpp(174,9): warning C4101: 'opc': variable local sin referencia
+  Proyecto l Parcial.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\Proyecto l Parcial.exe

@@ -1,16 +1,3 @@
 ﻿  ProyectoTest.cpp
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Lista.cpp(95,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Lista.cpp(98,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Lista.cpp(101,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Lista.cpp(106,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Lista.cpp(109,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Proyecto l Parcial\Lista.cpp(113,22): warning C4018: '<': no coinciden signed/unsigned
      Creando biblioteca C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\ProyectoTest.lib y objeto C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\ProyectoTest.exp
-ProyectoTest.obj : error LNK2019: símbolo externo "public: char * __thiscall Persona::toString(void)" (?toString@Persona@@QAEPADXZ) sin resolver al que se hace referencia en la función "public: char * __thiscall Lista::getPdf(void)" (?getPdf@Lista@@QAEPADXZ)
-ProyectoTest.obj : error LNK2019: símbolo externo "public: char * __thiscall Persona::getInicialesNombres(void)" (?getInicialesNombres@Persona@@QAEPADXZ) sin resolver al que se hace referencia en la función "public: int __thiscall Lista::calcularRepeticiones(class Nodo *)" (?calcularRepeticiones@Lista@@QAEHPAVNodo@@@Z)
-ProyectoTest.obj : error LNK2019: símbolo externo "public: char * __thiscall Persona::getApellido(void)" (?getApellido@Persona@@QAEPADXZ) sin resolver al que se hace referencia en la función "public: int __thiscall Lista::calcularRepeticiones(class Nodo *)" (?calcularRepeticiones@Lista@@QAEHPAVNodo@@@Z)
-ProyectoTest.obj : error LNK2019: símbolo externo "public: void __thiscall Persona::setEmail(char *)" (?setEmail@Persona@@QAEXPAD@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Lista::generarCorreo(void)" (?generarCorreo@Lista@@QAEXXZ)
-ProyectoTest.obj : error LNK2019: símbolo externo "public: __thiscall Nodo::Nodo(class Persona)" (??0Nodo@@QAE@VPersona@@@Z) sin resolver al que se hace referencia en la función "public: void __thiscall Lista::insertar_Persona(class Persona)" (?insertar_Persona@Lista@@QAEXVPersona@@@Z)
-ProyectoTest.obj : error LNK2019: símbolo externo "public: class Persona __thiscall Nodo::getUsuario(void)" (?getUsuario@Nodo@@QAE?AVPersona@@XZ) sin resolver al que se hace referencia en la función "public: char * __thiscall Lista::getPdf(void)" (?getPdf@Lista@@QAEPADXZ)
-ProyectoTest.obj : error LNK2019: símbolo externo "public: class Nodo * __thiscall Nodo::getSiguiente(void)" (?getSiguiente@Nodo@@QAEPAV1@XZ) sin resolver al que se hace referencia en la función "public: char * __thiscall Lista::getPdf(void)" (?getPdf@Lista@@QAEPADXZ)
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\ProyectoTest.dll : fatal error LNK1120: 7 externos sin resolver
+  ProyectoTest.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\l-PARCIAL\Proyecto l Parcial\Debug\ProyectoTest.dll

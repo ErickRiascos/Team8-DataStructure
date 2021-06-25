@@ -2,8 +2,6 @@
 #include "CppUnitTest.h"
 #include "../Proyecto l Parcial/Fecha.cpp"
 #include "../Proyecto l Parcial/Fecha.h"
-#include "../Proyecto l Parcial/Lista.h"
-#include "../Proyecto l Parcial/Lista.cpp"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -27,6 +25,6 @@ namespace ProyectoTest
 			for (int i = 0; i < 10; i++) {
 				Assert::AreEqual(a[i], f.get_Dia()[i]);
 			}
-		}		
+		}
 	};
 }

@@ -20,7 +20,7 @@ private:
 	int meses;
 	Cedula ci;
 public:
-	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int,Cedula);
+	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int,Cedula,int);
 	Persona(Fecha,int);
 	Persona() = default;
 	char* toString();
