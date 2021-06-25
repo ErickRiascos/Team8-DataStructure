@@ -1,3 +1,5 @@
+#pragma once
+#pragma warning(disable : 4996)
 #include "Fecha.h"
 #include <iostream>
 #include <ctime>
@@ -155,6 +157,44 @@ bool Fecha::validarExceso(int a)
 	if ((mes == 2) && (anio % 4 == 0) && (dia + a > 29) && (anio > 1800))
 		correcto = true;
 	return correcto;
+}
+
+void Fecha::setMontoMens(double a)
+{
+	this->montoMens = a;
+}
+
+char* Fecha::toString()
+{
+	char* a = (char*)calloc(100,sizeof(char));
+	char* aux=(char*)calloc(15, sizeof(char));
+	unirInfo(a, "\n");
+	unirInfo(a,get_Dia());
+	unirInfo(a, ", ");
+	itoa(dia, aux, 10);
+	unirInfo(a, aux);
+	unirInfo(a, "-");
+	aux = (char*)calloc(5, sizeof(char));
+	itoa(mes, aux, 10);
+	unirInfo(a, aux);
+	unirInfo(a, "-");
+	aux = (char*)calloc(5, sizeof(char));
+	itoa(anio, aux, 10);
+	unirInfo(a, aux);
+	aux = (char*)calloc(15, sizeof(char));
+	itoa(montoMens, aux, 10);
+	unirInfo(a, ", Valor a cancelar: $");
+	unirInfo(a,aux);
+	return a;
+}
+void Fecha::unirInfo(char* recive, const char* source)
+{
+	int k = strlen(recive);
+	int j = strlen(source);
+	int z = 0;
+	for (int i = 0; i < j + 2; i++) {
+		*(recive + k++) = *(source + z++);
+	}
 }
 
 

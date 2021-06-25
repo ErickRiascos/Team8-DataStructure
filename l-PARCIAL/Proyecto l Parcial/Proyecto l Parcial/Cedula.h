@@ -8,5 +8,6 @@ public:
 	bool validarCedula();
 	void ingresarCedula(char*);
 	void mostrarCedula();
+	char* toString();
 };
 

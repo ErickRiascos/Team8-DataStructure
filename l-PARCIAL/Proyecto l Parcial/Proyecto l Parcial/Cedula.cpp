@@ -44,4 +44,13 @@ bool Cedula::validarCedula(){
 		return false;
 }
 
+char* Cedula::toString()
+{
+	char* a = (char*)calloc(15, sizeof(char));
+	for (size_t i = 0; i < 10; i++)
+	{
+		*(a + i) = *(numeros + i) + 48;
+	}
+	return a;
+}
 

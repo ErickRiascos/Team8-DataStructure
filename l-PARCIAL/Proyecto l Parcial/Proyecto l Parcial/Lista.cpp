@@ -1,4 +1,5 @@
 #pragma once
+#pragma warning(disable : 4996)
 #include "Lista.h"
 #include <iostream>
 /*Constructor de la lista*/
@@ -9,13 +10,11 @@ Lista::Lista() {
 
 /*Muestra los elementos existentes en una lista*/
 void Lista::mostrar() {
-    Nodo* tmp = this->primero;
-	int a = tamanio;
-    while (tmp) {
-        std::cout << "\nCLIENTE " << a-- << ":";
-        tmp->usuario.toString();
-        tmp = tmp->siguiente;
-    }
+	Nodo* tmp = this->primero;
+	while (tmp) {
+		std::cout<<tmp->usuario.toString();
+		tmp = tmp->siguiente;
+	}
 }
 
 /*Determina si la lista esta vacia
@@ -106,6 +105,32 @@ int Lista::calcularRepeticiones(Nodo* a)
 		aux2 = aux2->siguiente;
 	}
 	return i;
+}
+
+int Lista::getTamanio()
+{
+	return tamanio;
+}
+
+char* Lista::getPdf()
+{
+	Nodo* tmp = this->primero;
+	char* aux = (char*)calloc(1000, sizeof(char));
+	while (tmp){
+		strcat(aux, tmp->getUsuario().toString());
+		tmp = tmp->getSiguiente();
+	}
+	return aux;
+}
+
+void Lista::unirInfo(char* recive, const char* source)
+{
+	int k = strlen(recive);
+	int j = strlen(source);
+	int z = 0;
+	for (int i = 0; i < j + 2; i++) {
+		*(recive + k++) = *(source + z++);
+	}
 }
 
 

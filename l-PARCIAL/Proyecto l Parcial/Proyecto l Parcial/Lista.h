@@ -16,5 +16,8 @@ class Lista
 		Nodo* getPrimero();
 		void generarCorreo();
 		int calcularRepeticiones(Nodo*);
+		int getTamanio();
+		char* getPdf();
+		void unirInfo(char*,const char*);
 	};
 

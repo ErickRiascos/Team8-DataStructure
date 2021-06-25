@@ -6,6 +6,7 @@ private:
 	int mes;
 	int anio;
 	int m;
+	double montoMens;
 public:
 	Fecha(int, int, int);
 	Fecha() = default;
@@ -22,4 +23,7 @@ public:
 	int getAnio();
 	bool validaFecha();
 	bool validarExceso(int);
+	void setMontoMens(double);
+	char* toString();
+	void unirInfo(char*,const char*);
 };

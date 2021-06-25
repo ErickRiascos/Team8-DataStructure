@@ -21,11 +21,12 @@ public:
 	Persona(Fecha,char*,char*,char*,char*,int,Fecha,int,Cedula);
 	Persona(Fecha,int);
 	Persona() = default;
-	void toString();
+	char* toString();
 	char* getInicialesNombres();
 	char* getApellido();
 	void setEmail(char*);
-	void imprimirFechas();
+	char* imprimirFechas();
 	void calcularPago();
+	void unirInfo(char*, const char*);
 };
 

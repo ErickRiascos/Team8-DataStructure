@@ -24,16 +24,27 @@ Persona::Persona(Fecha a,int meses)
 	this->meses = meses;
 }
 /*Imprime toda la informacion de la persona*/
-void Persona::toString()
+char* Persona::toString()
 {
 	int i = 0;
-	std::cout << "\nCedula: ";
-	ci.mostrarCedula();
-	std::cout << "\nFecha de nacimiento: ";
-	nacimiento.imprimirFecha();
-	std::cout<< "Edad: "<<edad<<"\nNombres: " << nombre << "\nApellidos: " << apellido << " " << "\nDireccion: " << direccion << "\nTelefono: " << telefono<<"\nCorreo: "<<email<<std::endl;
-	std::cout << "Rol de Pago: "<<std::endl;
-	imprimirFechas();
+	int a = 100 +strlen(imprimirFechas())+strlen(nombre) + strlen(apellido) + strlen(email) + strlen(direccion) + strlen(telefono) + strlen(ci.toString());
+	char* aux = (char*)calloc(a, sizeof(char));
+	char* ed = (char*)calloc(5, sizeof(char));
+	itoa(edad, ed, 10);
+	unirInfo(aux, "\nCliente: ");
+	unirInfo(aux, "\nCedula: ");
+	unirInfo(aux, ci.toString());
+	unirInfo(aux, "\nNombres: ");
+	unirInfo(aux, nombre);
+	unirInfo(aux, "\nApellidos: ");
+	unirInfo(aux, apellido);
+	unirInfo(aux, "\nEdad: ");
+	unirInfo(aux, ed);
+	unirInfo(aux, "\nEmail: ");
+	unirInfo(aux, email);
+	unirInfo(aux, "\n");
+	unirInfo(aux, imprimirFechas());
+	return aux;
 }
 
 char* Persona::getInicialesNombres()
@@ -71,15 +82,20 @@ char* Persona::getApellido()
 			*(aux + i) = *(apellido + i);			
 	}	
 }
-void Persona::setEmail(char* _email)
-{
+
+void Persona::setEmail(char* _email){
 	strcpy(email,_email);
 }
-void Persona::imprimirFechas(){
+
+char* Persona::imprimirFechas(){
+	char* aux = (char*)calloc(1000,sizeof(char));
+	unirInfo(aux, "Rol pago:");
 	for (int i = 0;i < meses;i++) {
 		Fecha a=*(rolPago + i);
-		a.imprimirFecha();
+		unirInfo(aux,"\n");
+		unirInfo(aux, a.toString());
 	}
+	return aux;
 }
 
 /*Produce un vector con todas las fechas que la persona debe pagar y valida si es un dia laboral
@@ -97,11 +113,13 @@ void Persona::calcularPago()
 				if (aux.calcularDia() == 0) {
 					if (aux.validarExceso(1)) {
 						aux.setDia(aux.getDia() + 1);
+						aux.setMontoMens((this->monto/meses * 0.12)+(this->monto/meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 1);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
@@ -109,17 +127,20 @@ void Persona::calcularPago()
 					if (aux.validarExceso(2)) {
 						printf("Hola");
 						aux.setDia(aux.getDia() + 2);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 2);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
 				aux.setDia(inicio.getDia());
 			}
 			else {
+				aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 				*(rolPago + i) = aux;
 			}
 			aux.setDia(inicio.getDia());
@@ -130,31 +151,46 @@ void Persona::calcularPago()
 				if (aux.calcularDia() == 0) {
 					if (aux.validarExceso(1)) {
 						aux.setDia(aux.getDia() + 1);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 1);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
 				else {
 					if (aux.validarExceso(2)) {
 						aux.setDia(aux.getDia() + 2);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 						aux.setMes(aux.getMes() - 1);
 					}
 					else {
 						aux.setDia(aux.getDia() + 2);
+						aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 						*(rolPago + i) = aux;
 					}
 				}
 				aux.setDia(inicio.getDia());
 			}
 			else {
+				aux.setMontoMens((this->monto / meses * 0.12) + (this->monto / meses));
 				*(rolPago + i) = aux;
 			}
 		}
+	}
+}
+
+void Persona::unirInfo(char* recive, const char* source)
+{
+	int k = strlen(recive);
+	int j = strlen(source);
+	int z = 0;
+	for (int i = 0; i < j + 2; i++) {
+		*(recive + k++) = *(source + z++);
 	}
 }
 
