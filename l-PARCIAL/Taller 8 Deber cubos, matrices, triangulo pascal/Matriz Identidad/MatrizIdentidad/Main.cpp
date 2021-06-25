@@ -3,53 +3,41 @@ Software
 Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
 Taller de Matriz identidad
 Fecha creación: 03/05/2021
-Fecha modificación: 17/06/2021 */
+Fecha modificación: 24/06/2021 */
 #pragma warning (disable:4996)
-#include <conio.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include <iostream>
+#include <string>
 #include "Matriz.h"
-#include "Operacion.h"
-#include <stdlib.h>;
-using namespace std;
-char* ingresar(const char* msj)
-{
-    char* datos = (char*)calloc(10, sizeof(char));
-    int i = 0;
-    char c;
-    printf("%s", msj);
-    while ((c = getch()) != 13) {
-        if (c >= '0' && c <= '9') {
-            printf("%c", c);
-            *(datos + i++) = c;
-        }
-    }
-    return datos;
-}
+#include "MatrizIdentidad.h"
+#include "Utils.h"
 int main()
 {
-    Matriz matrix;
-    int dim;
-    int** mat;
-    Operacion op;
-    printf("\n\t ///////////////////LA MATRIZ IDENTIDAD /////////////////////\n");
-    dim = atoi(ingresar("\nIngrese la dimension :"));
-    matrix.setMatriz(op.segmentar(dim));
-    mat = matrix.getMatriz();
-    op.encerar(mat, dim);
-    for (int i = 0; i < dim; i++)
+    int aux;
+    bool validarAux = true;
+    while (validarAux)
     {
-        for (int j = 0; j < dim; j++)
-        {
-           mat[i][j] = atoi(ingresar("\nIngrese numero fila-columna : "));
+        std::cout << "INGRESE EL TAMANIO DE LA MATRIZ:  ";
+        std::cin >> aux;
+        validarAux = Utils::Validation::validarNumeros(aux);
+    }
+    validarAux = true;
 
+    Matriz<int> matriz1{ aux };
+    int** matrizTest = matriz1.getMatriz();
+    for (int i = 0; i < aux; ++i)
+    {
+        for (int j = 0; j < aux; ++j)
+        {
+            bool validate = true;
+            while (validate)
+            {
+                std::cout << "Ingrese los elementos [" << i << "][" << j << "]: ";
+                std::cin >> matrizTest[i][j];
+                validate = Utils::Validation::validarNumeros(matrizTest[i][j]);
+            }
         }
     }
-    cout << "\n" << endl;
-    op.identidad(mat, dim);
-    op.imprimir(mat, dim);
-    
-    return 0;
-	
+    MatrizIdentidad::gauss_jordan(matriz1);
+    MatrizIdentidad::imprimir(matriz1);
+    return (0);
 }

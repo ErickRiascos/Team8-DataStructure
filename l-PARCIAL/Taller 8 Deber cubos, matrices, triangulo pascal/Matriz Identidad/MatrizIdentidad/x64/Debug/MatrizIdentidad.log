@@ -1,10 +1,2 @@
-﻿  Matriz.cpp
-  Main.cpp
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Main.cpp(14,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
-  Operacion.cpp
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Operacion.cpp(76,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Operacion.cpp(95,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\Operacion.cpp(103,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-  Generando código...
-  LINK : no se encontró C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\x64\Debug\MatrizIdentidad.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+﻿  Main.cpp
   MatrizIdentidad.vcxproj -> C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\l-PARCIAL\Taller 8 Deber cubos, matrices, triangulo pascal\Matriz Identidad\MatrizIdentidad\x64\Debug\MatrizIdentidad.exe

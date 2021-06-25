@@ -1,10 +1,7 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include "../MatrizIdentidad/Operacion.h"
-#include "../MatrizIdentidad/Operacion.cpp"
+#include "../MatrizIdentidad/MatrizIdentidad.h"
 #include "../MatrizIdentidad/Matriz.h"
-#include "../MatrizIdentidad/Matriz.cpp"
-
 
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
@@ -15,34 +12,20 @@ namespace MatrizIdentidadTest
 	{
 	public:
 		
-		TEST_METHOD(segmentar_Test)
+		TEST_METHOD(GaussJordanTest)
 		{
-			Matriz m;
-			int dim = 2;
-			Operacion n;
-			m.setMatriz(n.segmentar(dim));
-			Assert::IsNotNull(m.getMatriz());
+			int dim = 5;
+			MatrizIdentidad n;
+			//Matriz <T>;
+			//Matriz <M2>;
+			//n.gauss_jordan(T &M2);
 		}
-		TEST_METHOD(encerar_Test)
+		TEST_METHOD(imprimirTest)
 		{
-			Matriz m;
+			//Matriz <M>;
 			int dim = 2;
-			Operacion n;
-			m.setMatriz(n.segmentar(dim));
-			int** mat = m.getMatriz();
-			n.encerar(mat,dim);
-			Assert::IsNotNull(m.getMatriz());
-		}
-		TEST_METHOD(identidad_Test)
-		{
-			Matriz m;
-			int dim = 2;
-			Operacion n;
-			m.setMatriz(n.segmentar(dim));
-			int** mat = m.getMatriz();
-			n.encerar(mat, dim);
-			n.identidad(mat,dim);
-			Assert::IsNotNull(m.getMatriz());
+			MatrizIdentidad n;
+			//n.imprimir(<T>, matriz2);
 		}
 	};
 }
