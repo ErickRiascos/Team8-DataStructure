@@ -7,10 +7,10 @@ Fecha modificación: 17/06/2021*/
 class Matriz
 {
 public:
-   void llenarMatriz();
-   void imprimirMatriz();
+   void llenarMatriz(int);
+   void imprimirMatriz(int);
    Matriz()=default;
-   void encerar();
+   void encerar(int);
    int matriz[10][10];
 };
 #endif

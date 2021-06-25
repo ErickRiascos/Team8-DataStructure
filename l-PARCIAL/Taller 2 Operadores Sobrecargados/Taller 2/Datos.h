@@ -1,20 +1,30 @@
 /*Fecha creación : 27 / 05 / 2021
-Fecha modificación : 17 / 06 / 2021*/
-#if !defined(__Class_Diagram_1_Datos_h)
-#define __Class_Diagram_1_Datos_h
-template <typename Data>
-class Datos
-{
+Fecha modificación : 24 / 06 / 2021*/
+#pragma once
+class Datoss{
 public:
-	Datos() = default;
-	Datos(Data datoA, Data datoB);
-	Data getDatoA(void);
-	void setDatoA(Data datoA);
-	Data getDatoB(void);
-	void setDatoB(Data datoB);
-	~Datos();
+
+	double get_B(void);
+	void set_B(double new_Value_B);
+	int get_A(void);
+	void set_A(int new_Value_A);
+	float get_C(void);
+	void set_C(int new_Value_C);
+	Datoss() = default;
+	Datoss(int new_Value_A, double new_Value_B, float new_Value_C);
+
+	double suma(float A);	double suma(double B, float A);
+	double suma(int C, double B, float A);
+
+	double resta(double B, float A);
+	double resta(int C, double B, float A);
+
+	double multiplication(int A);
+	double multiplication(double  A, int B);
+	double multiplication(float  A, double B, int vC);
+
 private:
-   Data dato1;
-   Data dato2;
+	int A;
+	double B;
+	float C;
 };
-#endif
