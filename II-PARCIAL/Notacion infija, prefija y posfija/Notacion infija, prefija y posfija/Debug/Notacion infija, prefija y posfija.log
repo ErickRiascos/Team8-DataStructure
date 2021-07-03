@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Erick\Documents\Curso cshar\netcore\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(45): warning C4715: 'prioridad_infija': no todas las rutas de acceso de control devuelven un valor
+C:\Users\Erick\Documents\Curso cshar\netcore\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(62): warning C4715: 'prioridad_pila': no todas las rutas de acceso de control devuelven un valor
+  Notacion infija, prefija y posfija.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Notacion infija, prefija y posfija\Debug\Notacion infija, prefija y posfija.exe
