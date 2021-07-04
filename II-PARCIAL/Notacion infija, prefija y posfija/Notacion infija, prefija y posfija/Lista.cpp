@@ -93,4 +93,18 @@ Nodo* Lista::ultimoNodo()
     return tmp;
 }
 
+Nodo* Lista::getPrimero()
+{
+    return primero;
+}
+
+void Lista::copiar(Lista a)
+{
+    Nodo* tmp = a.primero;
+    while (tmp) {
+        insertarCabeza(tmp->valor);
+        tmp = tmp->siguiente;
+    }
+}
+
 

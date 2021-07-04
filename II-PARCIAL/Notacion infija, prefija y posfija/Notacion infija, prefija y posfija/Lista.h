@@ -15,5 +15,7 @@ public:
 	void eliminar_Cola();
 	Lista voltear();
 	Nodo* ultimoNodo();
+	Nodo* getPrimero();
+	void copiar(Lista);
 };
 
