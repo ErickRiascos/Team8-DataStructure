@@ -1,0 +1,42 @@
+#     #                                                                ######            #                        #######                                                 #                                                 #######  #####  ######  ####### 
+#     # #    # # #    # ###### #####   ####  # #####    ##   #####     #     # ######    #         ##    ####     #       #    # ###### #####  ######   ##    ####       # #   #####  #    #   ##   #####    ##    ####     #       #     # #     # #       
+#     # ##   # # #    # #      #    # #      # #    #  #  #  #    #    #     # #         #        #  #  #         #       #    # #      #    #     #   #  #  #          #   #  #    # ##  ##  #  #  #    #  #  #  #         #       #       #     # #       
+#     # # #  # # #    # #####  #    #  ####  # #    # #    # #    #    #     # #####     #       #    #  ####     #####   #    # #####  #    #    #   #    #  ####     #     # #    # # ## # #    # #    # #    #  ####     #####    #####  ######  #####   
+#     # #  # # # #    # #      #####       # # #    # ###### #    #    #     # #         #       ######      #    #       #    # #      #####    #    ######      #    ####### #####  #    # ###### #    # ######      #    #             # #       #       
+#     # #   ## #  #  #  #      #   #  #    # # #    # #    # #    #    #     # #         #       #    # #    #    #       #    # #      #   #   #     #    # #    #    #     # #   #  #    # #    # #    # #    # #    #    #       #     # #       #       
+ #####  #    # #   ##   ###### #    #  ####  # #####  #    # #####     ######  ######    ####### #    #  ####     #        ####  ###### #    # ###### #    #  ####     #     # #    # #    # #    # #####  #    #  ####     #######  #####  #       #######                                                                                
+                                                                                
+                            ;;ff!!;;          ;;ff!!::                          
+                      ffUU####MMMMMMzz!!!!::DDMMMMMM####nn;;                    
+                ""wwMM####MM##BBBBBBDDeeeeMMBBBBBB####MM####BBzz::              
+                            ""UUMM##wwee;;MM##MM##nn::                          
+                  !!      ::    ::eeMMBB####BB!!    ::                          
+                eeDD  ff##UU          ##DDzz        DDBBUUff!!                  
+                ####!!""##ff;;;;;;;;;;nnffff;;;;;;::zz##;;UUUU                  
+              ""##UU  zz##ffffzzffffzznnffeeffffzzffff##!!  BBzz                
+              ffUU""  zznnnnzz!!zzzzzzzzzzzzzznn!!zznnnnff  eeDD;;              
+            nnww""""  zzUUzzzzzzBBDDDDDDDDDDDDBBee!!nnwwff  wwDDzz::            
+            DDBB##    zzeeff!!eeDDDDDDDDDDDDDDDDBBww""UUff  ""DDUUDD            
+            BBBBzz    ffwwffzzeeeeUUDDDDDDDDUUUUUUBB""UUff    UUDDzz            
+            ee##""    ::nnffzzeenneeUUDDDDUUwwzzDDBB""UU    ;;eeDDzz            
+          ""zz!!ff        zzzzwwnnwwnnffffUUUUnnDDBB""::      UUUUww            
+          zzBBBBff        zzzzwwnneezznnzznneennDDBB"";;      DDUUee""          
+    UU!!ff""####""        zzzzwwnnwwnnnnnneewwnnDDBB"";;    ::wwUUDD;;!!!!ww    
+    BBffzz  ####          zzzzeennzzzznnnnzzzzzzUUBB"";;    ::eeBBnn::zzffBB    
+    DDzznn  ::UU          zznnnnnnnnnnnnnnnnnneennBB"";;    !!UUDDzz::nnzzDD    
+    wweenn::zzffww        zzffwweeeeeewwwweeeewwBBUU"";;    zzUUUUeeeezzeeww    
+    ::nnUU""eeBB##!!      ff!!ffeeeeee!!!!nneeeeww;;ff;;    zzUUwwww!!wwnn::    
+      ;;BB!!eeBBBBBB      ffnn!!nnww!!DDDDffnnww""nnzz;;    eeBBUUzz!!BB""      
+        UUnn!!BBBB##      zzff!!eeeeffDDUUnnnnww!!ffff"";;::DDBBeeffnnUU        
+      ""BB!!::!!MMDDee      ::ffzzwwffzznn!!eeww""::::ffzz!!BBBBzz;;!!DD""      
+        UUee!!  !!;;wwDD      zzzzeeeennnneeeezznn!!zzDD!!wwDDzz  ""eeDD        
+        ""BBff;;  DDBBBBBB    !!!!wweeeeeeeeww!!DDeeeeUUBBDDUU::!!ffBB""        
+          nnDDff  nnBBDDBBUU    ffffwweenneeeeeeUUUUUUDDDDwwzzee!!DDee          
+            wwDDff  ""BB##BBzznnff!!nnff!!wwDDUUUUDDDDeewwUUzz!!UUUU            
+              UUDDff;;zz""wweeBBBBUU!!ffffeeDDUUwwUUUUBBnn!!!!DDUU              
+                eeBBzzeeff!!BBBBBB##wwffzzff##BBeeUUeeffnnffBBww                
+                  !!BBeeBBeeffffeenneeffffee    ::zzeeBBeeBB!!                  
+                        ;;eeffff""ff!!""ff;;zz""ffffee;;                        
+                          ffBBDDwwnneewwwwwwnnwwDDBBff                          
+                              eeeeeeUUUUDDUUeennUU                              
+                                                                                
