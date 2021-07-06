@@ -11,7 +11,7 @@ char* ingresarDoubl(const char* msj)
     char c;
     printf("%s", msj);
     while ((c = getch()) != 13) {
-        if ((c >= '0' && c <= '9') || c == 46|| c== 32|| (c >= 42 && c <= 47)|| c==94|| c == 83 ||c == 115) {
+        if ((c >= '0' && c <= '9') || c == 46|| c== 32|| (c >= 42 && c <= 47)|| c==94|| c == 83 ||c == 115||c==99||c==67 || (c >= 108 && c <= 110) || (c >= 76 && c <= 78)|| c==116 ||c==84) {
             printf("%c", c);
             *(datos + i++) = c;
         }
@@ -19,7 +19,7 @@ char* ingresarDoubl(const char* msj)
     return datos;
 }
 int main() {
-    printf("------------------------ CONVERSION DE POSTFIJA A LAS DEMAS EXPRESIONES ----------------------\n\n");
+    printf("---------------------------------- CALCULADORA POLACA ---------------------------------\n\n");
     printf(" Se recomienda usar esta nomeclatura para hacer uso de las funciones trigonometricas \n\n");
     printf("(s) -> Seno \n");
     printf("(c) -> Coseno \n");
