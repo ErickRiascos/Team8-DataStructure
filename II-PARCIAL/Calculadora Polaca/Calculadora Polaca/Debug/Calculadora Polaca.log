@@ -1,2 +1,5 @@
-﻿  main.cpp
-  Calculadora Polaca.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Calculadora Polaca\Debug\Calculadora Polaca.exe
+﻿  Calculadora.cpp
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(24,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(83,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(83,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Calculadora Polaca.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\Calculadora Polaca.exe

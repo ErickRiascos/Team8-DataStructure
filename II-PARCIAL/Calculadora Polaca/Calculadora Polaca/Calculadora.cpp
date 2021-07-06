@@ -1,6 +1,28 @@
 #pragma warning (disable: 4996)
 #include "Calculadora.h"
+#include<math.h>
+#include<cstdio>
+#include<cstdlib>
+#include<cstring>
+#include<cctype>
+#include<string>
 
+
+Calculadora::Calculadora(const char* exp)
+{
+    line = (char*)calloc(strlen(exp), sizeof(char));
+    strcpy(line, exp);
+}
+
+int Calculadora::convert(int a, int b)
+{
+    double n = 0;
+    for (int i = a; i < b; i++) {
+        n *= 10;
+        n += *(line+i) - '0';
+    }
+    return n;
+}
 bool isop(char c) {
     return c == '+' || c == '-' || c == '*' || c == '/' || c == '^' || c == '%' || c == 's';
 }
@@ -17,6 +39,7 @@ int prec(char s) {
     return 0;
 }
 
+
 int sq(int x) {
     return x * x;
 }
@@ -30,30 +53,18 @@ int pot(int b, int e) {
         return sq(pot(b, e / 2));
     return b * pot(b, e - 1);
 }
-
-Calculadora::Calculadora(const char* exp)
-{
-    line = (char*)calloc(strlen(exp), sizeof(char));
-    strcpy(line, exp);
-}
-
-int Calculadora::convert(int a, int b)
-{
-    double n = 0;
-    for (int i = a; i < b; i++) {
-        n += *(line+i) - '0';
-    }
-    return n;
-}
-
 void Calculadora::solve(char o)
 {
+   /// Extraemos los dos valores y
+   /// guardamos el resultado en dependencia
+   /// del operador.
     double b, a;
     b = res.top();
     res.pop();
     if (o != 's') {
         a = res.top();
         res.pop();
+
     }
     if (o == '+')
         res.push(a + b);
@@ -63,7 +74,7 @@ void Calculadora::solve(char o)
         res.push(a * b);
     else if (o == '/') {
         if (b == 0) {
-            printf("ERROR. DIVISION POR CERO\n");
+            printf("\nERROR. DIVISION POR CERO\n");
             exit(0);
         }
         res.push(a / b);
@@ -72,14 +83,13 @@ void Calculadora::solve(char o)
         res.push(pot(a, b));
     else if (o == '%') {
         if (b == 0) {
-            printf("ERROR. MODULO INDEFINIDO\n");
+            printf("\nERROR. MODULO INDEFINIDO\n");
             exit(0);
         }
         res.push(int(a) % int(b));
     }
     else if (o == 's') {
-        printf("ENTRO A S, %f\n", sin(b * 3.1415 / 180));
-        res.push(sin(b));
+        res.push(sin(b * 3.1415 / 180));
     }
     op.pop();
 }
