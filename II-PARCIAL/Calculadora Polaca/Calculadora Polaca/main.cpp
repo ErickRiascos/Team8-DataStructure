@@ -19,6 +19,14 @@ char* ingresarDoubl(const char* msj)
     return datos;
 }
 int main() {
+    printf("------------------------ CONVERSION DE POSTFIJA A LAS DEMAS EXPRESIONES ----------------------\n\n");
+    printf(" Se recomienda usar esta nomeclatura para hacer uso de las funciones trigonometricas \n\n");
+    printf("(s) -> Seno \n");
+    printf("(c) -> Coseno \n");
+    printf("(t) -> Tangente \n");
+    printf("(m) -> Secante \n");
+    printf("(n) -> Cosecante \n");
+    printf("(l) -> Cotangente \n\n");
     char* exp = ingresarDoubl("Ingrese expresion en Postfija: ");
     /// Interpretarla y dar el resultado
     Calculadora polaca(exp);

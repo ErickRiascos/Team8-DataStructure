@@ -165,7 +165,25 @@ void Calculadora::solve(char o)
     else if (o == 's'|| o=='S') {
         res.push(sin((b * PI)/ 180));
     }
+ 
+
+    else if (o == 'c' || o == 'C') {
+        res.push(cos((b * PI) / 180));
+    }
+
+
+    else if (o == 't' || o == 'T') {
+        res.push(tan((b * PI) / 180));
+    }
+  
+
+    else if (o == 'n' || o == 'N') {
+        res.push(csc((b * PI) / 180));
+    }
     op.pop();
+
+    //falta cosecante y cotangente
+    // no deja escribir las letras c, t y n
 }
 
 void Calculadora::decode()

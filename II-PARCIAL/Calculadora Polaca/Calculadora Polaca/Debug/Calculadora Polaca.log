@@ -1,11 +1,2 @@
-﻿  Calculadora.cpp
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(31,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(51,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(73,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(78,37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(92,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(109,12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(157,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(157,22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(86): warning C4715: 'tan': not all control paths return a value
-  Calculadora Polaca.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\Calculadora Polaca.exe
+﻿  main.cpp
+  Calculadora Polaca.vcxproj -> C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\Calculadora Polaca.exe
