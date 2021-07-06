@@ -85,32 +85,55 @@ bool esOperador(char a) {
         return false;
 }
 
-Lista insertarOperandos(Lista a,Nodo* b) {
+Lista insertarOperandos(Lista a,Nodo* b, Nodo* prev) {
     Nodo* aux=b;
+    Lista c;
     int k = 0;
-    if (esOperador(aux->getValor())) {
+    char valor_aux = aux->getValor();
+    const char* simbolo = nullptr;
 
-        for (int i = 0; i < strtmn(funcional(aux->getValor())) - 2; i++) {
-            a.insertarCabeza(*(funcional(aux->getValor()) + i));
+    if (esOperador(valor_aux)) {
+        if (valor_aux == '^')
+            simbolo = "POTENCIA(";
+        if (valor_aux == '*')
+            simbolo = "MULTIPLICACION(";
+        if (valor_aux == '/')
+            simbolo = "DIVISION(";
+        if (valor_aux == '+')
+            simbolo = "SUMA(";
+        if (valor_aux == '-')
+            simbolo = "RESTA(";
+        if (valor_aux == ')')
+            simbolo = ")";
+        
+        if (prev) {
+            if (a.ultimoNodo()->getValor() == ')')
+                a.insertarCabeza(',');
         }
-        if (esOperador(aux->getSiguiente()->getValor())) {
-            a = insertarOperandos(a, aux->getSiguiente()); 
-        }
-        else {
-            a.insertarCabeza(aux->getSiguiente()->getValor());
-        }
-        a.insertarCabeza(',');
-        if (esOperador(aux->getSiguiente()->getSiguiente()->getValor())) {
-            a=insertarOperandos(a, aux->getSiguiente()->getSiguiente());
-        }
-        else
-        {
-            a.insertarCabeza(aux->getSiguiente()->getSiguiente()->getValor());
-        }
-        a.insertarCabeza(')');
+        
+        for (int i = 0; i < strtmn(simbolo) ; i++) {
+            a.insertarCabeza(*(simbolo + i));
+        }        
     }
     else {
-        a.insertarCabeza(aux->getValor());
+        if (a.ultimoNodo()->getValor() == '(') {
+            a.insertarCabeza(aux->getValor());
+            a.insertarCabeza(',');
+        }else if (a.ultimoNodo()->getValor() == ')') {
+            a.insertarCabeza(',');
+            a.insertarCabeza(aux->getValor());
+        }else if (a.ultimoNodo()->getValor() == ',') {
+            a.insertarCabeza(aux->getValor());
+            a.insertarCabeza(')');
+        }
+        else {
+            a.insertarCabeza(')');
+            a.insertarCabeza(',');
+            a.insertarCabeza(aux->getValor());
+        }
+        if (!aux->getSiguiente()) {
+            a.insertarCabeza(')');
+        }
     }
     return a;    
 }
@@ -242,6 +265,7 @@ int main() {
         }
 
     }
+    
     while (oper1.pilaVacia() != true)//si es que la pila aun no esta nula pasamos los operadores a lista
     {
         c = oper1.desapilar();
@@ -253,7 +277,32 @@ int main() {
     std::cout << std::endl;
     
     /*NOTACION FUNCIONAL*/
-    Lista fun= insertarOperandos(fun, aux.getPrimero());    
+
+    int dos = 0;
+    
+    Lista fun;
+    Nodo* prev = nullptr;
+    Nodo* primero = aux.getPrimero();
+    Nodo* secuencia = nullptr;
+    bool flag = true;
+    while (flag) {
+        if (dos == 0) {
+            fun = insertarOperandos(fun, primero, prev);
+            secuencia = fun.asa(primero);
+            prev = primero;
+            dos = 1;
+        }
+        else {
+            if (!secuencia->getSiguiente()) {
+                flag = false;
+            }
+            fun = insertarOperandos(fun, secuencia, prev);
+            prev = secuencia;
+            secuencia= fun.asa(secuencia);
+        }
+    }
+
+
     std::cout << std::endl << "NOTACION FUNCIONAL: ";
     fun.mostrar();
     std::cout << std::endl;

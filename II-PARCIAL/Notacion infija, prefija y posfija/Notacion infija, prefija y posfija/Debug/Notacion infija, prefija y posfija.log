@@ -1,5 +1,5 @@
 ﻿  main.cpp
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(46): warning C4715: 'prioridad_infija': no todas las rutas de acceso de control devuelven un valor
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(64): warning C4715: 'prioridad_pila': no todas las rutas de acceso de control devuelven un valor
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(79): warning C4715: 'funcional': no todas las rutas de acceso de control devuelven un valor
-  Notacion infija, prefija y posfija.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Notacion infija, prefija y posfija\Debug\Notacion infija, prefija y posfija.exe
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(64): warning C4715: 'prioridad_pila': not all control paths return a value
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(46): warning C4715: 'prioridad_infija': not all control paths return a value
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Notacion infija, prefija y posfija\Notacion infija, prefija y posfija\main.cpp(79): warning C4715: 'funcional': not all control paths return a value
+  Notacion infija, prefija y posfija.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Notacion infija, prefija y posfija\Debug\Notacion infija, prefija y posfija.exe

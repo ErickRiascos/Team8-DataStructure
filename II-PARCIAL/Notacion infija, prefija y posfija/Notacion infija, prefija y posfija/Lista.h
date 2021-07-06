@@ -13,6 +13,7 @@ public:
 	void mostrar();
 	void eliminar_Cabeza();
 	void eliminar_Cola();
+	Nodo* asa(Nodo*);
 	Lista voltear();
 	Nodo* ultimoNodo();
 	Nodo* getPrimero();

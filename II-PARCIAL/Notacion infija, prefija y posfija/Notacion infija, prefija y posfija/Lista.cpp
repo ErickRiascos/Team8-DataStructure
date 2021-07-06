@@ -40,6 +40,17 @@ void Lista::mostrar(){
     }
 }
 
+Nodo* Lista::asa(Nodo* aux) {
+    Nodo* tmp = aux;
+    if (tmp->siguiente != nullptr) {
+        tmp = tmp->siguiente;
+    }
+    else {
+        tmp->siguiente = nullptr;
+    }
+    return tmp;
+}
+
 void Lista::eliminar_Cabeza() {
     Nodo* aux_borrar;
     aux_borrar = primero;
