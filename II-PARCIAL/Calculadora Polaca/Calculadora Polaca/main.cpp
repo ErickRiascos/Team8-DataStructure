@@ -4,16 +4,30 @@
 #include <iostream>
 #include<conio.h>
 #include "Calculadora.h"
-int main() {
-    std::cout << "Ingrese expresion en Postfija: ";
-    char c;
-    char* exp = (char*)calloc(100, sizeof(char));
+char* ingresarDoubl(const char* msj)
+{
+    char* datos = (char*)calloc(30, sizeof(char));
     int i = 0;
+    char c;
+    printf("%s", msj);
     while ((c = getch()) != 13) {
-        printf("%c", c);
-        *(exp + i) = c;
-        i++;
+        if ((c >= '0' && c <= '9') || c == 46|| c== 32|| (c >= 42 && c <= 47)|| c==94|| c == 83 ||c == 115||c==99||c==67 || (c >= 108 && c <= 110) || (c >= 76 && c <= 78)|| c==116 ||c==84) {
+            printf("%c", c);
+            *(datos + i++) = c;
+        }
     }
+    return datos;
+}
+int main() {
+    printf("---------------------------------- CALCULADORA POLACA ---------------------------------\n\n");
+    printf(" Se recomienda usar esta nomeclatura para hacer uso de las funciones trigonometricas \n\n");
+    printf("(s) -> Seno \n");
+    printf("(c) -> Coseno \n");
+    printf("(t) -> Tangente \n");
+    printf("(m) -> Secante \n");
+    printf("(n) -> Cosecante \n");
+    printf("(l) -> Cotangente \n\n");
+    char* exp = ingresarDoubl("Ingrese expresion en Postfija: ");
     /// Interpretarla y dar el resultado
     Calculadora polaca(exp);
     polaca.decode();
