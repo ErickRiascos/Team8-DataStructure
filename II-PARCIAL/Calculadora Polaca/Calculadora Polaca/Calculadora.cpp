@@ -6,6 +6,7 @@
 int sq(int x) {
     return x * x;
 }
+
 //int pow(int b, int e) {
 //    if (e == 0)
 //        return 1;
@@ -15,6 +16,7 @@ int sq(int x) {
 //        return sq(pow(b, e / 2));
 //    return b * pow(b, e - 1);
 //}
+
 double factorial(int n)
 {
     double fac = 1;
@@ -24,6 +26,7 @@ double factorial(int n)
     }
     return fac;
 }
+
 double sin(double x)
 {
     int n = 100;
@@ -33,6 +36,7 @@ double sin(double x)
     }
     return sumatoria;
 }
+
 double modulo(double numero)
 {
     if (numero < 0)
@@ -46,8 +50,7 @@ double cos(double x)
     double num = 0;
     double num2 = 0;
     int i = 0;
-    do
-    {
+    do{
         num2 = num;
         num += pow(-1, i) * pow(x, 2 * i) / factorial(2 * i);
         i++;
@@ -57,15 +60,14 @@ double cos(double x)
 double grados_to_radian(double x)
 {
     double radian = 0;
-    radian = x * (3.14159265358979323846 / 180);
-
+     radian *= 10;
+    radian = x * (PI / 180);
     return radian;
 }
+
 double tan(double x)
 {
     if (x != grados_to_radian(90)) {
-
-
         double sumatoria = 0;
         double num = 0;
         double num2 = 0;
@@ -78,11 +80,13 @@ double tan(double x)
             num2 = num;
             num += pow(-1, i) * pow(x, 2 * i) / factorial(2 * i);
             i++;
-        } while (modulo(num - num2) >= 0.00001);
+        } while (modulo(num - num2) >= E);
         return sumatoria / num;
     }
-    else
-        std::cout << "La tangente no existe" << std::endl;
+    else {
+        printf("\nERROR MATEMATICO\n");
+        exit(0);
+    }
 
 }
 double csc(double x)
@@ -125,9 +129,6 @@ int prec(char s) {
     return 0;
 }
 
-
-
-
 void Calculadora::solve(char o)
 {
    /// Extraemos los dos valores y
@@ -163,18 +164,42 @@ void Calculadora::solve(char o)
         res.push(int(a) % int(b));
     }
     else if (o == 's'|| o=='S') {
-        res.push(sin((b * PI)/ 180));
+        res.push(sin(grados_to_radian(b)));
     }else if (o == 'c' || o == 'C') {
-        res.push(cos((b * PI) / 180));
+        if ((int(b / 90) % 2 != 0))
+            res.push(0);
+        else
+            res.push(cos(grados_to_radian(b)));
     }else if (o == 't' || o == 'T') {
-        res.push(tan((b * PI) / 180));
+        if ((int(b / 90) % 2 != 0)) {
+            printf("\nERROR MATEMATICO\n");
+            exit(0);
+        }
+        else if ((int(b / 90) % 2 == 0)) {
+            res.push(0);
+        }
+        else {
+            res.push(tan(grados_to_radian(b)));
+        }
     }else if (o == 'n' || o == 'N') {
-        res.push(csc((b * PI) / 180));
+        res.push(csc(grados_to_radian(b)));
+    }else if (o == 'm' || o == 'M') {
+        if ((int(b / 90) % 2 != 0)) {
+            printf("\nERROR MATEMATICO\n");
+            exit(0);
+        }
+        else
+            res.push(1/(cos(grados_to_radian(b))));
+    }
+    else if (o == 'l' || o == 'L') {
+        if ((int(b/90)%2!=0)|| (int(b / 90) % 2 == 0)) {
+            printf("\nERROR MATEMATICO\n");
+            exit(0);
+        }
+        else
+            res.push(1 / (tan(grados_to_radian(b))));
     }
     op.pop();
-
-    //falta cosecante y cotangente
-    // no deja escribir las letras c, t y n
 }
 
 void Calculadora::decode()
