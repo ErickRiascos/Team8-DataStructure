@@ -14,6 +14,7 @@ Fecha modificacion: 05/07/2021*/
 #include <fstream>
 #include "Lectura.h"
 #include "Menu.h"
+#include "Cola.h"
 
 using namespace std;
 
@@ -23,13 +24,14 @@ int main() {
 	cfi.cbSize = sizeof(cfi);
 	cfi.nFont = 0;
 	cfi.dwFontSize.X = 0;
-	cfi.dwFontSize.Y = 5;
+	cfi.dwFontSize.Y = 10;
 	cfi.FontFamily = FF_DONTCARE;
 	cfi.FontWeight = FW_NORMAL;
 	std::wcscpy(cfi.FaceName, L"Consolas");
 	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+	system("color 0a");
 	system("Title Universidad de las Fuerzas Armadas ESPE");
-	system("mode con: cols=260 lines=50");
+	system("mode con: cols=260 lines=55");
 	l.lectura_Imagen();
 	system("pause");
 	system("CLS");
@@ -40,38 +42,44 @@ int main() {
 	cfi.FontWeight = FW_NORMAL;
 	std::wcscpy(cfi.FaceName, L"Consolas");
 	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
-	system("mode con: cols=60 lines=20");
+	system("mode con: cols=130 lines=1200");
 	bool repite = true;
 	int n;
+	system("color 0e");
 	const char* titulo = "MENU PRINCIPAL";
-	const char* opciones[] = { "Ingresar por la cabeza","Ingresar por la cola","Eliminar por la cabeza","Eliminar por la cola","Mostrar","Salir" };
+	const char* opciones[] = { "Generar Clientes","Mostrar Clientes","Eliminar Datos","Salir"};
+	Cola c;
 	do {
-		Menu m(titulo, opciones, 6);
+		Menu m(titulo, opciones, 4);
 		system("CLS");
 		int opcion = m.getOpcion();
 		switch (opcion) {
 		case 1:
 			std::cout << "\n";
+			int n;
+			cout << "Ingrese la cantidad de clientes: ";
+			cin >> n;
+			system("CLS");
+			c.generarClientes(n);
 			system("pause");
 			break;
 		case 2:
 			std::cout << "\n";
+			c.mostrar();
 			system("pause");
 			break;
 		case 3:
+			std::cout << "\n";
+			c.destruirCola();
+			cout << "Se elimino la cola de clientes con exito...\n\n";
 			system("pause");
 			break;
 		case 4:
-			system("pause");
-			break;
-		case 5:
-			system("pause");
-			break;
-		case 6:
 			std::cout << "Saliendo...";
 			repite = false;
 			break;
 		}
+		
 	} while (repite);
 	return 0;
 	return 0;

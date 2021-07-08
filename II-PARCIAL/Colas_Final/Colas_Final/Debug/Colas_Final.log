@@ -1,2 +1,3 @@
-﻿  Lectura.cpp
-  Colas_Final.vcxproj -> C:\Users\leito\source\repos\Colas_Final\Debug\Colas_Final.exe
+﻿  Colas_Final.cpp
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Colas_Final\Colas_Final.cpp(47,6): warning C4101: 'n': unreferenced local variable
+  Colas_Final.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe
