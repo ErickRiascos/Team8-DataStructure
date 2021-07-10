@@ -7,7 +7,7 @@ Fecha modificacion: 05/07/2021*/
 #pragma warning(disable:4996)
 #define _WIN32_WINNT 0x0500
 #include "windows.h"
-#include<stdlib.h>
+#include <stdlib.h>
 #include <iostream>
 #include <string.h>
 #include <string>
@@ -15,10 +15,31 @@ Fecha modificacion: 05/07/2021*/
 #include "Lectura.h"
 #include "Menu.h"
 #include "Cola.h"
-
+#include "Marquesina.h"
+#include "Windows.h"
 using namespace std;
-
+void usleep(__int64 usec)
+{
+	HANDLE timer;
+	LARGE_INTEGER ft;
+	ft.QuadPart = -(10 * usec); // Convert to 100 nanosecond interval, negative value indicates relative time
+	timer = CreateWaitableTimer(NULL, TRUE, NULL);
+	SetWaitableTimer(timer, &ft, 0, NULL, NULL, 0);
+	WaitForSingleObject(timer, INFINITE);
+	CloseHandle(timer);
+}
 int main() {
+	std::string marq = "UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE                                                                                ";
+	Marquesina m(marq);
+	while (true)
+	{
+		while (1) {
+			m.generarMarq();
+			printf("%s", m.getBanner().c_str());
+			Sleep(10);
+			system("CLS");
+		}
+	}
 	Lectura l;
 	CONSOLE_FONT_INFOEX cfi;
 	cfi.cbSize = sizeof(cfi);
@@ -81,7 +102,6 @@ int main() {
 		}
 		
 	} while (repite);
-	return 0;
 	return 0;
 
 }

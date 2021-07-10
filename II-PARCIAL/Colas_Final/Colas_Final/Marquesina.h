@@ -7,10 +7,11 @@
 class Marquesina
 {
 private:
-	Marquesina() = default;
-	char banner[];
+	std::string banner;
 public:
-	char* getBanner();
+	Marquesina(std::string&);
+	Marquesina() = default;
+	std::string getBanner();
 	void generarMarq();
 	void gotoxy(int,int);
 };
