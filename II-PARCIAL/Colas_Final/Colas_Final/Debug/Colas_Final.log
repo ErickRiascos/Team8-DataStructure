@@ -1,3 +1,3 @@
-﻿  Colas_Final.cpp
-C:\Users\leito\Escritorio\Colas_Final\Colas_Final\Colas_Final.cpp(68,6): warning C4101: 'n': unreferenced local variable
-  Colas_Final.vcxproj -> C:\Users\leito\Escritorio\Colas_Final\Debug\Colas_Final.exe
+﻿  main.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Colas_Final\Colas_Final\main.cpp(70,6): warning C4101: 'n': variable local sin referencia
+  Colas_Final.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe

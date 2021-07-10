@@ -141,7 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Cliente.cpp" />
     <ClCompile Include="Cola.cpp" />
-    <ClCompile Include="Colas_Final.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Lectura.cpp" />
     <ClCompile Include="Marquesina.cpp" />
     <ClCompile Include="Menu.cpp" />

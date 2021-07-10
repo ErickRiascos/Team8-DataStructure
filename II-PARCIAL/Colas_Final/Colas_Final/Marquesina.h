@@ -1,11 +1,9 @@
 #pragma once
 #include <stdio.h>
-
 #include <string.h>
 #include <iostream>
 #include <windows.h>
-class Marquesina
-{
+class Marquesina{
 private:
 	std::string banner;
 public:
@@ -13,6 +11,5 @@ public:
 	Marquesina() = default;
 	std::string getBanner();
 	void generarMarq();
-	void gotoxy(int,int);
 };
 
