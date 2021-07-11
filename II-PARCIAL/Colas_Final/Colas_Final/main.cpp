@@ -34,29 +34,15 @@ void marq(string a) {
 	while (1) {
 		this_thread::sleep_for(chrono::milliseconds(50));
 		m.generarMarq();
-		//gotoxy(0, 0);
-		//std::cout << m.getBanner().c_str();
+		/*gotoxy(0, 0);
+		std::cout << m.getBanner().c_str();*/
 		SetConsoleTitleA(m.getBanner().c_str());		
 	}
 }
 
 void menu() {
-	Lectura l;
 	CONSOLE_FONT_INFOEX cfi;
 	cfi.cbSize = sizeof(cfi);
-	cfi.nFont = 0;
-	cfi.dwFontSize.X = 0;
-	cfi.dwFontSize.Y = 10;
-	cfi.FontFamily = FF_DONTCARE;
-	cfi.FontWeight = FW_NORMAL;
-	std::wcscpy(cfi.FaceName, L"Consolas");
-	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
-	system("color 0a");
-	system("Title Universidad de las Fuerzas Armadas ESPE");
-	system("mode con: cols=260 lines=55");
-	l.lectura_Imagen();
-	system("pause");
-	system("CLS");
 	cfi.nFont = 0;
 	cfi.dwFontSize.X = 0;
 	cfi.dwFontSize.Y = 20;
@@ -81,15 +67,53 @@ void menu() {
 			int n;
 			cout << "Ingrese la cantidad de clientes: ";
 			cin >> n;
-			system("CLS");
-			c.generarClientes(n);
+			system("CLS");			
+			c.genClientes(n,[&c]() {
+				Cliente primero(1, 0, 0);
+				int ts = primero.getTiempoSalida();
+				int tl = primero.getTiempollegada();
+				c.encolar(primero);
+				Cliente aux=primero;
+				return aux;
+				});
 			system("pause");
 			break;
-		case 2:
-			std::cout << "\n";
-			c.mostrar();
+		case 2: {
+			double promedio = 0,pte=0,ptn=0,pts=0,ptel=0;
+			int cc=0;
+			std::cout << "N\tT.L\tT.E\tT.N.C\tT.Sr\tT.S\tT.E.L";
+			c.recorrer([](Cliente t) {
+				t.toString();
+				});
+			c.recorrer([&pte, &ptn,&pts,&ptel,&cc](Cliente t) {
+				ptn += t.getTiempoNoTrabaja();
+				pts += t.getTiempoServicio();
+				ptel += t.getTiempoEntreLLegadas();
+				pte += t.getTiempoEspera();
+				if (t.getTiempoEspera()>0) {
+					cc++;
+				}
+				});
+			promedio = c.promedio([pte]() {
+				return pte;
+				});
+			std::cout << "\nPromedio de tiempo de espera: " << promedio << std::endl;
+			promedio = c.promedio([ptn]() {
+				return ptn;
+				});
+			std::cout << "Promedio de tiempo que no trabaja el cajero: " << promedio << std::endl;
+			promedio = c.promedio([pts]() {
+				return pts;
+				});
+			std::cout << "Promedio de tiempo de servicio: " << promedio << std::endl;
+			promedio = c.promedio([ptel]() {
+				return ptel;
+				});
+			std::cout << "Promedio de tiempo entre llegadas: " << promedio << std::endl;
+			std::cout << "Promedio de clientes en cola: " << cc << std::endl;
 			system("pause");
 			break;
+		}
 		case 3:
 			std::cout << "\n";
 			c.destruirCola();
@@ -106,7 +130,23 @@ void menu() {
 }
 
 int main() {
-	string txt = "UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE                                                                                                                 ";
+	Lectura l;
+	CONSOLE_FONT_INFOEX cfi;
+	cfi.cbSize = sizeof(cfi);
+	cfi.nFont = 0;
+	cfi.dwFontSize.X = 0;
+	cfi.dwFontSize.Y = 10;
+	cfi.FontFamily = FF_DONTCARE;
+	cfi.FontWeight = FW_NORMAL;
+	std::wcscpy(cfi.FaceName, L"Consolas");
+	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+	system("color 0a");
+	system("Title Universidad de las Fuerzas Armadas ESPE");
+	system("mode con: cols=260 lines=55");
+	l.lectura_Imagen();
+	system("pause");
+	system("CLS");
+	string txt = "UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE                                                                                     ";
 	thread t(menu);
 	thread th(marq, txt);
 	if (th.joinable()&&t.joinable()) {

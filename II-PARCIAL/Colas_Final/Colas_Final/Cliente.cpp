@@ -37,7 +37,7 @@ void Cliente::setTiempollegada(int newTiempollegada)
 }
 
 
-int Cliente::getTiempoespera(void)
+int Cliente::getTiempoEspera(void)
 {
    return tiempoEspera;
 }
@@ -109,5 +109,5 @@ void Cliente::setIdentificador(int newIdentificador)
 }
 
 void Cliente::toString() {
-	std::cout <<identificador<<"\t"<< tiempoLlegada <<"\t"<< tiempoEspera <<"\t"<< tiempoNoTrabaja <<"\t"<< tiempoServicio <<"\t"<< tiempoSalida <<"\t"<< tiempoEntreLlegadas ;
+	std::cout<<"\n"<<identificador<<"\t"<< tiempoLlegada <<"\t"<< tiempoEspera <<"\t"<< tiempoNoTrabaja <<"\t"<< tiempoServicio <<"\t"<< tiempoSalida <<"\t"<< tiempoEntreLlegadas ;
 }

@@ -16,7 +16,7 @@ public:
    ~Cliente();
    int getTiempollegada(void);
    void setTiempollegada(int newTiempollegada);
-   int getTiempoespera(void);
+   int getTiempoEspera(void);
    void setTiempoespera(int newTiempoespera);
    int getTiempoNoTrabaja(void);
    void setTiempoNoTrabaja(int newTiempoNoTrabaja);

@@ -9,6 +9,7 @@ private:
 	int tamanio=0;
 public:
 	Cola();
+	void genClientes(int,std::function<Cliente()>cola);
 	bool colaVacia();
 	void encolar(Cliente);
 	void mostrar();
@@ -16,6 +17,6 @@ public:
 	Nodo* getPrimero();
 	int getTamanio();
 	void recorrer(std::function<void(Cliente)>recorrido);
-	void generarClientes(int);
+	double promedio(std::function<double()>prom);
 	void destruirCola();
 };

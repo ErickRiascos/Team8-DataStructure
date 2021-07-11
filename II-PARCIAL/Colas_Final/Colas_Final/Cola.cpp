@@ -11,6 +11,8 @@ Cola::Cola() {
     this->ultimo = NULL;
 }
 
+
+
 Nodo* Cola::ultimoNodo() {
     Nodo* tmp = primero;
     while (tmp->siguiente != nullptr) {
@@ -75,15 +77,13 @@ int Cola::getTamanio()
     return this->tamanio;
 }
 
-void Cola::generarClientes(int n)
+void Cola::genClientes(int n,std::function<Cliente()> cola)
 {
     if (colaVacia()) {
-        destruirCola();
-        Cliente primero(1, 0, 0);
-        int ts = primero.getTiempoSalida();
-        int tl = primero.getTiempollegada();
+        Cliente aux = cola();
+        int ts = aux.getTiempoSalida();
+        int tl = aux.getTiempollegada();
         int j = 2;
-        encolar(primero);
         for (int i = 0; i < n - 1; i++)
         {
             Cliente c(j++, tl, ts);
@@ -98,6 +98,7 @@ void Cola::generarClientes(int n)
     }
 }
 
+
 void Cola::destruirCola()
 {
     int n=tamanio;
@@ -109,9 +110,15 @@ void Cola::destruirCola()
 
 void Cola::recorrer(std::function<void(Cliente)>recorrido) {
     Nodo* tmp = primero;
-    int indice = 0;
     while (tmp != nullptr) {
         recorrido(tmp->usuario);
         tmp = tmp->siguiente;
     }
 }
+ 
+double Cola::promedio(std::function<double()>prom)
+{
+    return prom() / tamanio;
+}
+
+
