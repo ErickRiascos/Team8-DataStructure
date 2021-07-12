@@ -123,6 +123,7 @@ void menu() {
 		case 4:
 			std::cout << "Saliendo...";
 			repite = false;
+			exit(1);
 			break;
 		}
 

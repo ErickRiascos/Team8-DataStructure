@@ -1,10 +1,10 @@
 ﻿  Cliente.cpp
   Cola.cpp
   main.cpp
-C:\Users\LENOVO\Desktop\Colas_Final\Colas_Final\main.cpp(56,6): warning C4101: 'n': variable local sin referencia
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Colas_Final\main.cpp(56,6): warning C4101: 'n': unreferenced local variable
   Lectura.cpp
   Marquesina.cpp
   Menu.cpp
   Nodo.cpp
-  Generando código...
-  Colas_Final.vcxproj -> C:\Users\LENOVO\Desktop\Colas_Final\Debug\Colas_Final.exe
+  Generating Code...
+  Colas_Final.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe
