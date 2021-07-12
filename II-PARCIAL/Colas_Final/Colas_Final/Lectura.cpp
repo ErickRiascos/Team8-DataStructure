@@ -8,12 +8,10 @@ Fecha modificacion: 05/07/2021*/
 #include <string>
 #include<fstream>
 using namespace std;
-////////////////////////////////////////////////////////////////////////
-// Nombre:       Lectura::lectura_Imagen()
-// Proposito:    Implementacion de Lectura::lectura_Imagen()
-// Parametros:
-// Return:
-////////////////////////////////////////////////////////////////////////
+
+/**
+ * La función "lecuraImagen" hace la lectura del membrete de nuestro proyecto, leyendo el código ascci insertado
+ */
 void Lectura::lectura_Imagen()
 {
     std::ifstream archivo;

@@ -1,18 +1,26 @@
 #include "Cola.h"
 #include <iostream>
 
+
+/**
+ * La función "colaVacia" otorga NULL a la cola entera para eliminar datos basura 
+ */
 bool Cola::colaVacia() {
     return (this->primero == NULL);
 }
 
-
+/**
+ * La función "Cola" es el constructor del objeto
+ */
 Cola::Cola() {
     this->primero = NULL;
     this->ultimo = NULL;
 }
 
 
-
+/**
+ * La función "ultimoNodo" otorga NULL a loa valores de la Cola
+ */
 Nodo* Cola::ultimoNodo() {
     Nodo* tmp = primero;
     while (tmp->siguiente != nullptr) {
@@ -21,6 +29,9 @@ Nodo* Cola::ultimoNodo() {
     return tmp;
 }
 
+/**
+ * La función "encolar" va asignando los valores a la Cola 
+ */
 void Cola::encolar(Cliente val)
 {
     tamanio++;
@@ -37,7 +48,9 @@ void Cola::encolar(Cliente val)
     }
 }
 
-
+/**
+ * La función "mostrar" muestra los datos que se generaron en la cola 
+ */
 void Cola::mostrar()
 {
     if (primero != nullptr) {
@@ -55,6 +68,9 @@ void Cola::mostrar()
     
 }
 
+/**
+ * La función "desencolar" va eliminando los valores a la Cola
+ */
 void Cola::desencolar(){
     if (primero!=nullptr) {
     Nodo* tmp=primero;
@@ -67,16 +83,25 @@ void Cola::desencolar(){
     tamanio--;
 }
 
+/**
+ * La función "getPrimero" retorna el valor Primero de la cola 
+ */
 Nodo* Cola::getPrimero()
 {
     return this->primero;
 }
 
+/**
+ * La función "getTamanio" retorna el valor de tamaño de la cola
+ */
 int Cola::getTamanio()
 {
     return this->tamanio;
 }
 
+/**
+ * La función "genClientes" genera los clientes solicitados en la cola  
+ */
 void Cola::genClientes(int n,std::function<Cliente()> cola)
 {
     if (colaVacia()) {
@@ -98,7 +123,9 @@ void Cola::genClientes(int n,std::function<Cliente()> cola)
     }
 }
 
-
+/**
+ * La función "destruirCola" hace el llamado a la funcion "desencolar" con el tamaño respectivo para eliminar a todos los clientes
+ */
 void Cola::destruirCola()
 {
     int n=tamanio;
@@ -108,6 +135,9 @@ void Cola::destruirCola()
 
 }
 
+/**
+ * La función "recorrer" recorre toda la cola de clientes para relizar la creació, cambios o eliminaciones respectivas
+ */
 void Cola::recorrer(std::function<void(Cliente)>recorrido) {
     Nodo* tmp = primero;
     while (tmp != nullptr) {
@@ -116,6 +146,9 @@ void Cola::recorrer(std::function<void(Cliente)>recorrido) {
     }
 }
  
+/**
+ * La función "promedio" reliza el promedio de los clientes haciendo uso del tamaño de la cola 
+ */
 double Cola::promedio(std::function<double()>prom)
 {
     return prom() / tamanio;

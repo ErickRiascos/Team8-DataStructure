@@ -9,6 +9,9 @@ std::string Marquesina::getBanner(){
     return banner.c_str();
 }
 
+/**
+ * La función "generarMarq" hace la función de dezplazamiento para que funcione la marquesina
+ */
 void Marquesina::generarMarq()
 {
     char* temp = (char*)calloc(strlen(banner.c_str()), sizeof(char));
