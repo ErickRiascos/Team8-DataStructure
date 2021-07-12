@@ -1,11 +1,10 @@
 ﻿  Cliente.cpp
   Cola.cpp
   main.cpp
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Colas_Final\main.cpp(56,6): warning C4101: 'n': variable local sin referencia
+C:\Users\LENOVO\Desktop\Colas_Final\Colas_Final\main.cpp(56,6): warning C4101: 'n': variable local sin referencia
   Lectura.cpp
   Marquesina.cpp
   Menu.cpp
   Nodo.cpp
   Generando código...
-  LINK : no se encontró C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
-  Colas_Final.vcxproj -> C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe
+  Colas_Final.vcxproj -> C:\Users\LENOVO\Desktop\Colas_Final\Debug\Colas_Final.exe

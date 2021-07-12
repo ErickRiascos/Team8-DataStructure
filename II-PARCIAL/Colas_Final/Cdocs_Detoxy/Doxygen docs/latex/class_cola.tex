@@ -1,0 +1,106 @@
+\hypertarget{class_cola}{}\doxysection{Referencia de la Clase Cola}
+\label{class_cola}\index{Cola@{Cola}}
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cola_ae19ba267b100731ff84e62c1c2639883}{Cola}} ()
+\item 
+void \mbox{\hyperlink{class_cola_a83fda7fa163516f6d742f67bd6e0cb3f}{gen\+Clientes}} (int, std\+::function$<$ \mbox{\hyperlink{class_cliente}{Cliente}}()$>$cola)
+\item 
+bool \mbox{\hyperlink{class_cola_ae78b18f8bf8c9fb7b636a9709f43899f}{cola\+Vacia}} ()
+\item 
+void \mbox{\hyperlink{class_cola_aa5f23590f1283b996c05ab607e6f3397}{encolar}} (\mbox{\hyperlink{class_cliente}{Cliente}})
+\item 
+void \mbox{\hyperlink{class_cola_a898a09f7622793179ed355d0d7f44702}{mostrar}} ()
+\item 
+void \mbox{\hyperlink{class_cola_aed89ed54cbfffdcd5019147987c9c8cb}{desencolar}} ()
+\item 
+\mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ \mbox{\hyperlink{class_cola_aa4bf959757f9970d97570a6280f142f2}{get\+Primero}} ()
+\item 
+int \mbox{\hyperlink{class_cola_ace7e586280f259d1221541cfed537a6e}{get\+Tamanio}} ()
+\item 
+void \mbox{\hyperlink{class_cola_a333658bdf8dd1c642d877414313564ed}{recorrer}} (std\+::function$<$ void(\mbox{\hyperlink{class_cliente}{Cliente}})$>$recorrido)
+\item 
+double \mbox{\hyperlink{class_cola_a36119639058553b41a15cecb48b1e8f8}{promedio}} (std\+::function$<$ double()$>$prom)
+\item 
+void \mbox{\hyperlink{class_cola_a8584e6bf778b9366bb7232936fe60f4c}{destruir\+Cola}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_cola_ae19ba267b100731ff84e62c1c2639883}\label{class_cola_ae19ba267b100731ff84e62c1c2639883}} 
+\index{Cola@{Cola}!Cola@{Cola}}
+\index{Cola@{Cola}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{Cola()}{Cola()}}
+{\footnotesize\ttfamily Cola\+::\+Cola (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}\+Cola\char`\"{} es el constructor del objeto 
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_cola_ae78b18f8bf8c9fb7b636a9709f43899f}\label{class_cola_ae78b18f8bf8c9fb7b636a9709f43899f}} 
+\index{Cola@{Cola}!colaVacia@{colaVacia}}
+\index{colaVacia@{colaVacia}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{colaVacia()}{colaVacia()}}
+{\footnotesize\ttfamily bool Cola\+::cola\+Vacia (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}cola\+Vacia\char`\"{} otorga NULL a la cola entera para eliminar datos basura \mbox{\Hypertarget{class_cola_aed89ed54cbfffdcd5019147987c9c8cb}\label{class_cola_aed89ed54cbfffdcd5019147987c9c8cb}} 
+\index{Cola@{Cola}!desencolar@{desencolar}}
+\index{desencolar@{desencolar}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{desencolar()}{desencolar()}}
+{\footnotesize\ttfamily void Cola\+::desencolar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}desencolar\char`\"{} va eliminando los valores a la \mbox{\hyperlink{class_cola}{Cola}} \mbox{\Hypertarget{class_cola_a8584e6bf778b9366bb7232936fe60f4c}\label{class_cola_a8584e6bf778b9366bb7232936fe60f4c}} 
+\index{Cola@{Cola}!destruirCola@{destruirCola}}
+\index{destruirCola@{destruirCola}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{destruirCola()}{destruirCola()}}
+{\footnotesize\ttfamily void Cola\+::destruir\+Cola (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}destruir\+Cola\char`\"{} hace el llamado a la funcion \char`\"{}desencolar\char`\"{} con el tamaño respectivo para eliminar a todos los clientes \mbox{\Hypertarget{class_cola_aa5f23590f1283b996c05ab607e6f3397}\label{class_cola_aa5f23590f1283b996c05ab607e6f3397}} 
+\index{Cola@{Cola}!encolar@{encolar}}
+\index{encolar@{encolar}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{encolar()}{encolar()}}
+{\footnotesize\ttfamily void Cola\+::encolar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cliente}{Cliente}}}]{val }\end{DoxyParamCaption})}
+
+La función \char`\"{}encolar\char`\"{} va asignando los valores a la \mbox{\hyperlink{class_cola}{Cola}} \mbox{\Hypertarget{class_cola_a83fda7fa163516f6d742f67bd6e0cb3f}\label{class_cola_a83fda7fa163516f6d742f67bd6e0cb3f}} 
+\index{Cola@{Cola}!genClientes@{genClientes}}
+\index{genClientes@{genClientes}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{genClientes()}{genClientes()}}
+{\footnotesize\ttfamily void Cola\+::gen\+Clientes (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{std\+::function$<$ \mbox{\hyperlink{class_cliente}{Cliente}}()$>$}]{cola }\end{DoxyParamCaption})}
+
+La función \char`\"{}gen\+Clientes\char`\"{} genera los clientes solicitados en la cola ~\newline
+ \mbox{\Hypertarget{class_cola_aa4bf959757f9970d97570a6280f142f2}\label{class_cola_aa4bf959757f9970d97570a6280f142f2}} 
+\index{Cola@{Cola}!getPrimero@{getPrimero}}
+\index{getPrimero@{getPrimero}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{getPrimero()}{getPrimero()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_nodo}{Nodo}} $\ast$ Cola\+::get\+Primero (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}get\+Primero\char`\"{} retorna el valor Primero de la cola \mbox{\Hypertarget{class_cola_ace7e586280f259d1221541cfed537a6e}\label{class_cola_ace7e586280f259d1221541cfed537a6e}} 
+\index{Cola@{Cola}!getTamanio@{getTamanio}}
+\index{getTamanio@{getTamanio}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{getTamanio()}{getTamanio()}}
+{\footnotesize\ttfamily int Cola\+::get\+Tamanio (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}get\+Tamanio\char`\"{} retorna el valor de tamaño de la cola \mbox{\Hypertarget{class_cola_a898a09f7622793179ed355d0d7f44702}\label{class_cola_a898a09f7622793179ed355d0d7f44702}} 
+\index{Cola@{Cola}!mostrar@{mostrar}}
+\index{mostrar@{mostrar}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{mostrar()}{mostrar()}}
+{\footnotesize\ttfamily void Cola\+::mostrar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La función \char`\"{}mostrar\char`\"{} muestra los datos que se generaron en la cola \mbox{\Hypertarget{class_cola_a36119639058553b41a15cecb48b1e8f8}\label{class_cola_a36119639058553b41a15cecb48b1e8f8}} 
+\index{Cola@{Cola}!promedio@{promedio}}
+\index{promedio@{promedio}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{promedio()}{promedio()}}
+{\footnotesize\ttfamily double Cola\+::promedio (\begin{DoxyParamCaption}\item[{std\+::function$<$ double()$>$}]{prom }\end{DoxyParamCaption})}
+
+La función \char`\"{}promedio\char`\"{} reliza el promedio de los clientes haciendo uso del tamaño de la cola \mbox{\Hypertarget{class_cola_a333658bdf8dd1c642d877414313564ed}\label{class_cola_a333658bdf8dd1c642d877414313564ed}} 
+\index{Cola@{Cola}!recorrer@{recorrer}}
+\index{recorrer@{recorrer}!Cola@{Cola}}
+\doxysubsubsection{\texorpdfstring{recorrer()}{recorrer()}}
+{\footnotesize\ttfamily void Cola\+::recorrer (\begin{DoxyParamCaption}\item[{std\+::function$<$ void(\mbox{\hyperlink{class_cliente}{Cliente}})$>$}]{recorrido }\end{DoxyParamCaption})}
+
+La función \char`\"{}recorrer\char`\"{} recorre toda la cola de clientes para relizar la creació, cambios o eliminaciones respectivas 
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+LENOVO/\+Desktop/\+Colas\+\_\+\+Final/\+Colas\+\_\+\+Final/Cola.\+h\item 
+C\+:/\+Users/\+LENOVO/\+Desktop/\+Colas\+\_\+\+Final/\+Colas\+\_\+\+Final/Cola.\+cpp\end{DoxyCompactItemize}
