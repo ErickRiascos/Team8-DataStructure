@@ -18,24 +18,14 @@ Fecha modificacion: 05/07/2021*/
 #include "Cola.h"
 #include "Marquesina.h"
 #include "Windows.h"
-using namespace std;
 
-void gotoxy(int x, int y) {
-	HANDLE hcon;
-	hcon = GetStdHandle(STD_OUTPUT_HANDLE);
-	COORD dwPos;
-	dwPos.X = x;
-	dwPos.Y = y;
-	SetConsoleCursorPosition(hcon, dwPos);
-}
+using namespace std;
 
 void marq(string a) {	
 	Marquesina m(a);
 	while (1) {
 		this_thread::sleep_for(chrono::milliseconds(50));
 		m.generarMarq();
-		/*gotoxy(0, 0);
-		std::cout << m.getBanner().c_str();*/
 		SetConsoleTitleA(m.getBanner().c_str());		
 	}
 }
@@ -81,43 +71,48 @@ void menu() {
 		case 2: {
 			double promedio = 0,pte=0,ptn=0,pts=0,ptel=0;
 			int cc=0;
-			std::cout << "N\tT.L\tT.E\tT.N.C\tT.Sr\tT.S\tT.E.L";
-			c.recorrer([](Cliente t) {
-				t.toString();
-				});
-			c.recorrer([&pte, &ptn,&pts,&ptel,&cc](Cliente t) {
-				ptn += t.getTiempoNoTrabaja();
-				pts += t.getTiempoServicio();
-				ptel += t.getTiempoEntreLLegadas();
-				pte += t.getTiempoEspera();
-				if (t.getTiempoEspera()>0) {
-					cc++;
-				}
-				});
-			promedio = c.promedio([pte]() {
-				return pte;
-				});
-			std::cout << "\nPromedio de tiempo de espera: " << promedio << std::endl;
-			promedio = c.promedio([ptn]() {
-				return ptn;
-				});
-			std::cout << "Promedio de tiempo que no trabaja el cajero: " << promedio << std::endl;
-			promedio = c.promedio([pts]() {
-				return pts;
-				});
-			std::cout << "Promedio de tiempo de servicio: " << promedio << std::endl;
-			promedio = c.promedio([ptel]() {
-				return ptel;
-				});
-			std::cout << "Promedio de tiempo entre llegadas: " << promedio << std::endl;
-			std::cout << "Promedio de clientes en cola: " << cc << std::endl;
+			if (!c.colaVacia()) {
+				std::cout << "\nN\tT.L\tT.E\tT.N.C\tT.Sr\tT.S\tT.E.L";
+				c.recorrer([](Cliente t) {
+					t.toString();
+					});
+				c.recorrer([&pte, &ptn, &pts, &ptel, &cc](Cliente t) {
+					ptn += t.getTiempoNoTrabaja();
+					pts += t.getTiempoServicio();
+					ptel += t.getTiempoEntreLLegadas();
+					pte += t.getTiempoEspera();
+					if (t.getTiempoEspera() > 0) {
+						cc++;
+					}
+					});
+				promedio = c.promedio([pte]() {
+					return pte;
+					});
+				std::cout << "\nPromedio de tiempo de espera: " << promedio << std::endl;
+				promedio = c.promedio([ptn]() {
+					return ptn;
+					});
+				std::cout << "Promedio de tiempo que no trabaja el cajero: " << promedio << std::endl;
+				promedio = c.promedio([pts]() {
+					return pts;
+					});
+				std::cout << "Promedio de tiempo de servicio: " << promedio << std::endl;
+				promedio = c.promedio([ptel]() {
+					return ptel;
+					});
+				std::cout << "Promedio de tiempo entre llegadas: " << promedio << std::endl;
+				std::cout << "Promedio de clientes en cola: " << cc << std::endl;
+			}
+			else {
+				std::cout << "No hay datos que mostrar en cola\n";
+			}
 			system("pause");
 			break;
 		}
 		case 3:
 			std::cout << "\n";
 			c.destruirCola();
-			cout << "Se elimino la cola de clientes con exito...\n\n";
+			cout << "\nSe elimino la cola de clientes con exito...\n\n";
 			system("pause");
 			break;
 		case 4:
@@ -144,6 +139,7 @@ int main() {
 	system("color 0a");
 	system("Title Universidad de las Fuerzas Armadas ESPE");
 	system("mode con: cols=260 lines=55");
+	l.membrete();
 	l.lectura_Imagen();
 	system("pause");
 	system("CLS");

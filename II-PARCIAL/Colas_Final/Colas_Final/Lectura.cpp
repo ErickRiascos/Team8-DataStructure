@@ -4,9 +4,13 @@ Fecha modificacion: 05/07/2021*/
 #include "windows.h"
 #include<stdlib.h>
 #include <iostream>
-#include <string.h>
 #include <string>
 #include<fstream>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+using namespace cv;
 using namespace std;
 
 /**
@@ -27,4 +31,24 @@ void Lectura::lectura_Imagen()
 
     }
     archivo.close();
+}
+void Lectura::membrete() {
+	const char* ascii_char = "$@B%8&WM#*pqrsbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ";
+	float unit = 3.724637681;
+	Mat dirImg = imread("images.jpg", 0);
+	Mat tamImg;
+	string txt;
+	resize(dirImg, tamImg, Size(100, 50));
+	int numeroFilas = tamImg.rows;
+	int numeroColumnas = tamImg.cols;
+	for (int i = 0; i < numeroFilas; i++) {
+		for (int j = 0; j < numeroColumnas; j++)
+			txt += *(ascii_char + int((tamImg.at<uchar>(i, j)) / unit));
+		txt += '\n';
+	}
+	ofstream file;
+	file.open("Membrete.txt");
+	if (file.is_open())
+		file << txt;
+	file.close();
 }

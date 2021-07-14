@@ -1,10 +1,3 @@
-﻿  Cliente.cpp
-  Cola.cpp
-  main.cpp
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Colas_Final\main.cpp(56,6): warning C4101: 'n': unreferenced local variable
-  Lectura.cpp
-  Marquesina.cpp
-  Menu.cpp
-  Nodo.cpp
-  Generating Code...
-  Colas_Final.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe
+﻿  main.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Colas_Final\Colas_Final\main.cpp(61,6): warning C4101: 'n': variable local sin referencia
+  Colas_Final.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Colas_Final\Debug\Colas_Final.exe

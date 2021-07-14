@@ -1,0 +1,7 @@
+﻿  Cliente.cpp
+  Cola.cpp
+  Nodo.cpp
+  main.cpp
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Colas_Final\Colas_Final\main.cpp(46,6): warning C4101: 'n': variable local sin referencia
+  Generando código...
+  Colas_Final.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Colas_Final\x64\Debug\Colas_Final.exe

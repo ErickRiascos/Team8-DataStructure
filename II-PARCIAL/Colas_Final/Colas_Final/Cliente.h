@@ -38,8 +38,6 @@ private:
    int tiempoSalida;
    int tiempoEntreLlegadas;
    int identificador;
-
-
 };
 
 #endif

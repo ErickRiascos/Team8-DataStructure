@@ -7,5 +7,6 @@ class Lectura
 public:
 	Lectura() = default;
 	void lectura_Imagen();
+	void membrete();
 };
 

@@ -1,49 +1,50 @@
-
-
-====================================================================================================================================================================================================================================================================
-
-	#     #                                                                ######            #                        #######                                                 #                                                 #######  #####  ######  ####### 
-	#     # #    # # #    # ###### #####   ####  # #####    ##   #####     #     # ######    #         ##    ####     #       #    # ###### #####  ######   ##    ####       # #   #####  #    #   ##   #####    ##    ####     #       #     # #     # #       
-	#     # ##   # # #    # #      #    # #      # #    #  #  #  #    #    #     # #         #        #  #  #         #       #    # #      #    #     #   #  #  #          #   #  #    # ##  ##  #  #  #    #  #  #  #         #       #       #     # #       
-	#     # # #  # # #    # #####  #    #  ####  # #    # #    # #    #    #     # #####     #       #    #  ####     #####   #    # #####  #    #    #   #    #  ####     #     # #    # # ## # #    # #    # #    #  ####     #####    #####  ######  #####   
-	#     # #  # # # #    # #      #####       # # #    # ###### #    #    #     # #         #       ######      #    #       #    # #      #####    #    ######      #    ####### #####  #    # ###### #    # ######      #    #             # #       #       
-	#     # #   ## #  #  #  #      #   #  #    # # #    # #    # #    #    #     # #         #       #    # #    #    #       #    # #      #   #   #     #    # #    #    #     # #   #  #    # #    # #    # #    # #    #    #       #     # #       #       
- 	 #####  #    # #   ##   ###### #    #  ####  # #####  #    # #####     ######  ######    ####### #    #  ####     #        ####  ###### #    # ###### #    #  ####     #     # #    # #    # #    # #####  #    #  ####     #######  #####  #       #######                                                                                
-                                                                                
-                                                                                                                      ;;ff!!;;          ;;ff!!::                          
-                                                                                                                ffUU####MMMMMMzz!!!!::DDMMMMMM####nn;;                    
-                                                                                                          ""wwMM####MM##BBBBBBDDeeeeMMBBBBBB####MM####BBzz::              
-                                                                                                                      ""UUMM##wwee;;MM##MM##nn::                          
-                                                                                                            !!      ::    ::eeMMBB####BB!!    ::                          
-                                                                                                          eeDD  ff##UU          ##DDzz        DDBBUUff!!                  
-                                                                                                          ####!!""##ff;;;;;;;;;;nnffff;;;;;;::zz##;;UUUU               
-                                                                                                        ""##UU  zz##ffffzzffffzznnffeeffffzzffff##!!  BBzz                
-                                                                                                        ffUU""  zznnnnzz!!zzzzzzzzzzzzzznn!!zznnnnff  eeDD;;      
-                                                                                                      nnww""""  zzUUzzzzzzBBDDDDDDDDDDDDBBee!!nnwwff  wwDDzz::        	
-                                                                                                      DDBB##    zzeeff!!eeDDDDDDDDDDDDDDDDBBww""UUff  ""DDUUDD            
-                                                                                                      BBBBzz    ffwwffzzeeeeUUDDDDDDDDUUUUUUBB""UUff    UUDDzz            
-                                                                                                      ee##""    ::nnffzzeenneeUUDDDDUUwwzzDDBB""UU    ;;eeDDzz            
-                                                                                                    ""zz!!ff        zzzzwwnnwwnnffffUUUUnnDDBB""::      UUUUww            
-                                                                                                    zzBBBBff        zzzzwwnneezznnzznneennDDBB"";;      DDUUee""          
-                                                                                              UU!!ff""####""        zzzzwwnnwwnnnnnneewwnnDDBB"";;    ::wwUUDD;;!!!!ww    
-                                                                                              BBffzz  ####          zzzzeennzzzznnnnzzzzzzUUBB"";;    ::eeBBnn::zzffBB    
-                                                                                              DDzznn  ::UU          zznnnnnnnnnnnnnnnnnneennBB"";;    !!UUDDzz::nnzzDD    
-                                                                                              wweenn::zzffww        zzffwweeeeeewwwweeeewwBBUU"";;    zzUUUUeeeezzeeww    
-                                                                                              ::nnUU""eeBB##!!      ff!!ffeeeeee!!!!nneeeeww;;ff;;    zzUUwwww!!wwnn::    
-                                                                                                ;;BB!!eeBBBBBB      ffnn!!nnww!!DDDDffnnww""nnzz;;    eeBBUUzz!!BB""      
-                                                                                                  UUnn!!BBBB##      zzff!!eeeeffDDUUnnnnww!!ffff"";;::DDBBeeffnnUU        
-                                                                                                ""BB!!::!!MMDDee      ::ffzzwwffzznn!!eeww""::::ffzz!!BBBBzz;;!!DD""      
-                                                                                                  UUee!!  !!;;wwDD      zzzzeeeennnneeeezznn!!zzDD!!wwDDzz  ""eeDD        
-                                                                                                  ""BBff;;  DDBBBBBB    !!!!wweeeeeeeeww!!DDeeeeUUBBDDUU::!!ffBB""        
-                                                                                                    nnDDff  nnBBDDBBUU    ffffwweenneeeeeeUUUUUUDDDDwwzzee!!DDee          
-                                                                                                      wwDDff  ""BB##BBzznnff!!nnff!!wwDDUUUUDDDDeewwUUzz!!UUUU            
-                                                                                                       UUDDff;;zz""wweeBBBBUU!!ffffeeDDUUwwUUUUBBnn!!!!DDUU              
-                                                                                                          eeBBzzeeff!!BBBBBB##wwffzzff##BBeeUUeeffnnffBBww                
-                                                                                                            !!BBeeBBeeffffeenneeffffee    ::zzeeBBeeBB!!                  
-                                                                                                                  ;;eeffff""ff!!""ff;;zz""ffffee;;                        
-                                                                                                                    ffBBDDwwnneewwwwwwnnwwDDBBff                          
-                                                                                                                        eeeeeeUUUUDDUUeennUU                              
-                                                                                
-											JOHAN GODOY         DEYVID IBARRA         ERICK RIASCOS        LEONARDO SANDOVAL
-
-====================================================================================================================================================================================================================================================================
+.'. .'!zOUr(1111111111111111111111111111111111111111111111111111111111111111111111111111{fcQX<` '  .
+ '.lQj"  .'`............................................................................'.'.'^(0< ..
+.^Q?`.  ........................ ......'..    ........... ..'...    ...........................'-Z".
+"w,' .. .............................^;l"^'.`:l!>>>>lI"..'":I,`.............................  ..'^Z;
+X_''....................'. ..'.'II^.;)Jwrqqqu|{jqQ{|rLppdqdqZx_^`:l,'...  ......................'.>J
+Z^......................'..';I'ljwrdqw`:1ub|'nYjmr.LU'|r'i":wppppbJ]'"l,`'. .................... .'0
+Z' .................. ..`!,"|qpdddddpd_^>[JZfLQ"?1.^`,0l"""YddddddppppJ<`;:.'. '...................L
+Z' .................'`I:^fdpdppdddddppJ.`';mx{/uqznddqU'';]wddddddppddqddZi'l". ...................L
+Z' ................`i^<mddddddddpppddpbOn-,`'  '      .'^i(Cdppqdpqpdddddpdwc,:;.................. Q
+Z' ..............`i`)pppddddddddppq|:.'.........    ... .....''icdppddddppdwdwO;:;.'.............. Q
+Z'  ......... `.!`[qddddddddppbzI.'...  .'..''.'....'`` ...'. ...`'1ZspdddppddddC,;, '............ Q
+Z'  ..........;;:pqdddddddddQi' ......'!?[|Qz|_>'  '.;_1nXX][~:'.'..'^fqddppddddqbn^l`............ Q
+Z'  ..... . 'i.xddddddddpdu^ ....?0pqddpqpppddqw%X|d&WmwdbpdrddddqZj:.'`<mppddddpdqqi:^'..  ...... Q
+Z'  ...... ^!,OpddddddddX''` '``''`'..'..,{QpsbvmCzt#&M#bwx!`.'`..''`'`.'`>qdddddqdbp/^:.......... Q
+Z'  ..... ^l!pdddddddpmI... .' ^i"Y"`>?f?^.'.'iXspWdsO)^^ ',u{_!?`".... . .`fdqdddddpdz`l......... Q
+Z'  .....",~dpbddddddx.'...  .',OZOz,[pZc:'`''``^u}zi`'.'''{zqX,;Jc;...  .. .;ZdddddpqpU'I.'...... Q
+Z' . ...'IIpdddddpdp]'.........|ZZX`]tOY_~~~>+~+|(~-r+~~+~+~]mc?`XmO:'' .....'"Jppdpddddc'l....... Q
+Z' . ...l^mpddddppq?`' '....`'J?C)1`.cfJ<1-iuQC0Q000QQL0x>?{c1LI''YqZ,.'.......'Uqpdddddp(^,...... Q
+Z' .. .:'vppddddpp}'........'uOZZz.^^jXc><+wpqpdddddppbqpb>~-JJ^'.^LmXui........`Oqpddddpdl:'. ... Q
+Z' ...':>qdpddddpu..........'LZ0Q`.'^LJr>(JUUwZsdddddmdmdwp|!X0{..'YZZLc........."pbdddddpL';..... Q
+Z' .' :'Xddpddddq^..........^(ZOt".''>Y{>|UzrfXOZZLdQb/fzdd1lzj''' [wwQl..........|pppdddpq<,..... Q
+Z' ...::dpdpdddd/''.........fvcnj`. .''>i|JYrxYU}+]+JZn|Xdp(iI'''''tZZw>........'.`qppdddppc': ... Q
+Z' ..`,}ddddppdsl....',1_~i"v0QZf''... >>(JUxcxx-11-xfxrXdb1!;..'.}ZZqww,I!l?~`'...ndpddqpdm',.... Q
+Z' .."'nppppddpZ'....':qC!~!iOQZ-''... >i(Jx)){[}11}}}{()pp)!;...'([pZQ_?<-IqY'....?p,{<;0ddI,' .. Q
+Z'   :.cqqX//rZJ     '"Lp;[]`,xt1''... >i1zfffffjffjf/jxund)l;.. ..n0m}.I]-?qf`'...!d?'f<Zbp<,. .. Q
+Z'  .:.zpp;qdbpU     ''trXJ!!)c0dx'... >>]{JCCJJUf}fCUUCLd{?l;.. ''JmmmI-+OQdi.'...!d{"IlZmb<,. .. Q
+Z' ..,.nbqZzn(mL........^r*[~(0ZZQc.. .>If}~fJJ[>QpCi(UYt+1{;;..'']mZX0<!zp?... ' .~pQj<`Xdd!:.... Q
+Z' ..^^(pm0fIlQp;'.......,0U{}fOmZ0!. .>li!ifJUijqCq|~YC/l~!iI.''zZmX"{?f0j`... .. tpI?-^Zpp^,.... Q
+Z' ...,>sb_."Iud?.......'}dc!<^<JmX(r^`...~i{JJX_:I;+YJL]i<.'..'zpwL^``_ibL!.......0C`;<^pqL.:. .. Q
+Z' .. ;.QpX^:-]q0.......`'|p0!?`!rnZ0QOl..^<<rJJUUJJJCCf>~`,I[nmZq0I',+~qZ!'......+df!lI[ps}"''... Q
+Z' . .^,{qdr,}0pd[^.....'.'+0p-<i"00ZO0Qv`'I~itJUCvJJC(+~;xwZZm0!t'.-IzrU,.'....''mpU<,}pqw`;..... Q
+Z' ... ;`OqC11/<mpI .....  .`upp>-i^/Z0dq!OLu1i?Y-?}z]i{xpmmmOj>,^+!|*O[`^.'....'nq_"I<vpd},^'. .. Q
+Z'  . .',ipp[Ilc;dm`..''....'',vdr?!]-~}vJ0Q00J><+r<><ZOZmOn,_<]?Ir*Z).`.... `.`|px[["{bdJ'l...... Q
+Z'  .  ',"[db]0UiIpm:.'.....'''`'+CbqqqJ~i)Y0Om0[1;][1?~,(~l]Zq0spu:`` '......'1pQf[^>mpZ^i'...... Q
+Z'  .....l`tbq(}??<pwi'.... ...... `.."1L-;I<+{{>>_<<{}+>l!/u~`.'.............ub|_C`^Qdq;I'....... Q
+Z'  ....'.;`tdq{uY,Izqj'... ..... '''.'^]YZdqpb0XXXYJOrprwZvl`^.'. .........;ObjQC>"qbq;I'` ...... Q
+Z'  .... '.:^[bpr+-?r/wwi..'..............`_+`";Iii>!;"'?+.'.............''uddL,n;_mq0^l`.  ...... Q
+Z'  ....... ",;qppU,?/'rpQI'.............'..]>x(u<(/X}xr}.'.............'(ppYqsq?)ppx.l' ......... Q
+Z'  .........`I^xrdU'Jqi)qpw+`.^  ......''.'i]|{]:+?]>|j1^`'..... .'''^vmb)+|^[ddpm!;;............ Q
+Z'  ........''':;:0qd/1vl!'Opdz;''. ....'CC}wQU!vxQ)ZOrZupm+....'.''[qqC^,|QiICdpt.!.` ........... Q
+Z' ..............I"!ZpdLt'x~+;|ppO?^''..'LJ(pwXwzmU0dqzmcqu}.'`';jqdu,^L{:[t0pqn`!^'.............. Q
+Z' .............'.'!";0dpq-lL,tqw+nqpmu+`'.'''....'...'.'.':(Ldpq?,:|0;|!Ubqpt'!"'.'.............. Q
+Z' .................';I')dpbmbqs>/s^u^~updbdqm0JYUYJCOqpbbpprj^nJj"i!1YppbQI`i'................... Q
+Z' ..................`.^!:^fppdqc~"ul->Zqq"0pQ>1d|-}wpr^[z^0)-]<t1U0bbpL~'!;^'.'.................. Q
+Z^........................'l:.~Yqpdpwx(qdflmw:j"L_I;zpw"|Cr",|pppqdwt"^!,........................ '0
+X_''.................... . '..^I:`,{CqsbpbdwOQduYj[|qddOppbqqdZn~'`II`'''.'.......................>U
+^w:' .. ..........................'^:;,''I~1xcCOZZZZ0Uuf[i,.':I;`'. ........................ ...`^Z,
+.^L}`. ......................... .........`",,,",,,,""",^. .'..     ............................_O".
+ '.lQn".`''.....                                ....    ....                        .......''^|Oi'` 
+ ...''IuwLx/1111111111111111111111111111111111111111111111111111111111111111111111111111|xCZv!` ... 

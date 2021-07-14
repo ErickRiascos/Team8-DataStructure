@@ -116,7 +116,7 @@ void Cola::genClientes(int n,std::function<Cliente()> cola)
             ts = c.getTiempoSalida();
             tl = c.getTiempollegada();
         }
-        std::cout << "Se genero la cola de clientes con exito...\n\n";
+        std::cout << "\nSe genero la cola de clientes con exito...\n\n";
     }
     else {
         std::cout << "\nCola llena, porfavor debe eliminar los anteriores datos...\n";
