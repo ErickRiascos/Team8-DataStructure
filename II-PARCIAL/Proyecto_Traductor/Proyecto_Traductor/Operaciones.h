@@ -15,5 +15,6 @@ public:
 	Nodo* insertar(std::string, Nodo*&);
 	bool buscar(Nodo*, std::string);
 	void imprimir(Nodo*);
+	void setSufijo(std::string);
 };
 

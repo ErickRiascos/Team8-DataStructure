@@ -67,7 +67,6 @@ Nodo* Operaciones::insertar(std::string key, Nodo*& raiz)
 {
     if (key.length() == 0)
         return raiz;
-
     Nodo* aux = raiz;
     int ind = key[0] - 'a';
     int pos;
@@ -93,12 +92,10 @@ Nodo* Operaciones::insertar(std::string key, Nodo*& raiz)
 
 bool Operaciones::buscar(Nodo* raiz, std::string palabra)
 {
-    if (/*root->EOS &&*/ (sufijo == palabra))
+    if (raiz->fin_palabra && (sufijo == palabra))
         return true;
-
     if (hoja_izquierda(raiz))
         return false;
-
     for (int i = 0; i < 26; i++) {
         if (raiz->hijo[i]) {
             pos = sufijo.length();
@@ -108,7 +105,7 @@ bool Operaciones::buscar(Nodo* raiz, std::string palabra)
             sufijo = sufijo.substr(0, sufijo.length() - raiz->hijo[i]->palabra.length());
         }
     }
-    return (/*root->EOS && */(sufijo == palabra));
+    return (raiz->fin_palabra && sufijo == palabra);
 }
 
 void Operaciones::imprimir(Nodo* raiz)
@@ -130,4 +127,8 @@ void Operaciones::imprimir(Nodo* raiz)
         }
     }
     return;
+}
+
+void Operaciones::setSufijo(std::string a){
+    this->sufijo = a;
 }
