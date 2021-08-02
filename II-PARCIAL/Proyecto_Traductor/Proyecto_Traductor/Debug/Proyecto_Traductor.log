@@ -1,5 +1,5 @@
 ﻿  Operaciones.cpp
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\Operaciones.cpp(20,19): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\Operaciones.cpp(20,54): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\Operaciones.cpp(78,17): warning C4018: '<': no coinciden signed/unsigned
-  Proyecto_Traductor.vcxproj -> C:\Users\LENOVO\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Debug\Proyecto_Traductor.exe
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\Operaciones.cpp(20,19): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\Operaciones.cpp(20,54): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\Operaciones.cpp(78,17): warning C4018: '<': no coinciden signed/unsigned
+  Proyecto_Traductor.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Debug\Proyecto_Traductor.exe

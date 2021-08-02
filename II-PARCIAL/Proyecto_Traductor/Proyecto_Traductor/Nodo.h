@@ -6,10 +6,11 @@ private:
 public:
 	std::string palabra;
 	bool fin_palabra;
-	Nodo* hijo[26];
+	Nodo**hijo=(Nodo**)calloc(26,sizeof(Nodo*));
 	Nodo(std::string, bool);
 	Nodo();
 	~Nodo();
+	friend class Operaciones;
 
 };
 
