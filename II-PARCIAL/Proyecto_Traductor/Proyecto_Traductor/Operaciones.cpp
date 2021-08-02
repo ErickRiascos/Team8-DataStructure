@@ -1,6 +1,9 @@
 #include "Operaciones.h"
 #include <iostream>
 using namespace std;
+/**
+ * La función "Mover_Nodos_hijos" realiza el cambio de nodos cuando una palabra se segmenta en otras
+ */
 void Operaciones::mover_nodos_hijos(Nodo*& raiz, Nodo*& aux)
 {
     raiz->fin_palabra = false;
@@ -13,7 +16,9 @@ void Operaciones::mover_nodos_hijos(Nodo*& raiz, Nodo*& aux)
     }
     return;
 }
-
+/**
+ * La función "get_posicion_corte" obtiene el punto en el que el la palabra se tiene que cortar para formar otro nodo
+ */
 int Operaciones::get_posicion_corte(Nodo* aux, std::string key)
 {
     int aux_1 = 0;
@@ -22,7 +27,9 @@ int Operaciones::get_posicion_corte(Nodo* aux, std::string key)
     }
     return aux_1;
 }
-
+/**
+ * La función "hoja_izquierda" obtiene el dato si existe o no una hoja a la izquierda
+ */
 bool Operaciones::hoja_izquierda(Nodo* raiz)
 {
     for (int i = 0; i < 26; i++) {
@@ -31,7 +38,9 @@ bool Operaciones::hoja_izquierda(Nodo* raiz)
     }
     return true;
 }
-
+/**
+ * La función "dividir_nodos" realiza la division de nodos cuando existe una repeticion de caracteres
+ */
 Nodo* Operaciones::dividir_nodos(Nodo*& raiz, std::string izq, int pos)
 {
     bool tieneHijo = false;
@@ -62,7 +71,9 @@ Nodo* Operaciones::dividir_nodos(Nodo*& raiz, std::string izq, int pos)
     *(raiz->hijo+rI) = hijoDer;
     return raiz;
 }
-
+/**
+ * La función "insertar" realiza la insercion de una palabra al arbol
+ */
 Nodo* Operaciones::insertar(std::string key, Nodo*& raiz)
 {
     if (key.length() == 0)
@@ -90,6 +101,9 @@ Nodo* Operaciones::insertar(std::string key, Nodo*& raiz)
     return aux;
 }
 
+/**
+ * La función "buscar" realiza la busqueda de una palabra en el arbol
+ */
 bool Operaciones::buscar(Nodo* raiz, std::string palabra)
 {
     if (raiz->fin_palabra && (sufijo == palabra))
@@ -108,7 +122,9 @@ bool Operaciones::buscar(Nodo* raiz, std::string palabra)
     }
     return (raiz->fin_palabra && sufijo == palabra);
 }
-
+/**
+ * La función "eliminar" realiza la eliminacion de una palabra al arbol
+ */
 bool Operaciones::eliminar(Nodo* raiz, std::string palabra)
 {
     if (raiz->fin_palabra && (sufijo == palabra)) {
@@ -135,7 +151,9 @@ bool Operaciones::eliminar(Nodo* raiz, std::string palabra)
     
 }
 
-
+/**
+ * La función "imprimir" realiza la impresion de las palabras que constan en el arbol
+ */
 void Operaciones::imprimir(Nodo* raiz)
 {
     if (raiz->fin_palabra) {
@@ -155,7 +173,9 @@ void Operaciones::imprimir(Nodo* raiz)
     }
     return;
 }
-
+/**
+ * La función "setSufijo" obtiene el dato Sufijo
+ */
 void Operaciones::setSufijo(std::string a){
     this->sufijo = a;
 }

@@ -2,6 +2,9 @@
 #include "Nodo.h"
 #include <iostream>
 using namespace std;
+/**
+ * La función "Nodo" es el constructor de la clase nodo
+ */
 Nodo::Nodo(std::string word, bool EOS)
 {
     this->palabra = word;
@@ -17,7 +20,9 @@ Nodo::Nodo()
 
     this->fin_palabra = false;
 }
-
+/**
+ * La función "Nodo" es el destructor de la clase nodo
+ */
 Nodo::~Nodo()
 {
     for (uint32_t t = 0; t < 26; t++) {

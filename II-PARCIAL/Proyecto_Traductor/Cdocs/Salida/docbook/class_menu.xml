@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_menu" xml:lang="es">
+<title>Referencia de la Clase Menu</title>
+<indexterm><primary>Menu</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_menu_1ab589a6a5da142d5e5ddcb85b2dbfec2b">Menu</link> (const char *, const char *opciones[6], int)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_menu_1a2833956a10fa99426d152c599b526d04"/>void <emphasis role="strong">gotoxy</emphasis> (short, short)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_menu_1a8feab5c1536a91d92c2905a4246c114d"/>int <emphasis role="strong">getOpcion</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_class_menu_1ab589a6a5da142d5e5ddcb85b2dbfec2b"/>    <section>
+    <title>Menu()</title>
+<indexterm><primary>Menu</primary><secondary>Menu</secondary></indexterm>
+<indexterm><primary>Menu</primary><secondary>Menu</secondary></indexterm>
+<para><computeroutput>Menu::Menu (const char * _titulo, const char * _opciones[6], int _n)</computeroutput></para>
+<para>La función &quot;Manu&quot; genera un menu que se direcciona con las flechas </para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir de los siguientes ficheros:</para>
+C:/Users/LENOVO/Desktop/Proyecto_Traductor/Proyecto_Traductor/Menu.hC:/Users/LENOVO/Desktop/Proyecto_Traductor/Proyecto_Traductor/Menu.cpp</section>
+</section>

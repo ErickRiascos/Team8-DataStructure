@@ -1,3 +1,9 @@
+/*Universidad de las Fuerzas Armadas "ESPE"
+Software
+Autores:  Godoy Johan, Ibarra Deyvid, Riascos Erick, Sandoval Leonardo
+Listas: Ejercicio
+Fecha creacipn: 27/07/2021
+Fecha modificacion: 08/02/2021*/
 #pragma once
 #pragma warning(disable : 4996)
 #include "Nodo.h"

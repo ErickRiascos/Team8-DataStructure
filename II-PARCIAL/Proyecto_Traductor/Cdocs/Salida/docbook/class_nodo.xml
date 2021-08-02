@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_nodo" xml:lang="es">
+<title>Referencia de la Clase Nodo</title>
+<indexterm><primary>Nodo</primary></indexterm>
+<simplesect>
+    <title>Métodos públicos    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_nodo_1a412561f9eeb21b054d01c7cba7f7ee92">Nodo</link> (std::string, bool)</para>
+</listitem>
+            <listitem><para><link linkend="_class_nodo_1a8a1dd01c95ff7bcb1182318498e834f9">~Nodo</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Atributos públicos    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_nodo_1af12c78bd13148aadeb247d717600dbd3"/>std::string <emphasis role="strong">palabra</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_nodo_1af61a96dd48c627326e94dc3b87ac5ab0"/>bool <emphasis role="strong">fin_palabra</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_nodo_1a830c9ef897884cd7dd6bd666fbf9217b"/><link linkend="_class_nodo">Nodo</link> * <emphasis role="strong">hijo</emphasis> [26]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Documentación del constructor y destructor</title>
+<anchor xml:id="_class_nodo_1a412561f9eeb21b054d01c7cba7f7ee92"/>    <section>
+    <title>Nodo()</title>
+<indexterm><primary>Nodo</primary><secondary>Nodo</secondary></indexterm>
+<indexterm><primary>Nodo</primary><secondary>Nodo</secondary></indexterm>
+<para><computeroutput>Nodo::Nodo (std::string word, bool EOS)</computeroutput></para>
+<para>La función &quot;Nodo&quot; es el constructor de la clase nodo </para>
+    </section><anchor xml:id="_class_nodo_1a8a1dd01c95ff7bcb1182318498e834f9"/>    <section>
+    <title>~Nodo()</title>
+<indexterm><primary>~Nodo</primary><secondary>Nodo</secondary></indexterm>
+<indexterm><primary>Nodo</primary><secondary>~Nodo</secondary></indexterm>
+<para><computeroutput>Nodo::~Nodo ( )</computeroutput></para>
+<para>La función &quot;Nodo&quot; es el destructor de la clase nodo </para>
+</section>
+<para>
+La documentación para esta clase fue generada a partir de los siguientes ficheros:</para>
+C:/Users/LENOVO/Desktop/Proyecto_Traductor/Proyecto_Traductor/Nodo.hC:/Users/LENOVO/Desktop/Proyecto_Traductor/Proyecto_Traductor/Nodo.cpp</section>
+</section>
