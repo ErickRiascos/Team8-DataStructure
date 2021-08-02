@@ -108,6 +108,36 @@ bool Operaciones::buscar(Nodo* raiz, std::string palabra)
     return (raiz->fin_palabra && sufijo == palabra);
 }
 
+bool Operaciones::eliminar(Nodo* raiz, std::string palabra)
+{
+    if (raiz->fin_palabra && (sufijo == palabra)) {
+        return true;
+    }
+    if (hoja_izquierda(raiz)) {
+        return false;
+    }
+    for (int i = 0; i < 26; i++) {
+        if (raiz->hijo[i]) {
+            pos = sufijo.length();
+            sufijo += raiz->hijo[i]->palabra;
+            if (buscar(raiz->hijo[i], palabra)) {
+                for (int i = 0; i < 26; i++)
+                    raiz->hijo[i] = NULL;
+                return true;
+            }
+            sufijo = sufijo.substr(0, sufijo.length() - raiz->hijo[i]->palabra.length());
+        }
+    }
+
+    return (raiz->fin_palabra && sufijo == palabra);
+    
+}
+
+    
+
+
+
+
 void Operaciones::imprimir(Nodo* raiz)
 {
     if (raiz->fin_palabra) {

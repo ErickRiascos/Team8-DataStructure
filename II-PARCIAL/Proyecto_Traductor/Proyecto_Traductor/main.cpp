@@ -52,6 +52,13 @@ int main()
 			break;
 		}
 		case 3:
+			o.setSufijo("");
+			palabra = ingresarLet("Ingrese la palabra a eliminar: ");
+			if (o.eliminar(raiz, palabra))
+				cout << "\nPalabra " << palabra << " eliminada ";
+			else
+				cout << "\nPalabra " << palabra << " no encontrada ";
+			std::cout << "\n";
 			system("pause");
 			break;
 		case 4:
