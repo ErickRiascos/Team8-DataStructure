@@ -6,7 +6,7 @@ int main()
 {
     Lista_Arreglos lista;
     Lista_Arreglos listaOrdenada;
-    int dim = 500;
+    int dim = 100;
     MetodosOrdenamiento m;
     lista.generarListaIngresar(dim);
     cout << "\n";
