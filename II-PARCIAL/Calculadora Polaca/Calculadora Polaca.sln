@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculadora Polaca", "Calculadora Polaca\Calculadora Polaca.vcxproj", "{C2F9F648-A475-40CA-AAC8-EF095A2E0C71}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestPolaca", "UnitTestPolaca\UnitTestPolaca.vcxproj", "{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{C2F9F648-A475-40CA-AAC8-EF095A2E0C71}.Release|x64.Build.0 = Release|x64
 		{C2F9F648-A475-40CA-AAC8-EF095A2E0C71}.Release|x86.ActiveCfg = Release|Win32
 		{C2F9F648-A475-40CA-AAC8-EF095A2E0C71}.Release|x86.Build.0 = Release|Win32
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Debug|x64.ActiveCfg = Debug|x64
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Debug|x64.Build.0 = Debug|x64
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Debug|x86.Build.0 = Debug|Win32
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Release|x64.ActiveCfg = Release|x64
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Release|x64.Build.0 = Release|x64
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Release|x86.ActiveCfg = Release|Win32
+		{F37D2852-FFDA-4F62-9499-0CD9863DDAA4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

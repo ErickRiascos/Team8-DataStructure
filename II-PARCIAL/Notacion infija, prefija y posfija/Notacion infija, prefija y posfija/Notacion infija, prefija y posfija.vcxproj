@@ -139,14 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Conversion.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Pila.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Conversion.h" />
     <ClInclude Include="Extras.h" />
     <ClInclude Include="Lista.h" />
     <ClInclude Include="Nodo.h" />

@@ -8,6 +8,7 @@ private:
 	Pila<char>op;
 	Pila<double>res;
 public:
+	Calculadora() = default;
 	Calculadora(const char*);
 	int convert(int, int);
 	void solve(char);
