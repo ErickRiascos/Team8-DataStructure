@@ -10,7 +10,7 @@ public:
 	Nodo(std::string, bool);
 	Nodo();
 	~Nodo();
-	friend class Operaciones;
+	friend class RadixTree;
 
 };
 
