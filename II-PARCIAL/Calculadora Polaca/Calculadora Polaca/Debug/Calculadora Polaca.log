@@ -1,7 +1,1 @@
-﻿  Calculadora.cpp
-C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(114,12): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
-  main.cpp
-  Nodo.cpp
-  Pila.cpp
-  Generando código...
-  Calculadora Polaca.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\Calculadora Polaca.exe
+﻿  Calculadora Polaca.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\Calculadora Polaca.exe

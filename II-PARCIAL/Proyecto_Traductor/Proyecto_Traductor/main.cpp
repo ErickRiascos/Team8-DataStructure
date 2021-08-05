@@ -128,7 +128,7 @@ int main()
 		case 1: {
 			x = 0;
 			n = 0;
-			strcpy(word, ingresarLet("Ingrese palabra en ingles: "));
+			strcpy(word, ingresarLet("Ingrese palabra en ingles:"));
 			f.open("dic1.txt");
 			if (f.is_open()) {
 				while (!f.eof()&&x!=1) {
