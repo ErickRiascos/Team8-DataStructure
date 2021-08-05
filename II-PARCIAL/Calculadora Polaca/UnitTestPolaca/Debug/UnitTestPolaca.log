@@ -1,5 +1,5 @@
 ﻿  pch.cpp
   UnitTestPolaca.cpp
-C:\Users\Usuario\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(114,12): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
-     Creando biblioteca C:\Users\Usuario\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\UnitTestPolaca.lib y objeto C:\Users\Usuario\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\UnitTestPolaca.exp
-  UnitTestPolaca.vcxproj -> C:\Users\Usuario\Documents\GitHub\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\UnitTestPolaca.dll
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Calculadora Polaca\Calculadora.cpp(114,12): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+     Creando biblioteca C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\UnitTestPolaca.lib y objeto C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\UnitTestPolaca.exp
+  UnitTestPolaca.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Calculadora Polaca\Debug\UnitTestPolaca.dll

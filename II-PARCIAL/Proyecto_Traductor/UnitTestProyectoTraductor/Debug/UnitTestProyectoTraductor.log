@@ -1,0 +1,5 @@
+﻿  UnitTestProyectoTraductor.cpp
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\RadixTree.cpp(25,19): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\RadixTree.cpp(25,54): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\RadixTree.cpp(89,17): warning C4018: '<': no coinciden signed/unsigned
+  UnitTestProyectoTraductor.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Debug\UnitTestProyectoTraductor.dll
