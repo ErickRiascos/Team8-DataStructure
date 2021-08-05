@@ -7,43 +7,43 @@ feeling/sentimiento
 space  ; infinite/espacio
 event/evento ; suceso ; episodio ; hecho
 process  ; physical process/proceso
-act  ; deed  ; human action  ; human activity/acción ; acto
-group  ; grouping/agrupación ; colectivo ; grupo
-relation/relación
+act  ; deed  ; human action  ; human activity/accion ; acto
+group  ; grouping/agrupacion ; colectivo ; grupo
+relation/relacion
 discovery  ; find  ; uncovering/descubrimiento ; hallazgo
 record/marca
-loss/pérdida
-mistake  ; error  ; fault/error ; fallo ; falta ; equivocación
-fall  ; spill  ; tumble/caída
+loss/perdida
+mistake  ; error  ; fault/error ; fallo ; falta ; equivocacion
+fall  ; spill  ; tumble/caida
 kick  ; boot  ; kicking/patada
 kiss  ; buss  ; osculation/beso
-comparison  ; comparing/confrontación
+comparison  ; comparing/confrontacion
 means  ; agency  ; way/camino ; forma ; manera ; modo
-substitution  ; exchange  ; commutation/sustitución
-destruction  ; devastation/destrucción
+substitution  ; exchange  ; commutation/sustitucion
+destruction  ; devastation/destruccion
 flight  ; flying/vuelo
 journey  ; journeying/viaje
 skid  ; slip  ; sideslip/patinazo
 crush  ; crunch  ; compaction/estrujamiento
 cut  ; cutting/corte ; tajo
-division  ; partition  ; partitioning  ; segmentation  ; sectionalization  ; sectionalisation/división ; partición
-operation/operación ; accionamiento
-entertainment  ; amusement/diversión  ; distracción  ; divertimiento
+division  ; partition  ; partitioning  ; segmentation  ; sectionalization  ; sectionalisation/division ; particion
+operation/operacion ; accionamiento
+entertainment  ; amusement/diversion  ; distraccion  ; divertimiento
 work/trabajo
-care  ; attention  ; aid  ; tending/atención ; cuidado
-operation  ; surgery  ; surgical operation  ; surgical procedure  ; surgical process/intervención ; operación
+care  ; attention  ; aid  ; tending/atencion ; cuidado
+operation  ; surgery  ; surgical operation  ; surgical procedure  ; surgical process/intervencion ; operacion
 trick/trampa
 crime  ; offense  ; criminal offense  ; criminal offence  ; offence  ; law-breaking/crimen ; delito
 attempt  ; effort  ; endeavor  ; endeavour  ; try/intento ; tentativa ; prueba ; ensayo ; experimento
 sex  ; sexual activity  ; sexual practice  ; sex activity/sexo
-shake  ; tremble  ; shiver/temblor ; escalofríos
+shake  ; tremble  ; shiver/temblor ; escalofrios
 addition  ; summation  ; plus/suma
-education  ; instruction  ; teaching  ; pedagogy  ; didactics  ; educational activity/educación ; enseñanza
+education  ; instruction  ; teaching  ; pedagogy  ; didactics  ; educational activity/educacion ; ensenianza
 industry  ; manufacture/industria
-design  ; designing/diseño
-use  ; usage  ; utilization  ; utilisation  ; employment  ; exercise/empleo ; uso ; utilización
+design  ; designing/disenio
+use  ; usage  ; utilization  ; utilisation  ; employment  ; exercise/empleo ; uso ; utilizacion
 attack  ; onslaught  ; onset  ; onrush/asalto ; ataque
-measurement  ; measuring  ; measure  ; mensuration/medición
+measurement  ; measuring  ; measure  ; mensuration/medicion
 rest  ; ease  ; repose  ; relaxation/descansar
 trade/comercio
 market  ; marketplace  ; market place/mercado
@@ -52,11 +52,11 @@ punishment  ; penalty  ; penalization  ; penalisation/castigo
 fight  ; fighting  ; combat  ; scrap/combate ; lucha
 blow/golpe ; impacto
 help  ; aid  ; assist  ; assistance/asistencia ; ayuda
-approval  ; blessing  ; approving/aprobación ; aceptación ; adhesión ; consentimiento ; consenso
+approval  ; blessing  ; approving/aprobacion ; aceptacion ; adhesion ; consentimiento ; consenso
 support/apoyo ; ayuda
-meeting  ; coming together/encuentro ; reunión
-egg/huevo ; óvulo
-bird/ave ; pájaro
+meeting  ; coming together/encuentro ; reunion
+egg/huevo ; ovulo
+bird/ave ; pajaro
 snake  ; serpent  ; ophidian/serpiente
 feather  ; plume  ; plumage/pluma
 dog  ; domestic dog  ; Canis familiaris/perro
@@ -75,13 +75,13 @@ goat  ; caprine animal/cabra
 human  ; homo  ; man  ; human being/hombre
 monkey/simio ; mono
 fish/pez
-addition  ; add-on  ; improver/adición
-plane  ; airplane  ; aeroplane/avión
+addition  ; add-on  ; improver/adicion
+plane  ; airplane  ; aeroplane/avion
 flat  ; apartment/apartamento ; piso ; departamento
 art  ; fine art/arte
 back/espalda
 bag/bolsa ; bolso
-ball/balón ; pelota
+ball/balon ; pelota
 base  ; base of operations/base
 basket  ; handbasket/cesto ; aro ; cesta
 bed/cama
@@ -99,7 +99,7 @@ brick/ladrillo
 bridge  ; span/puente
 brush/cepillo
 building  ; edifice/edificio
-camera  ; photographic camera/cámara
+camera  ; photographic camera/camara
 can  ; tin  ; tin can/bote ; lata ; frasco
 card/carta
 chain/cadena
@@ -107,32 +107,32 @@ church  ; church building/iglesia
 clock/reloj
 coat/chaqueta
 collar  ; neckband/cuello
-connection  ; connexion  ; connector  ; connecter  ; connective/conexión
+connection  ; connexion  ; connector  ; connecter  ; connective/conexion
 copy/copia
-cotton/algodón
+cotton/algodon
 cup/taza
 cup  ; loving cup/copa
 curtain  ; drape  ; drapery  ; mantle  ; pall/cortina
-decoration  ; ornament  ; ornamentation/adorno ; decoración
+decoration  ; ornament  ; ornamentation/adorno ; decoracion
 door/puerta ; hoja
-drawer/cajón
+drawer/cajon
 elevator  ; lift/ascensor
 engine/motor
-cloth  ; fabric  ; material  ; textile/paño ; tejido ; tela ; trapo ; red
-farm/cortijo ; estancia ; hacienda ; masía ; granja
+cloth  ; fabric  ; material  ; textile/panio ; tejido ; tela ; trapo ; red
+farm/cortijo ; estancia ; hacienda ; masia ; granja
 flag/bandera
 floor  ; flooring/piso ; suelo ; pavimento
 floor  ; level  ; storey  ; story/piso ; planta
 fork/tenedor
 frame/marco
-garden/jardín
+garden/jardin
 glass  ; drinking glass/vaso ; copa
 gun/pistola
 hammer/macillo
 handle  ; grip  ; handgrip  ; hold/asa  ; mango
 hat  ; chapeau  ; lid/sombrero
 hook  ; claw/gancho  ; garfio  ; horquilla
-hospital  ; infirmary/clínica ; hospital
+hospital  ; infirmary/clinica ; hospital
 house/casa
 instrument/instrumento
 internet  ; net  ; cyberspace/internet
@@ -142,9 +142,9 @@ knife/cuchillo
 knot/lazo ; nudo
 library/biblioteca
 lock/cerradura
-machine/máquina
+machine/maquina
 map/mapa ; plano ; carta
-match  ; lucifer  ; friction match/fósforo
+match  ; lucifer  ; friction match/fosforo
 mine/mina
 nail/clavo
 needle/aguja
@@ -154,18 +154,18 @@ office  ; business office/oficina
 oven/horno
 paint  ; pigment/pintura
 pen/pluma
-pencil/lápiz
-picture  ; image  ; icon  ; ikon/foto ; fotografía ; imagen
+pencil/lapiz
+picture  ; image  ; icon  ; ikon/foto ; fotografia ; imagen
 pin/alfiler
-pipe  ; pipage  ; piping/tubería  ; conducto
+pipe  ; pipage  ; piping/tuberia  ; conducto
 plate/plato
-prison  ; prison house/prisión
+prison  ; prison house/prision
 pump/bomba
-button  ; push button  ; push/botón ; tecla
+button  ; push button  ; push/boton ; tecla
 ring  ; band/anillo
 road  ; route/carretera
 roof/techo
-room/cuarto ; habitación
+room/cuarto ; habitacion
 sail  ; canvas  ; canvass  ; sheet/vela
 school  ; schoolhouse/colegio ; escuela
 scissors  ; pair of scissors/tijeras
@@ -174,23 +174,23 @@ shelf/estante
 ship/barco ; buque ; nave
 shirt/camisa
 shoe/zapato
-shop  ; store/establecimiento ; almacén ; tienda
+shop  ; store/establecimiento ; almacen ; tienda
 silk/seda
 skirt/falda ; pollera
-soap/jabón
-sock/calcetín
+soap/jabon
+sock/calcetin
 spoon/cuchara
 spring/muelle
 stage/escenario
-stamp/sello ; cajetín ; timbre
-station/estación
-step  ; stair/escalón
-stick/palo ; vara ; bastón
+stamp/sello ; cajetin ; timbre
+station/estacion
+step  ; stair/escalon
+stick/palo ; vara ; baston
 stitch/punto
 street/calle ; camino ; avenida ; calzada
-structure  ; construction/construcción ; estructura
+structure  ; construction/construccion ; estructura
 table/mesa
-television camera  ; tv camera  ; camera/cámara
+television camera  ; tv camera  ; camera/camara
 thing/cosa
 track  ; rail  ; rails  ; runway/carril  ; riel  ; linea
 train  ; railroad train/ferrocarril ; tren
@@ -203,44 +203,44 @@ window/ventana
 wire/alambre
 humor  ; humour  ; sense of humor  ; sense of humour/humorismo
 shape  ; form  ; cast/figura
-expression  ; look  ; aspect  ; facial expression  ; face/apariencia ; aspecto ; estampa ; expresión
+expression  ; look  ; aspect  ; facial expression  ; face/apariencia ; aspecto ; estampa ; expresion
 quality/calidad ; cualidad
 behavior  ; demeanor  ; demeanour  ; behaviour  ; conduct  ; deportment/comportamiento ; conducta
 property/propiedad
 structure/estructura
 smell  ; olfactory property  ; aroma  ; odor  ; odour  ; scent/olor ; hedor
 sound/sonido
-silence  ; quiet/silencio ; discreción ; mordaza ; reserva
+silence  ; quiet/silencio ; discrecion ; mordaza ; reserva
 mass/masa
 weight/peso
 strength  ; force  ; forcefulness/fuerza
 distance/distancia
 degree  ; grade  ; level/grado ; nivel
-size/medida ; tamaño
+size/medida ; tamanio
 mass  ; bulk  ; volume/masa ; volumen ; multitud
-amount/cantidad ; cuantía
+amount/cantidad ; cuantia
 increase  ; increment/incremento ; aumento ; alza
-limit  ; bound  ; boundary/límite ; raya
-range  ; scope  ; reach  ; orbit  ; compass  ; ambit/alcance ; ámbito ; esfera ; marco
+limit  ; bound  ; boundary/limite ; raya
+range  ; scope  ; reach  ; orbit  ; compass  ; ambit/alcance ; ambito ; esfera ; marco
 value/valor
-purpose  ; function  ; role  ; use/función ; propósito
+purpose  ; function  ; role  ; use/funcion ; proposito
 price  ; cost  ; toll/coste ; precio
-power  ; powerfulness/energía
+power  ; powerfulness/energia
 control/control ; mando ; poder
-authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so/autoridad ; dominación ; dominio ; poder ; potencia ; autorización
+authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so/autoridad ; dominacion ; dominio ; poder ; potencia ; autorizacion
 skin  ; tegument  ; cutis/piel
 hair  ; pilus/pelo  ; cabello
 hair/pelo
 bone  ; os/hueso
 tooth/diente
-muscle  ; musculus/músculo
+muscle  ; musculus/musculo
 tongue  ; lingua  ; glossa  ; clapper/lengua
 mouth  ; oral cavity  ; oral fissure  ; rima oris/boca
 lip/labio
 eye  ; oculus  ; optic/ojo
-ear/oído ; oreja
-heart  ; pump  ; ticker/corazón
-stomach  ; tummy  ; tum  ; breadbasket/estómago
+ear/oido ; oreja
+heart  ; pump  ; ticker/corazon
+stomach  ; tummy  ; tum  ; breadbasket/estomago
 blood/sangre
 nerve  ; nervus/nervio
 brain  ; encephalon/cerebro
@@ -248,7 +248,7 @@ head  ; caput/cabeza
 neck  ; cervix/cuello
 throat  ; pharynx/garganta
 body  ; torso  ; trunk/tronco
-chest  ; thorax  ; pectus/tórax
+chest  ; thorax  ; pectus/torax
 back  ; dorsum/espalda ; dorso
 leg/pierna
 foot  ; human foot  ; pes/pie
@@ -258,43 +258,43 @@ finger/dedo
 thumb  ; pollex/pulgar
 knee  ; knee joint  ; human knee  ; articulatio genus  ; genu/rodilla
 toe/dedo de pie
-nail/uña
+nail/unia
 nose  ; olfactory organ/nariz
 chin  ; mentum/barba ; barbilla
 face  ; human face/cara ; faz ; rostro
-mind  ; head  ; brain  ; psyche  ; nous/cabeza ; cerebro ; mente ; ánimo
-invention  ; innovation  ; excogitation  ; conception  ; design/concepción ; invención
+mind  ; head  ; brain  ; psyche  ; nous/cabeza ; cerebro ; mente ; animo
+invention  ; innovation  ; excogitation  ; conception  ; design/concepcion ; invencion
 memory  ; retention  ; retentiveness  ; retentivity/memoria
 will  ; volition/voluntad
 taste  ; gustation  ; sense of taste  ; gustatory modality/gusto
-interest  ; involvement/interés
+interest  ; involvement/interes
 trouble  ; problem/problema
-doubt  ; uncertainty  ; incertitude  ; dubiety  ; doubtfulness  ; dubiousness/duda ; incertidumbre ; inseguridad ; irresolución
-attention  ; attending/atención
+doubt  ; uncertainty  ; incertitude  ; dubiety  ; doubtfulness  ; dubiousness/duda ; incertidumbre ; inseguridad ; irresolucion
+attention  ; attending/atencion
 sweet  ; sweetness  ; sugariness/dulzura
 noise  ; dissonance  ; racket/ruido
-grade  ; mark  ; score/calificación ; nota
-experience/experiencia ; destreza ; dedicación
+grade  ; mark  ; score/calificacion ; nota
+experience/experiencia ; destreza ; dedicacion
 fact/evidencia ; hecho
 example  ; illustration  ; instance  ; representative/ejemplo
-idea  ; thought/idea ; pensamiento ; intención ; concepción ; imagen
-decision  ; determination  ; conclusion/decisión ; determinación ; resolución ; resultado
+idea  ; thought/idea ; pensamiento ; intencion ; concepcion ; imagen
+decision  ; determination  ; conclusion/decision ; determinacion ; resolucion ; resultado
 kind  ; sort  ; form  ; variety/clase ; tipo
 brand  ; make/marca
-rule  ; regulation/norma ; regla ; regulación
-part  ; section  ; division/división ; parte ; sección
-center  ; kernel  ; substance  ; core  ; centre  ; essence  ; gist  ; heart  ; heart and soul  ; inwardness  ; marrow  ; meat  ; nub  ; pith  ; sum  ; nitty-gritty/centro ; corazón ; esencia ; núcleo ; sustancia
+rule  ; regulation/norma ; regla ; regulacion
+part  ; section  ; division/division ; parte ; seccion
+center  ; kernel  ; substance  ; core  ; centre  ; essence  ; gist  ; heart  ; heart and soul  ; inwardness  ; marrow  ; meat  ; nub  ; pith  ; sum  ; nitty-gritty/centro ; corazon ; esencia ; nucleo ; sustancia
 memory/memoria
-opinion  ; sentiment  ; persuasion  ; view  ; thought/apreciación ; opinión ; parecer ; visión ; dictamen ; conjetura ; informe ; concepto
-religion  ; faith  ; religious belief/fe ; religión ; seguridad
+opinion  ; sentiment  ; persuasion  ; view  ; thought/apreciacion ; opinion ; parecer ; vision ; dictamen ; conjetura ; informe ; concepto
+religion  ; faith  ; religious belief/fe ; religion ; seguridad
 promise  ; hope/esperanza
 will/voluntad
-education/educación ; formación ; instrucción
-theory/teoría
-discipline  ; subject  ; subject area  ; subject field  ; field  ; field of study  ; study  ; bailiwick/ámbito ; área ; campo ; disciplina
+education/educacion ; formacion ; instruccion
+theory/teoria
+discipline  ; subject  ; subject area  ; subject field  ; field  ; field of study  ; study  ; bailiwick/ambito ; area ; campo ; disciplina
 science  ; scientific discipline/ciencia
-page/página ; hoja
-newspaper  ; paper/diario ; periódico ; gaceta ; rotativo
+page/pagina ; hoja
+newspaper  ; paper/diario ; periodico ; gaceta ; rotativo
 language  ; linguistic communication/lenguaje
 word/palabra ; oferta
 name/nombre ; apodo
@@ -305,38 +305,38 @@ invoice  ; bill  ; account/factura ; recibo ; cuenta
 ticket/billete ; pasaje
 law/ley ; derecho
 will  ; testament/testamento
-letter  ; missive/carta ; misiva ; esquela ; epístola
+letter  ; missive/carta ; misiva ; esquela ; epistola
 news  ; intelligence  ; tidings  ; word/noticias
 argument  ; statement/argumento
 secret/secreto
-statement/afirmación ; declaración
+statement/afirmacion ; declaracion
 answer  ; reply  ; response/respuesta
-note  ; annotation  ; notation/notación ; ángel
+note  ; annotation  ; notation/notacion ; angel
 agreement  ; understanding/acuerdo ; pacto ; contrato
 stamp  ; postage  ; postage stamp/porte
-line/línea  ; linea
+line/linea  ; linea
 sign/signo
-letter  ; letter of the alphabet  ; alphabetic character/carácter ; letra
+letter  ; letter of the alphabet  ; alphabetic character/caracter ; letra
 note  ; musical note  ; tone/nota ; tono
 smile  ; smiling  ; grin  ; grinning/sonrisa
-music/música
-song  ; vocal/canción
-rhythm  ; beat  ; musical rhythm/ritmo ; compás
+music/musica
+song  ; vocal/cancion
+rhythm  ; beat  ; musical rhythm/ritmo ; compas
 voice  ; vocalization  ; vocalisation  ; vocalism  ; phonation  ; vox/voz
 cry  ; outcry  ; call  ; yell  ; shout  ; vociferation/grito ; protesta ; alarido
-discussion  ; give-and-take  ; word/debate ; discusión
-suggestion  ; proposition  ; proffer/proposición ; propuesta ; sugerencia
+discussion  ; give-and-take  ; word/debate ; discusion
+suggestion  ; proposition  ; proffer/proposicion ; propuesta ; sugerencia
 order/orden
-argument  ; controversy  ; contention  ; contestation  ; disputation  ; disceptation  ; tilt  ; arguing/discusión ; disputa ; pelea
-offer  ; offering/oferta  ; ganga  ; saldo  ; liquidación
-request  ; asking/instancia ; petición ; solicitud
-question  ; inquiry  ; enquiry  ; query  ; interrogation/demanda ; pregunta ; búsqueda
+argument  ; controversy  ; contention  ; contestation  ; disputation  ; disceptation  ; tilt  ; arguing/discusion ; disputa ; pelea
+offer  ; offering/oferta  ; ganga  ; saldo  ; liquidacion
+request  ; asking/instancia ; peticion ; solicitud
+question  ; inquiry  ; enquiry  ; query  ; interrogation/demanda ; pregunta ; busqueda
 examination  ; exam  ; test/examen ; test
-yes/sí
+yes/si
 no/no
 protest  ; protestation/protesta
 advertisement  ; ad  ; advertizement  ; advertising  ; advertizing  ; advert/anuncio ; cartel ; letrero
-marker  ; marking  ; mark/marca ; señal
+marker  ; marking  ; mark/marca ; senial
 experience/experiencia
 wages  ; reward  ; payoff/pago ; recompensa
 movement  ; motion/movimiento
@@ -348,15 +348,15 @@ jump  ; leap  ;  saltation/salto
 stop  ; halt/parada
 current  ; stream/corriente ; actual
 touch  ; touching/toque
-damage  ; harm  ; impairment/daño ; perjuicio ; siniestro ; deterioro
+damage  ; harm  ; impairment/danio ; perjuicio ; siniestro ; deterioro
 outburst  ; burst  ; flare-up/estallido ; ruptura
-contest  ; competition/campeonato ; competición ; concurso
+contest  ; competition/campeonato ; competicion ; concurso
 match/partido ; equipo
 pleasure  ; pleasance/placer ; gusto
 surprise/asombro ; desconcierto ; sorpresa
 shock  ; daze  ; stupor/choque
-fear  ; fearfulness  ; fright/miedo ; terror ; inseguridad ; aprensión ; susto
-love/amor ; pasión
+fear  ; fearfulness  ; fright/miedo ; terror ; inseguridad ; aprension ; susto
+love/amor ; pasion
 hate  ; hatred/odio
 meal  ; repast/comida
 soup/sopa ; caldo
@@ -377,21 +377,21 @@ milkshake  ; milk shake  ; shake/batido
 society/sociedad
 family  ; family unit/familia
 sex/sexo
-package  ; bundle  ; packet  ; parcel/bulto ; lío ; paquete
-organization  ; organisation/organización
-government  ; authorities  ; regime/autoridad ; gobierno ; régimen
-company/compañía
+package  ; bundle  ; packet  ; parcel/bulto ; lio ; paquete
+organization  ; organisation/organizacion
+government  ; authorities  ; regime/autoridad ; gobierno ; regimen
+company/companiia
 business  ; concern  ; business concern  ; business organization  ; business organisation/negocio
 religion  ; faith  ; organized religion/iglesia
-nation  ; land  ; country/nación
+nation  ; land  ; country/nacion
 public  ; populace  ; world/mundo ; pueblo
-army  ; regular army  ; ground forces/ejército ; tropa
+army  ; regular army  ; ground forces/ejercito ; tropa
 band  ; dance band  ; dance orchestra/banda
 table  ; tabular array/tabla
-committee  ; commission/comisión ; comité ; delegación
+committee  ; commission/comision ; comite ; delegacion
 system  ; scheme/sistema
 stream  ; flow  ; current/corriente ; curso
-country  ; state  ; land/estado ; nación ; país ; tierra
+country  ; state  ; land/estado ; nacion ; pais ; tierra
 edge  ; border/borde ; canto ; margen ; arista ; orilla
 end  ; terminal/cabo ; final
 field/campo ; terreno
@@ -400,9 +400,9 @@ position  ; place/lugar ; puesto ; sitio
 seat  ; place/asiento ; localidad ; plaza
 side/lado
 place  ; topographic point  ; spot/lugar ; sitio
-town/población ; villa ; ciudad
+town/poblacion ; villa ; ciudad
 trend  ; tendency/tendencia
-bit  ; chip  ; flake  ; fleck  ; scrap/átomo ; pedazo ; pizca ; viruta
+bit  ; chip  ; flake  ; fleck  ; scrap/atomo ; pedazo ; pizca ; viruta
 cloud/nube
 crack  ; cleft  ; crevice  ; fissure  ; scissure/grieta
 Earth  ; earth  ; world  ; globe/globo ; mundo ; tierra
@@ -411,10 +411,10 @@ hole/agujero ; cavidad ; hueco
 island/isla
 land  ; dry land  ; earth  ; ground  ; solid ground  ; terra firma/tierra
 Moon  ; moon/luna
-plain  ; field  ; champaign/campaña ; llanura
-river/río
+plain  ; field  ; champaign/campania ; llanura
+river/rio
 stone  ; rock/piedra ; roca
-sea/mar ; océano
+sea/mar ; oceano
 sky/cielo
 spring  ; fountain  ; outflow  ; outpouring  ; natural spring/fuente
 star/estrella ; astro
@@ -423,28 +423,28 @@ expert/experto
 female  ; female person/hembra
 male  ; male person/macho
 baby  ; babe  ; infant/criatura
-dear  ; beloved  ; dearest  ; honey  ; love/amor ; cariño ; cielo ; corazón ; sol ; dulzura ; querida
+dear  ; beloved  ; dearest  ; honey  ; love/amor ; carinio ; cielo ; corazon ; sol ; dulzura ; querida
 brother  ; blood brother/hermano ; colega
 cook/cocinero
 daughter  ; girl/hija
 director  ; manager  ; managing director/director
-father  ; male parent  ; begetter/padre ; papa ; papá ; viejo
+father  ; male parent  ; begetter/padre ; papa ; papa ; viejo
 friend/amigo
 general  ; full general/general
-girl  ; miss  ; missy  ; young lady  ; young woman  ; fille/chica ; joven ; señorita
+girl  ; miss  ; missy  ; young lady  ; young woman  ; fille/chica ; joven ; seniorita
 judge  ; justice  ; jurist/juez ; magistrado
-boy  ; male child/chaval ; chico ; garzón ; joven ; mozo ; muchacho ; niño
-man  ; adult male/hombre ; varón ; macho
+boy  ; male child/chaval ; chico ; garzon ; joven ; mozo ; muchacho ; ninio
+man  ; adult male/hombre ; varon ; macho
 mother  ; female parent/madre
-owner  ; possessor/amo ; dueña ; dueño ; propietario
+owner  ; possessor/amo ; duenia ; duenio ; propietario
 representative/representante
 secretary  ; secretarial assistant/secretario
 servant  ; retainer/criado
 sister  ; sis/hermana
 son  ; boy/hijo
 woman  ; adult female/mujer
-consequence  ; effect  ; outcome  ; result  ; event  ; issue  ; upshot/consecuencia ; efecto ; resultado ; corolario ; secuela ; conclusión
-reaction/reacción
+consequence  ; effect  ; outcome  ; result  ; event  ; issue  ; upshot/consecuencia ; efecto ; resultado ; corolario ; secuela ; conclusion
+reaction/reaccion
 death/muerte
 light  ; visible light  ; visible radiation/luz
 rain  ; rainfall/lluvia
@@ -453,9 +453,9 @@ weather  ; weather condition  ; conditions  ; atmospheric condition/tiempo ; cli
 wind  ; air current  ; current of air/corriente ; aire ; viento ; brisa
 flower/flor
 grass/hierba
-tree/árbol
-root/raíz
-stem  ; stalk/tallo ; pedúnculo
+tree/arbol
+root/raiz
+stem  ; stalk/tallo ; pedunculo
 fruit/fruto
 seed/pepita ; semilla
 nut/nuez
@@ -465,30 +465,30 @@ property  ; belongings  ; holding/pertenencia ; propiedad
 profit  ; net income  ; net  ; net profit  ; lucre  ; profits  ; earnings/ganancia  ; utilidades
 present/regalo ; presente
 payment/pago
-tax  ; taxation  ; revenue enhancement/carga ; contribución ; imposición ; impuesto ; tasa ; tributación
-interest/interés
+tax  ; taxation  ; revenue enhancement/carga ; contribucion ; imposicion ; impuesto ; tasa ; tributacion
+interest/interes
 rate  ; charge per unit/tarifa ; tipo ; tasa
 right/derecho
 insurance/seguro
 money/dinero ; plata ; pelas ; pasta ; suelto
 change/cambio
 banknote  ; bill  ; note  ; government note  ; bank bill  ; banker's bill  ; bank note  ; Federal Reserve note  ; greenback/billete
-evolution  ; development/desarrollo ; evolución
+evolution  ; development/desarrollo ; evolucion
 fire  ; flame  ; flaming/fuego ; llama ; incendio
-increase  ; increment  ; growth/aumento ; crecimiento ; incremento ; multiplicación
+increase  ; increment  ; growth/aumento ; crecimiento ; incremento ; multiplicacion
 operation  ; functioning  ; performance/funcionamiento
-number/número
+number/numero
 unit  ; unit of measurement/unidad
 degree/grado
 square  ; second power/cuadrado
-root/raíz
+root/raiz
 step  ; footstep  ; pace  ; stride/paso ; desplazamiento
 drop  ; drib  ; driblet/gota
-connection  ; connexion  ; connectedness/conexión
+connection  ; connexion  ; connectedness/conexion
 part  ; portion  ; component part  ; component  ; constituent/componente ; parte
 detail  ; particular  ; item/elemento
 rest  ; remainder  ; balance  ; residual  ; residue  ; residuum/restante ; resto ; residuo ; escombro
-direction/camino ; curso ; dirección ; trayectoria
+direction/camino ; curso ; direccion ; trayectoria
 north  ; due north  ; northward  ; N/norte
 east  ; due east  ; eastward  ; E/este ; oriente ; levante
 south  ; due south  ; southward  ; S/sur
@@ -496,12 +496,12 @@ west  ; due west  ; westward  ; W/oeste
 competition/competencia  ; rivalidad
 opposite  ; reverse  ; contrary/contrario
 curve  ; curved shape/curva ; arco
-circle/círculo
+circle/circulo
 coil  ; whorl  ; roll  ; curl  ; curlicue  ; ringlet  ; gyre  ; scroll/rollo
 square  ; foursquare/cuadrado
-angle/ángulo
+angle/angulo
 point  ; dot/punto ; puntillo
-condition  ; status/condición ; situación
+condition  ; status/condicion ; situacion
 account  ; business relationship/cuenta
 company  ; companionship  ; fellowship  ; society/comitiva
 top  ; peak  ; summit  ; acme  ; height  ; elevation  ; pinnacle  ;  superlative  ; meridian  ; tiptop/auge ; cima ; pico
@@ -510,19 +510,19 @@ order/orden
 peace/paz
 war  ; state of war/guerra
 balance/equilibrio
-sleep  ; slumber/sueño
-disease/afección ; enfermedad
+sleep  ; slumber/suenio
+disease/afeccion ; enfermedad
 cold  ; common cold/resfriado
 pain  ; hurting/dolor
 cough  ; coughing/tos
-dominance  ; ascendance  ; ascendence  ; ascendancy  ; ascendency  ; control/dominación ; dominio ; sometimiento ; sumisión
+dominance  ; ascendance  ; ascendence  ; ascendancy  ; ascendency  ; control/dominacion ; dominio ; sometimiento ; sumision
 dominion  ; rule/autoridad ; dominio
 demand  ; need/necesidad
-chance  ; opportunity/ocasión ; oportunidad
+chance  ; opportunity/ocasion ; oportunidad
 moisture  ; wet/humedad
 danger/peligro ; riesgo
 material  ; stuff/materia
-acid/ácido ; agrio
+acid/acido ; agrio
 metallic element  ; metal/metal
 gold  ; Au  ; atomic number 79/oro
 iron  ; Fe  ; atomic number 26/hierro
@@ -530,11 +530,11 @@ lead  ; Pb  ; atomic number 82/plomo
 silver  ; Ag  ; atomic number 47/plata
 leather/cuero ; piel
 steel/acero
-chemical  ; chemical substance/sustancia química
-coal/carbón
+chemical  ; chemical substance/sustancia quimica
+coal/carbon
 dust/polvo
 air/aire
-breath/aliento ; respiración ; ánimo ; soplo ; anhelo
+breath/aliento ; respiracion ; animo ; soplo ; anhelo
 earth  ; ground/tierra
 water  ; H2O/agua
 waste  ; waste material  ; waste matter  ; waste product/desperdicios
@@ -542,14 +542,14 @@ fat/grasa
 glass/vidrio
 ice  ; water ice/hielo
 ink/tinta
-liquid/líquido ; licor
+liquid/liquido ; licor
 oil/aceite
 paper/papel
-oil  ; petroleum  ; crude oil  ; crude  ; rock oil  ; fossil oil/petróleo
+oil  ; petroleum  ; crude oil  ; crude  ; rock oil  ; fossil oil/petroleo
 color  ; colour  ; coloring material  ; colouring material/color
 powder  ; pulverization  ; pulverisation/polvo
 sand/arena
-poison  ; toxicant  ; poisonous substance/tóxico
+poison  ; toxicant  ; poisonous substance/toxico
 steam/humo
 wood/madera
 wool/lana
@@ -559,16 +559,16 @@ history/historia
 future  ; hereafter  ; futurity  ; time to come/futuro ; porvenir
 time  ; fourth dimension/tiempo
 week  ; calendar week/semana
-day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day/día
-tomorrow/mañana
-morning  ; morn  ; morning time  ; forenoon/mañana
+day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day/dia
+tomorrow/maniana
+morning  ; morn  ; morning time  ; forenoon/maniana
 night  ; nighttime  ; dark/noche
-year  ; twelvemonth  ; yr/año
+year  ; twelvemonth  ; yr/anio
 month  ; calendar month/mes
 hour  ; hr  ; 60 minutes/h ; hora
 minute  ; min/minuto
 second  ; sec  ; s/s ; segundo
-autumn  ; fall/otoño
+autumn  ; fall/otonio
 spring  ; springtime/primavera
 summer  ; summertime/verano
 winter  ; wintertime/invierno
@@ -576,8 +576,8 @@ while  ; piece  ; spell  ; patch/instante ; minuto ; momento ; segundo
 beginning  ; commencement  ; first  ; outset  ; get-go  ; start  ; kickoff  ; starting time  ; showtime  ; offset/comienzo ; inicio ; principio ; umbral
 phase  ; stage/estadio ; etapa ; fase
 cough/toser
-smile/sonreír
-laugh  ; express joy  ; express mirth/reír
+smile/sonreir
+laugh  ; express joy  ; express mirth/reir
 cry  ; weep/llorar
 injure  ; wound/herir ; torturar
 change  ; alter  ; modify/alterar ; cambiar
@@ -593,7 +593,7 @@ prepare  ; fix  ; set up  ; ready  ; gear up  ; set/disponer ; preparar ; coordi
 finish  ; complete/completar
 let/dejar  ; consentir  ; autorizar
 process  ; treat/procesar ; tratar
-train  ; develop  ; prepare  ; educate/enseñar
+train  ; develop  ; prepare  ; educate/enseniar
 measure  ; mensurate  ; measure out/medir
 classify  ; class  ; sort  ; assort  ; sort out  ; separate/clasificar ; separar ; organizar
 rate  ; rank  ; range  ; order  ; grade  ; place/clasificar
@@ -640,7 +640,7 @@ clean  ; make clean/limpiar ; pulir
 wash  ; launder/lavar
 cut/cortar
 crush  ; squash  ; squelch  ; mash  ; squeeze/aplastar ; machacar
-design  ; plan/diseñar
+design  ; plan/diseniar
 cook/preparar ; cocer
 copy  ; re-create/copiar ; recrear
 plow  ; plough  ; turn/arar  ; binar
@@ -704,89 +704,89 @@ match  ; fit  ; correspond  ; check  ; jibe  ; gibe  ; tally  ; agree/correspond
 exceed  ; transcend  ; overstep  ; pass  ; go past  ; top/superar
 keep  ; maintain  ; hold/conservar ; mantener
 able/capaz
-acid/ácido
+acid/acido
 sticky  ; gluey  ; glutinous  ; gummy  ; mucilaginous  ; pasty  ; viscid  ; viscous/glutinoso
 dead/muerto ; difunto
 angry/airado
-automatic/automático
+automatic/automatico
 awake/despierto
 front/delantero
-beautiful/bello ; bonito ; hermoso ; precioso ; espléndido
+beautiful/bello ; bonito ; hermoso ; precioso ; esplendido
 broken/roto
 certain  ; sure/seguro ; cierto
 blue  ; bluish  ; blueish/azul
-brown  ; brownish  ; chocolate-brown  ; dark-brown/marrón
+brown  ; brownish  ; chocolate-brown  ; dark-brown/marron
 green  ; greenish  ; light-green  ; dark-green/verde
 orange  ; orangish/naranja
 red  ; reddish  ; ruddy  ; blood-red  ; carmine  ; cerise  ; cherry  ; cherry-red  ; crimson  ; ruby  ; ruby-red  ; scarlet/rojizo ; rojo
 yellow  ; yellowish  ; xanthous/amarillo
 gray  ; grey  ; greyish  ; grayish/gris
 black/negro
-white/blanco  ; cándido
+white/blanco  ; candido
 color  ; colour/de color ; en colores ; colores
 bright  ; brilliant  ; vivid/brillante ; vivo
-dark/oscuro ; sombrío ; misterioso
-clean/limpio ; nítido ; pobre
+dark/oscuro ; sombrio ; misterioso
+clean/limpio ; nitido ; pobre
 dirty  ; soiled  ; unclean/sucio ; asqueroso
 clear/claro
 sharp  ; astute  ; shrewd/astuto
 far/distante ; lejano ; remoto
 near  ; close  ; nigh/cercano
-common/común
+common/comun
 special  ; especial  ; exceptional  ; particular/especial ; excepcional ; particular ; singular
 full  ; total/absoluto ; completo ; perfecto ; total
 sparse  ; thin/claro ; disperso
 correct  ; right/acertado ; correcto
-wrong  ; incorrect/incorrecto ; erróneo
+wrong  ; incorrect/incorrecto ; erroneo
 current/vigente
 delicate/delicado
-fragile  ; delicate  ; frail/delicado ; frágil
+fragile  ; delicate  ; frail/delicado ; fragil
 fixed/fijo
-difficult  ; hard/difícil ; duro ; espinoso
+difficult  ; hard/dificil ; duro ; espinoso
 simple  ; elementary  ; uncomplicated  ; unproblematic/elemental ; simple
 early/temprano
-late/tardío ; pausado ; lento
+late/tardio ; pausado ; lento
 equal/igual
 even  ; fifty-fifty/nivelado
 flat  ; level  ; plane/liso ; llano ; plano
 even/par
 cheap  ; inexpensive/barato
-strange  ; unusual/insólito
+strange  ; unusual/insolito
 usual  ; common/corriente
 slow/lento
 fat/gordo
 fat  ; fatty/gordo
-light  ; lite  ; low-cal  ; calorie-free/dietético
+light  ; lite  ; low-cal  ; calorie-free/dietetico
 first/primero
-last/último
-rigid  ; stiff/rígido ; tieso
-foreign  ; strange/extranjero ; extraño ; forastero
+last/ultimo
+rigid  ; stiff/rigido ; tieso
+foreign  ; strange/extranjero ; extranio ; forastero
 poor  ; hapless  ; miserable  ; misfortunate  ; pathetic  ; piteous  ; pitiable  ; pitiful  ; wretched/miserable ; pobre ; triste ; indefenso
 free/libre ; independiente
 frequent/habitual
 full/lleno
 general/general
 good/bueno
-great  ; bang-up  ; bully  ; corking  ; cracking  ; dandy  ; groovy  ; keen  ; neat  ; nifty  ; not bad  ; peachy  ; slap-up  ; swell  ; smashing/bárbaro ; brutal ; genial
+great  ; bang-up  ; bully  ; corking  ; cracking  ; dandy  ; groovy  ; keen  ; neat  ; nifty  ; not bad  ; peachy  ; slap-up  ; swell  ; smashing/barbaro ; brutal ; genial
 bad/malo
 sad  ; deplorable  ; distressing  ; lamentable  ; pitiful  ; sorry/lamentable ; penoso ; triste
 sudden/repentino
 happy/contento ; feliz ; alegre
-firm  ; solid/consistente ; firme ; sólido ; robusto ; estable
+firm  ; solid/consistente ; firme ; solido ; robusto ; estable
 soft/blando ; muelle
 healthy/sano
-light/ligero ; ágil ; leve
+light/ligero ; agil ; leve
 high/alto
 low/bajo
 under  ; nether/bajo ; inferior
-cold/frío ; helado
-cruel  ; barbarous  ; brutal  ; fell  ; roughshod  ; savage  ; vicious/atroz ; bárbaro ; brutal ; cruel ; salvaje
-little  ; fiddling  ; footling  ; lilliputian  ; niggling  ; piddling  ; piffling  ; petty  ; picayune  ; trivial/insignificante ; pequeño ; trivial
+cold/frio ; helado
+cruel  ; barbarous  ; brutal  ; fell  ; roughshod  ; savage  ; vicious/atroz ; barbaro ; brutal ; cruel ; salvaje
+little  ; fiddling  ; footling  ; lilliputian  ; niggling  ; piddling  ; piffling  ; petty  ; picayune  ; trivial/insignificante ; pequenio ; trivial
 conscious  ; witting/consciente
 sad/triste
-kind/amable ; simpático ; gentil
+kind/amable ; simpatico ; gentil
 great/grande ; vasto
-small  ; little/menudo ; pequeño ; chico ; breve ; escaso ; poco
+small  ; little/menudo ; pequenio ; chico ; breve ; escaso ; poco
 minute  ; infinitesimal/diminuto
 different  ; unlike  ; dissimilar/diferente ; distinto
 probable  ; likely/posible ; probable ; eventual
@@ -799,16 +799,16 @@ female/femenino
 married/casado
 male  ; manful  ; manlike  ; manly  ; virile/masculino
 military/militar
-metal  ; metallic/metálico
+metal  ; metallic/metalico
 silver/plata ; argento ; color plateado
 much/mucho
 natural/natural
 fake  ; false  ; faux  ; imitation  ; simulated/artificial ; falso
 necessary/necesario
-normal/común ; corriente ; normal
+normal/comun ; corriente ; normal
 old/viejo ; veterano
 young  ; immature/joven
-on/en funcionamiento ; en operación ; conectado ; enchufado ; encendido
+on/en funcionamiento ; en operacion ; conectado ; enchufado ; encendido
 off/desconectado ; desenchufado ; apagado
 open  ; unfastened/abierto
 closed  ; shut  ; unopen/cerrado
@@ -820,9 +820,9 @@ present/actual ; presente ; ofrenda
 future/futuro
 complete  ; consummate/completo
 private/personal  ; particular
-physical/físico
+physical/fisico
 sharp  ; acuate  ; acute  ; needlelike/agudo ; afilado ; cortante
-political/político
+political/politico
 possible/posible ; realizable
 quiet/silencioso
 silent  ; soundless  ; still/silencioso ; callado
@@ -841,15 +841,15 @@ new/nuevo
 opposite/contrario
 separate/separado
 serious/serio
-common  ; mutual/común ; mutuo ; corriente ; ordinario ; general
+common  ; mutual/comun ; mutuo ; corriente ; ordinario ; general
 second  ; 2nd  ; 2d/segundo
-skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful/hábil
+skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful/habil
 smooth/liso ; llano ; suave
-rough  ; unsmooth/áspero
-solid/sólido
-liquid/líquido
+rough  ; unsmooth/aspero
+solid/solido
+liquid/liquido
 any  ; whatever  ; whatsoever/cualquier
-no/ningún
+no/ningun
 all/todo
 every/cada
 straight/recto ; derecho ; vertical ; perpendicular ; directo
@@ -865,17 +865,17 @@ true/verdadero
 false/falso
 down/abajo  ; debajo
 violent/violento
-warm/cálido
+warm/calido
 ill  ; sick/enfermo
-wet/húmedo
+wet/humedo
 dry/seco
 healthy  ; salubrious  ; good for you/sano
 wide  ; broad/amplio ; ancho
 narrow/estrecho
 wise/sabio ; serio ; formal
-chemical  ; chemic/químico
-medical/médico
-electric  ; electrical/eléctrico
+chemical  ; chemic/quimico
+medical/medico
+electric  ; electrical/electrico
 simply  ; merely  ; just  ; only  ; but/solamente
 approximately  ; about  ; close to  ; just about  ; some  ; roughly  ; more or less  ; around  ; or so/aproximadamente
 entirely  ; exclusively  ; solely  ; alone  ; only/solitario
@@ -884,14 +884,14 @@ even/incluso
 equally  ; as  ; every bit/como
 not  ; non/no
 however  ; nevertheless  ; withal  ; still  ; yet  ; all the same  ; even so  ; nonetheless  ; notwithstanding/aunque
-still/todavía
+still/todavia
 very  ; really  ; real  ; rattling/muy
 again  ; once again  ; once more  ; over again/otra vez
 immediately  ; instantly  ; straightaway  ; straight off  ; directly  ; now  ; right away  ; at once  ; forthwith  ; like a shot/inmediatamente
 now  ; at present/actualmente
 directly  ; straight  ; direct/directamente
 before  ; earlier/antes
-later  ; after  ; subsequently  ; afterwards  ; afterward  ; later on/después
+later  ; after  ; subsequently  ; afterwards  ; afterward  ; later on/despues
 almost  ; about  ; most  ; nearly  ; near  ; nigh  ; virtually  ; well-nigh/casi  ; aproximadamente
 forward  ; forwards  ; frontward  ; frontwards  ; forrad  ; forrard/adelante
 down  ; downwards  ; downward  ; downwardly/abajo
@@ -900,23 +900,23 @@ little/poco
 late  ; belatedly  ; tardily/tarde
 early  ; early on/pronto
 first  ; firstly  ; foremost  ; first of all  ; first off/primero
-here/aquí
-here  ; hither/ahí
-there  ; at that place  ; in that location/ahí
+here/aqui
+here  ; hither/ahi
+there  ; at that place  ; in that location/ahi
 together/juntos
 then  ; so  ; and so  ; and then/entonces
 enough  ; plenty/bastante
-so/así
+so/asi
 such/tal
 slowly  ; slow  ; easy  ; tardily/lentamente
 by  ; past/por
-tomorrow/mañana
+tomorrow/maniana
 between  ; betwixt/entre
 in  ; inwards  ; inward/en
-chemistry  ; chemical science/química
-Germany  ; Federal Republic of Germany  ; Deutschland  ; FRG/República Federal de Alemania
-France  ; French Republic/República Francesa
-India  ; Republic of India  ; Bharat/República de la India
+chemistry  ; chemical science/quimica
+Germany  ; Federal Republic of Germany  ; Deutschland  ; FRG/Republica Federal de Alemania
+France  ; French Republic/Republica Francesa
+India  ; Republic of India  ; Bharat/Republica de la India
 December  ; Dec/diciembre
 October  ; Oct/octubre
 November  ; Nov/noviembre
@@ -926,71 +926,71 @@ July/julio
 January  ; Jan/enero
 Italy  ; Italian Republic  ; Italia/Italia
 February  ; Feb/febrero
-Spain  ; Kingdom of Spain  ; Espana/Reino de España
-lion  ; king of beasts  ; Panthera leo/león
+Spain  ; Kingdom of Spain  ; Espana/Reino de Espania
+lion  ; king of beasts  ; Panthera leo/leon
 beer/cerveza
-Japan  ; Nippon  ; Nihon/Japón
-sugar  ; refined sugar/azúcar
+Japan  ; Nippon  ; Nihon/Japon
+sugar  ; refined sugar/azucar
 United States  ; United States of America  ; America  ; the States  ; US  ; U.S.  ; USA  ; U.S.A./Estados Unidos
 Monday  ; Mon/lunes
-biology  ; biological science/biología
-dictionary  ; lexicon/diccionario ; léxico ; índice ; glosario
+biology  ; biological science/biologia
+dictionary  ; lexicon/diccionario ; lexico ; indice ; glosario
 Friday  ; Fri/viernes
 Thursday  ; Th/jueves
-coffee  ; java/café
-Wednesday  ; Midweek  ; Wed/miércoles
+coffee  ; java/cafe
+Wednesday  ; Midweek  ; Wed/miercoles
 United Kingdom  ; UK  ; U.K.  ; Britain  ; United Kingdom of Great Britain and Northern Ireland  ; Great Britain/Reino Unido
 Sunday  ; Lord's Day  ; Dominicus  ; Sun/domingo
-tea/té
-energy  ; free energy/energía
-democracy  ; republic  ; commonwealth/democracia ; república
-Czech Republic/República Checa
+tea/te
+energy  ; free energy/energia
+democracy  ; republic  ; commonwealth/democracia ; republica
+Czech Republic/Republica Checa
 lake/lago
 chocolate/chocolate
-German  ; High German  ; German language/alemán
+German  ; High German  ; German language/aleman
 elephant/elefante
-car  ; auto  ; automobile  ; machine  ; motorcar/auto ; automóvil ; coche ; turismo ; carro ; cacharro
+car  ; auto  ; automobile  ; machine  ; motorcar/auto ; automovil ; coche ; turismo ; carro ; cacharro
 theater  ; theatre  ; house/teatro
-doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico/doctor ; médico
-culture  ; civilization  ; civilisation/civilización ; cultura ; conocimiento ; ilustración
+doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico/doctor ; medico
+culture  ; civilization  ; civilisation/civilizacion ; cultura ; conocimiento ; ilustracion
 tennis  ; lawn tennis/tenis
-city  ; metropolis  ; urban center/ciudad ; metrópolis
+city  ; metropolis  ; urban center/ciudad ; metropolis
 three  ; 3  ; iii/tres
 bank  ; depository financial institution  ; banking concern  ; banking company/banco
-poetry  ; poesy  ; verse/poesía ; verso
+poetry  ; poesy  ; verse/poesia ; verso
 nature/naturaleza
 eight  ; 8  ; viii/ocho
 ten  ; 10  ; x/diez
-actor  ; histrion  ; player  ; thespian  ; role player/actor ; intérprete ; farandulero ; cómico
+actor  ; histrion  ; player  ; thespian  ; role player/actor ; interprete ; farandulero ; comico
 thousand  ; one thousand  ; 1000  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard/mil ; millar
 game/juego
 big  ; large/gran ; grande ; voluminoso
-bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle/autobús ; colectivo ; camión
-airport  ; airdrome  ; aerodrome  ; drome/aeropuerto ; aeródromo
+bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle/autobus ; colectivo ; camion
+airport  ; airdrome  ; aerodrome  ; drome/aeropuerto ; aerodromo
 beach/playa
 castle/castillo
 forest  ; wood  ; woods/bosque ; floresta ; jungla
 six  ; 6  ; vi  ; half dozen  ; half-dozen/seis
 bear/oso
 Hindi/hindi
-technology  ; engineering/tecnología
+technology  ; engineering/tecnologia
 nine  ; 9  ; ix/nueve
 beak  ; bill  ; neb  ; nib  ; pecker/pico
-Saturday  ; Sabbatum  ; Sat/sábado
+Saturday  ; Sabbatum  ; Sat/sabado
 century/siglo
 mirror/espejo
 chemical element  ; element/elemento
-police  ; police force  ; constabulary  ; law/guardia ; policía
+police  ; police force  ; constabulary  ; law/guardia ; policia
 China  ; People's Republic of China  ; mainland China  ; Communist China  ; Red China  ; PRC  ; Cathay/China
 health  ; wellness/salud
 chair/silla
 life/existencia ; vida
 teacher  ; instructor/profesor ; maestro ; educador
-million  ; 1000000  ; one thousand thousand  ; meg/millón
+million  ; 1000000  ; one thousand thousand  ; meg/millon
 matter/materia ; sustancia
 king  ; male monarch  ; Rex/monarca ; rey
 capital/capital
-population/población
+population/poblacion
 evening  ; eve  ; even  ; eventide/anochecer ; atardecer ; noche
 rope/cuerda
 eat/comer
@@ -1003,41 +1003,41 @@ hotel/hotel
 one  ; 1  ; i  ; ane/uno ; a
 student  ; pupil  ; educatee/alumno ; estudiante
 accident/accidente
-English  ; English language/inglés
+English  ; English language/ingles
 writer  ; author/autor ; escritor
 carpet  ; rug  ; carpeting/alfombra ; tapete ; tapiz ; moqueta
 soldier/soldado
-musician  ; instrumentalist  ; player/músico
+musician  ; instrumentalist  ; player/musico
 snow/nieve
-cellphone  ; cellular telephone  ; cellular phone  ; cell  ; mobile phone/móvil  ; celular
-baseball  ; baseball game/béisbol
+cellphone  ; cellular telephone  ; cellular phone  ; cell  ; mobile phone/movil  ; celular
+baseball  ; baseball game/beisbol
 people/gente
 husband  ; hubby  ; married man/esposo ; hombre ; marido
 wife  ; married woman/esposa
 subject  ; topic  ; theme/asunto ; objeto ; tema ; premisa
 risk  ; hazard  ; jeopardy  ; peril  ; endangerment/peligro ; riesgo ; azar
-too  ; besides  ; also  ; likewise  ; as well/también
+too  ; besides  ; also  ; likewise  ; as well/tambien
 set/conjunto
-factory  ; mill  ; manufacturing plant  ; manufactory/fábrica ; planta ; taller ; manufactura ; industria ; construcción
+factory  ; mill  ; manufacturing plant  ; manufactory/fabrica ; planta ; taller ; manufactura ; industria ; construccion
 village  ; small town  ; settlement/pueblo
-birthday/cumpleaños
+birthday/cumpleanios
 nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch  ; zip  ; zippo/cero ; nada
 charge  ; electric charge/carga
 program  ; programme  ; computer program  ; computer programme/programa
-election/elección
-address/dirección ; ubicación
-announcement  ; proclamation  ; annunciation  ; declaration/anuncio ; proclamación
-fast/rápido ; veloz
+election/eleccion
+address/direccion ; ubicacion
+announcement  ; proclamation  ; annunciation  ; declaration/anuncio ; proclamacion
+fast/rapido ; veloz
 grandfather  ; gramps  ; granddad  ; grandad  ; granddaddy  ; grandpa/abuelo
-occupation  ; business  ; job  ; line of work  ; line/ocupación
+occupation  ; business  ; job  ; line of work  ; line/ocupacion
 advice/advertencia ; consejo
 lunch  ; luncheon  ; tiffin  ; dejeuner/almuerzo ; comida
-management  ; direction/dirección
-movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick/película ; producción
-thirty  ; 30  ; xxx/treinta
+management  ; direction/direccion
+movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick/pelicula ; produccion
+thirty  ;  xxx/treinta
 orchestra/orquesta
-guest  ; invitee/huésped ; invitado
-sentence/oración ; frase
+guest  ; invitee/huesped ; invitado
+sentence/oracion ; frase
 concert/concierto
 date  ; day of the month/fecha
 mail  ; mail service  ; postal service  ; post/correo
@@ -1055,7 +1055,7 @@ write/escribir
 always  ; ever  ; e'er/siempre
 tie  ; necktie/corbata
 four  ; 4  ; iv/cuatro
-information  ; info/información
+information  ; info/informacion
 speech  ; speech communication  ; spoken communication  ; spoken language  ; language  ; voice communication  ; oral communication/habla ; lenguaje ; decir
 worker/trabajador
 court  ; tribunal  ; judicature/juzgado ; tribunal
@@ -1072,16 +1072,16 @@ garage/cochera
 sailor  ; crewman/marinero
 hill/colina ; monte
 fourteen  ; 14  ; xiv/catorce
-cell/célula ; cámara
+cell/celula ; camara
 soon  ; shortly  ; presently  ; before long/pronto
 ask  ; inquire  ; enquire/preguntar ; solicitar ; interrogar ; averiguar
-marriage  ; matrimony  ; union  ; spousal relationship  ; wedlock/matrimonio ; unión
-research/investigación
+marriage  ; matrimony  ; union  ; spousal relationship  ; wedlock/matrimonio ; union
+research/investigacion
 afternoon/tarde
-method/método
+method/metodo
 contract/contrato
-possibly  ; perchance  ; perhaps  ; maybe  ; mayhap  ; peradventure/quizás
-manner  ; mode  ; style  ; way  ; fashion/estilo ; forma ; método ; sistema ; procedimiento
+possibly  ; perchance  ; perhaps  ; maybe  ; mayhap  ; peradventure/quizas
+manner  ; mode  ; style  ; way  ; fashion/estilo ; forma ; metodo ; sistema ; procedimiento
 percent  ; percentage  ; per centum  ; pct/porcentaje
 sing/cantar
 passenger  ; rider/pasajero ; pasajera
@@ -1090,63 +1090,63 @@ sale/venta
 gate/verja ; reja ; valla
 wedding  ; marriage  ; marriage ceremony/boda
 sauce/salsa
-sixteen  ; 16  ; xvi/dieciséis
+sixteen  ; 16  ; xvi/dieciseis
 seventy  ; 70  ; lxx/setenta
 salad/ensalada
 component  ; constituent  ; element  ; factor  ; ingredient/componente ; elemento ; factor
 style/estilo
-education/educación
+education/educacion
 shower/ducha
 throw/lanzar ; echar ; tirar ; arrojar
 sit  ; sit down/sentar
 moment  ; mo  ; minute  ; second  ; bit/instante ; minuto ; momento ; segundo
-pronunciation/pronunciación
-height  ; altitude/altitud ; altura ; elevación
+pronunciation/pronunciacion
+height  ; altitude/altitud ; altura ; elevacion
 kitchen/cocina
-procedure  ; process/procedimiento ; proceso ; método
+procedure  ; process/procedimiento ; proceso ; metodo
 buy  ; purchase/adquirir ; comprar
-check  ; bank check  ; cheque/talón ; cheque
+check  ; bank check  ; cheque/talon ; cheque
 project  ; projection/proyecto
 difference/diferencia ; desigualdad ; divergencia ; desemejanza
 income/ingreso ; ingresos
 cupboard  ; closet/armario
-success/éxito
+success/exito
 breakfast/almuerzo ; desayuno
 ninety  ; 90  ; xc/noventa
 passport/pasaporte
 fresh/fresco ; helado ; refrescante
-stupid/estúpido ; imbécil ; tonto
+stupid/estupido ; imbecil ; tonto
 moment  ; minute  ; second  ; instant/instante ; momento
-choice  ; selection  ; option  ; pick/elección ; selección ; decisión
+choice  ; selection  ; option  ; pick/eleccion ; seleccion ; decision
 already/ya
 seven  ; 7  ; vii/siete
-teach  ; learn  ; instruct/enseñar ; instruir
+teach  ; learn  ; instruct/enseniar ; instruir
 artist  ; creative person/artista
 accept  ; take  ; have/aceptar ; querer ; alojar
 department  ; section/departamento
-furniture  ; piece of furniture  ; article of furniture/mueble ; decoración
+furniture  ; piece of furniture  ; article of furniture/mueble ; decoracion
 half  ; one-half/mitad
 advantage  ; vantage/superioridad ; ventaja
-cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace/cine ; biógrafo
-policy/política
+cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace/cine ; biografo
+policy/politica
 park  ; commons  ; common  ; green/parque
 fifteen  ; 15  ; xv/decimoquinto
-pressure  ; pressure level  ; force per unit area/presión
+pressure  ; pressure level  ; force per unit area/presion
 heavy/pesado
-change  ; alteration  ; modification/alteración ; cambio ; modificación ; variación
+change  ; alteration  ; modification/alteracion ; cambio ; modificacion ; variacion
 data  ; information/datos
 midnight/medianoche
-pause  ; intermission  ; break  ; interruption  ; suspension/pausa ; suspensión
+pause  ; intermission  ; break  ; interruption  ; suspension/pausa ; suspension
 visit  ; see/ver ; visitar
-product  ; production/producción ; producto
+product  ; production/produccion ; producto
 patient/paciente
 above  ; higher up  ; in a higher place  ; to a higher place/encima de
 thousand  ; one thousand  ; 1000  ; m  ; k/mil ; millar
 glue  ; gum  ; mucilage/cola ; goma ; pegamento
 fifty  ; 50  ; l/cincuenta
 pilot  ; airplane pilot/piloto
-standard  ; criterion  ; measure  ; touchstone/criterio ; estándar ; patrón ; pauta ; regla
-class  ; form  ; grade  ; course/clase ; curso ; sección
+standard  ; criterion  ; measure  ; touchstone/criterio ; estandar ; patron ; pauta ; regla
+class  ; form  ; grade  ; course/clase ; curso ; seccion
 often  ; frequently  ; oftentimes  ; oft  ; ofttimes/frecuentemente
 suggest  ; propose  ; advise/proponer ; sugerir ; aconsejar ; inspirar ; apuntar
 clothing  ; article of clothing  ; vesture  ; wear  ; wearable  ; habiliment/vestido  ; prenda  ; ropa
@@ -1157,20 +1157,20 @@ visit/visita
 sell/vender
 bank/margen ; orilla ; vera
 understand/coger ; comprender ; entender
-toilet  ; lavatory  ; lav  ; can  ; john  ; privy  ; bathroom/baño ; letrina
+toilet  ; lavatory  ; lav  ; can  ; john  ; privy  ; bathroom/banio ; letrina
 complaint  ; charge/cargo
-region  ; part/parte ; región
+region  ; part/parte ; region
 child  ; kid/hija ; hijo
 chest  ; breast/pecho
-reason  ; ground/razón ; motivo
+reason  ; ground/razon ; motivo
 build  ; construct  ; make/construir ; edificar ; fabricar
-easy/fácil
+easy/facil
 nineteen  ; 19  ; xix/diecinueve
 service/servicio
-club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order/asociación ; club ; clube ; sociedad ; círculo
+club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order/asociacion ; club ; clube ; sociedad ; circulo
 expect  ; look  ; await  ; wait/aguardar ; contar ; esperar
 two  ; 2  ; ii/dos
-training  ; preparation  ; grooming/formación ; preparación ; capacitación ; entrenamiento
+training  ; preparation  ; grooming/formacion ; preparacion ; capacitacion ; entrenamiento
 really  ; actually/verdaderamente
 piece/pedazo ; trozo
 refuse  ; reject  ; pass up  ; turn down  ; decline/rechazar ; declinar ; desairar ; desterrar ; excluir ; rehusar
@@ -1184,12 +1184,12 @@ golf  ; golf game/golf
 type/tipo
 council/consejo
 dangerous  ; unsafe/peligroso
-lie  ; prevarication/bola ; historia ; mentira ; película ; falsedad
+lie  ; prevarication/bola ; historia ; mentira ; pelicula ; falsedad
 singer  ; vocalist  ; vocalizer  ; vocaliser/cantante
 matter  ; affair  ; thing/asunto ; cosa
-title/título
+title/titulo
 magazine  ; mag/revista
-policeman  ; police officer  ; officer/agente ; guardia ; oficial ; policía
+policeman  ; police officer  ; officer/agente ; guardia ; oficial ; policia
 study/estudiar
 boring  ; deadening  ; dull  ; ho-hum  ; irksome  ; slow  ; tedious  ; tiresome  ; wearisome/gris ; aburridor
 sometimes/a veces
@@ -1200,12 +1200,12 @@ find  ; regain/encontrar ; recuperar
 neighbor  ; neighbour/vecina ; vecino ; cercano
 receive  ; have/recibir
 explain  ; explicate/explicar ; contar ; desarrollar ; comentar
-economy  ; economic system/economía
+economy  ; economic system/economia
 now/recientemente
-bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber/alcoba ; dormitorio ; habitación ; pieza ; cuarto ; dependencia
+bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber/alcoba ; dormitorio ; habitacion ; pieza ; cuarto ; dependencia
 decide  ; make up one's mind  ; determine/decidir ; determinar
-politician  ; politico  ; pol  ; political leader/político
-poem  ; verse form/poema ; poesía ; verso
+politician  ; politico  ; pol  ; political leader/politico
+poem  ; verse form/poema ; poesia ; verso
 human/humano
 describe  ; depict  ; draw/describir ; explicar ; detallar
 menu  ; bill of fare  ; card  ; carte du jour  ; carte/carta
@@ -1213,17 +1213,17 @@ international/internacional
 holiday  ; vacation/vacaciones ; feriado
 exist  ; be/existir ; haber ; ser
 achieve  ; accomplish  ; attain  ; reach/alcanzar ; lograr
-action/acción ; acto ; hecho
+action/accion ; acto ; hecho
 capital  ; working capital/capital
 nurse/enfermera
-institution  ; establishment/institución ; instituto
+institution  ; establishment/institucion ; instituto
 break/partir ; quebrar ; romper ; destrozar
 interesting/interesante
-hall  ; anteroom  ; antechamber  ; entrance hall  ; foyer  ; lobby  ; vestibule/entrada ; recibidor ; vestíbulo
+hall  ; anteroom  ; antechamber  ; entrance hall  ; foyer  ; lobby  ; vestibule/entrada ; recibidor ; vestibulo
 friendly/amistoso ; amigable
-photographer  ; lensman/fotógrafo
+photographer  ; lensman/fotografo
 twenty  ; 20  ; xx/veinte
-practice/práctica
+practice/practica
 real  ; existent/existente ; real
 world/planeta
 follow/seguir ; continuar ; proseguir
@@ -1239,13 +1239,13 @@ listen  ; hear  ; take heed/escuchar ; sentir
 never/nunca
 surface/superficie
 supermarket/supermercado
-majority  ; bulk/mayoría
+majority  ; bulk/mayoria
 steal/afanar ; quitar
 pay/abonar ; pagar
 contain  ; incorporate  ; comprise/contener ; incluir ; integrar
-section  ; subdivision/apartado ; sección
+section  ; subdivision/apartado ; seccion
 represent  ; stand for  ; correspond/corresponder ; representar
-death  ; decease  ; expiry/desaparición ; muerte ; tránsito
+death  ; decease  ; expiry/desaparicion ; muerte ; transito
 forget/olvidar  ; ignorar  ; omitir
 really  ; truly  ; genuinely/realmente
 club/mazo  ; garrote  ; maza
@@ -1253,17 +1253,17 @@ main  ; chief  ; primary  ; principal  ; master/primordial ; principal ; mayor
 thank  ; give thanks/agradecer
 argue  ; contend  ; debate  ; fence/debatir ; discutir
 meet  ; run into  ; encounter  ; run across  ; come across  ; see/encontrar
-quickly  ; rapidly  ; speedily  ; chop-chop  ; apace/rápidamente ; a prisa ; al trote ; apresuradamente ; aprisa ; con prontitud ; de prisa ; ejecutivamente ; ligero ; prestamente ; presto ; presurosamente ; prontamente ; raudamente ; velozmente
-union/unión
+quickly  ; rapidly  ; speedily  ; chop-chop  ; apace/rapidamente ; a prisa ; al trote ; apresuradamente ; aprisa ; con prontitud ; de prisa ; ejecutivamente ; ligero ; prestamente ; presto ; presurosamente ; prontamente ; raudamente ; velozmente
+union/union
 better/mejor
-period  ; time period  ; period of time/período  ; ciclo
-therefore  ; hence  ; thence  ; thus  ; so/así
+period  ; time period  ; period of time/periodo  ; ciclo
+therefore  ; hence  ; thence  ; thus  ; so/asi
 environment  ; environs  ; surroundings  ; surround/entorno
-nice/agradable ; bonito ; simpático
-economic  ; economical/económico
-leader/autoridad ; dirigente ; líder
-following  ; next/siguiente  ; próximo
-excellent  ; first-class  ; fantabulous  ; splendid/excelente ; magnífico
+nice/agradable ; bonito ; simpatico
+economic  ; economical/economico
+leader/autoridad ; dirigente ; lider
+following  ; next/siguiente  ; proximo
+excellent  ; first-class  ; fantabulous  ; splendid/excelente ; magnifico
 lie/yacer
 treat  ; care for/cuidar ; tratar
 save  ; preserve/ahorrar
@@ -1279,7 +1279,7 @@ responsibility  ; responsibleness/responsabilidad ; deber
 be  ; live/durar ; existir ; vivir
 jacket/chaqueta
 learn  ; larn  ; acquire/aprender
-campaign  ; cause  ; crusade  ; drive  ; movement  ; effort/campaña ; movimiento
+campaign  ; cause  ; crusade  ; drive  ; movement  ; effort/campania ; movimiento
 player  ; participant/jugador
 manage  ; deal  ; care  ; handle/manejar ; tratar
 national/nacional
@@ -1287,7 +1287,7 @@ particularly  ; peculiarly  ; especially  ; specially/ante todo
 prove  ; testify  ; bear witness  ; evidence  ; show/mostrar
 staff/personal
 win/ganar ; triunfar ; vencer
-share/acción ; título
+share/accion ; titulo
 surely  ; certainly  ; sure  ; for sure  ; for certain  ; sure enough  ; sure as shooting/ciertamente
 agree  ; hold  ; concur  ; concord/coincidir ; consentir
 industrial/industrial
@@ -1295,7 +1295,7 @@ wish/desear
 break  ; respite  ; recess  ; time out/descanso ; pausa ; respiro
 carry  ; transport/cargar ; transportar
 wedding  ; wedding ceremony  ; nuptials  ; hymeneals/boda ; boda nupcial ; casamiento ;
-difficulty/dificultad ; obstáculo ; problema
+difficulty/dificultad ; obstaculo ; problema
 lose/perder
 university/universidad
 once  ; one time  ; in one case/vez
@@ -1308,12 +1308,12 @@ press/apretar ; presionar
 firm  ; house  ; business firm/casa ; firma
 enter  ; come in  ; get into  ; get in  ; go into  ; go in  ; move into/entrar ; penetrar
 discuss  ; hash out  ; talk over/discutir
-hear/oír
+hear/oir
 find  ; detect  ; observe  ; discover  ; notice/descubrir ; detectar ; encontrar ; observar ; revelar ; localizar
 leave  ; leave of absence/despedida
 legal/legal ; oficial
 each/cada
-proposal/proposición
+proposal/proposicion
 subway  ; metro  ; tube  ; underground  ; subway system/metro ; metropolitano
 supply  ; provide  ; render  ; furnish/facilitar ; proporcionar ; suministrar ; proveer
 patient/paciente
@@ -1325,21 +1325,21 @@ whole/todo ; totalidad
 enhance  ; heighten  ; raise/acrecentar
 party/fiesta
 risk  ; gamble  ; chance  ; hazard  ; take chances  ; adventure  ; run a risk  ; take a chance/arriesgar ; aventurar
-rise  ; rising  ; ascent  ; ascension/ascensión ; ascenso ; subida
+rise  ; rising  ; ascent  ; ascension/ascension ; ascenso ; subida
 avoid/evitar ; excusar ; prevenir
 vogue  ; trend  ; style/estilo ; tendencia
 various  ; diverse/diverso ; vario
-behind/detrás
+behind/detras
 actress/actriz
-economic/económico
+economic/economico
 establish  ; found  ; plant  ; constitute  ; institute/constituir ; instaurar ; fundar
 stylish  ; fashionable/elegante
 royal  ; imperial  ; majestic  ; purple  ; regal/real
-final  ; last  ; concluding  ; terminal/final ; último
-football  ; football game/fútbol
+final  ; last  ; concluding  ; terminal/final ; ultimo
+football  ; football game/futbol
 weekend/fin de semana
 issue/problema
-French/francés  ; francés
+French/frances  ; frances
 fill  ; fill up  ; make full/llenar ; abarrotar
 reflect  ; reverberate/reflejar
 alone  ; lone  ; lonely  ; solitary/solitario
@@ -1353,7 +1353,7 @@ report/informar ; relatar
 single  ; unmarried/soltero
 cost/coste ; costo
 bring  ; convey  ; take/acarrear ; llevar ; traer ; transportar
-specific/específico
+specific/especifico
 personal/individual ; particular ; personal
 ugly/desagradable ; horrible
 finish  ; goal  ; destination/destino ; lugar
@@ -1362,7 +1362,7 @@ user/usuario
 successful/exitoso ; afortunado
 raise  ; rear  ; bring up  ; nurture  ; parent/criar ; asistir
 single/solo
-situation  ; state of affairs/situación
+situation  ; state of affairs/situacion
 goal/gol
 reveal  ; unwrap  ; disclose  ; let on  ; bring out  ; discover  ; expose  ; divulge  ; break  ; give away  ; let out/declarar ; manifestar ; revelar ; descubrir ; denunciar
 problem  ; job/dificultad ; problema
@@ -1371,38 +1371,38 @@ return  ; homecoming/regreso ; vuelta ; retorno
 stand  ; stand up/alzar ; levantar
 trace  ; draw  ; line  ; describe  ; delineate/dibujar ; trazar ; delinear
 impatient/ansioso
-relationship  ; human relationship/relación
+relationship  ; human relationship/relacion
 hit  ; hitting  ; striking/golpe
 bear/llevar ; traer
-spelling/ortografía
+spelling/ortografia
 marry  ; get married  ; wed  ; conjoin  ; hook up with  ; get hitched with  ; espouse/casarse
 third  ; 3rd  ; tertiary/tercero
 mean  ; intend  ; think/pensar ; fraguar
-activity  ; action  ; activeness/acción ; actividad
+activity  ; action  ; activeness/accion ; actividad
 Chinese/chino
 bag  ; handbag  ; pocketbook  ; purse/bolso
 save  ; salvage  ; salve  ; relieve/salvar ; sacar ; librar
 accuse  ; charge/acusar
-character  ; grapheme  ; graphic symbol/carácter
+character  ; grapheme  ; graphic symbol/caracter
 Italian/italiano
 grow/crecer ; progresar
 diversity  ; diverseness  ; multifariousness  ; variety/diversidad ; diferencia
 reduce  ; cut down  ; cut back  ; trim  ; trim down  ; trim back  ; cut  ; bring down/cortar ; recortar
 thirsty/sediento
 project  ; undertaking  ; task  ; labor/proyecto ; tarea ; contrata
-more  ; more than/más
+more  ; more than/mas
 identify  ; place/identificar
 obviously  ; evidently  ; manifestly  ; patently  ; apparently  ; plainly  ; plain/visto
 best/mejor
-feature  ; characteristic/característica ; rasgo
+feature  ; characteristic/caracteristica ; rasgo
 do  ; practice  ; practise  ; exercise/ejercer
 businessman  ; man of affairs/empresario ; comerciante
 tonight  ; this evening  ; this night/esta noche
 replace  ; supplant  ; supersede  ; supervene upon  ; supercede/reemplazar
-show/espectáculo ; muestra
+show/espectaculo ; muestra
 defense  ; defence  ; defense force  ; defence force/defensa ; guardia
 ago  ; agone/hace
-boyfriend  ; fellow  ; beau  ; swain  ; young man/compañero ; novio ; pareja
+boyfriend  ; fellow  ; beau  ; swain  ; young man/companiero ; novio ; pareja
 load  ; charge/cargar
 duty/deber
 wear  ; have on/llevar ; vestir
@@ -1413,24 +1413,24 @@ announce  ; denote/anunciar ; proclamar
 throw/lanzamiento
 professional  ; professional person/profesional
 few/pocos
-more  ; to a greater extent/más ; otra vez
+more  ; to a greater extent/mas ; otra vez
 tomato/tomate
 affect  ; impact  ; bear upon  ; bear on  ; touch on  ; touch/afectar ; conmover
 prevent  ; forestall  ; foreclose  ; preclude  ; forbid/estorbar ; impedir
 miss/perder
-girlfriend  ; girl  ; lady friend/chica ; compañera ; novia ; pareja
+girlfriend  ; girl  ; lady friend/chica ; companiera ; novia ; pareja
 believe/considerar ; creer ; confiar
 choose  ; take  ; select  ; pick out/coger ; escoger ; seleccionar ; preferir
 couple  ; pair  ; twosome  ; twain  ; brace  ; span  ; yoke  ; couplet  ; distich  ; duo  ; duet  ; dyad  ; duad/par ; pareja
 menstruation  ; menses  ; menstruum  ; catamenia  ; period  ; flow/mes ; regla
 after/acerca de
-television  ; tv set  ; television receiver  ; television set  ; tv  ; idiot box  ; boob tube  ; telly  ; goggle box/tele ; televisión ; televisor
-bathroom  ; bath/baño
+television  ; tv set  ; television receiver  ; television set  ; tv  ; idiot box  ; boob tube  ; telly  ; goggle box/tele ; television ; televisor
+bathroom  ; bath/banio
 develop/desarrollar
-Japanese/japonés
+Japanese/japones
 restaurant  ; eating house  ; eating place  ; eatery/restaurante
 spend  ; pass/pasar
-effort  ; elbow grease  ; exertion  ; travail  ; sweat/afán ; dedicación ; esfuerzo ; agotamiento
+effort  ; elbow grease  ; exertion  ; travail  ; sweat/afan ; dedicacion ; esfuerzo ; agotamiento
 sincere/sincero ; franco ; leal
 slice  ; piece/trozo
 private  ; individual/unipersonal
@@ -1439,24 +1439,24 @@ whole/entero
 mean  ; mean value/media
 lucky/afortunado
 suitcase  ; bag  ; traveling bag  ; travelling bag  ; grip/maleta
-basic/básico ; basilar
+basic/basico ; basilar
 suddenly  ; all of a sudden  ; of a sudden/bruscamente
 see  ; consider  ; reckon  ; view  ; regard/considerar ; ver
 violet  ; purple  ; purplish/morado ; violeta
 available/disponible
 officer  ; officeholder/funcionario
 hold  ; take hold/aguantar ; sostener ; sujetar
-production/producción ; creación ; elaboración
-area  ; expanse  ; surface area/área ; superficie
+production/produccion ; creacion ; elaboracion
+area  ; expanse  ; surface area/area ; superficie
 win/triunfo
 unemployed/parado
-public/público
+public/publico
 course  ; class  ; course of study  ; course of instruction/clase ; curso
-standard/estándar
+standard/estandar
 similar/parecido ; semejante ; similar
 just/justo ; recto
 popular  ; pop/popular
-scientist/científico
+scientist/cientifico
 outside/fuera
 local/local
 personality/personalidad
@@ -1469,15 +1469,15 @@ drive/conducir ; manejar
 bargain  ; deal/pacto ; trato
 sink/fregadero ; pila
 either/cada
-beyond/tras ; détras de ;
-option  ; alternative  ; choice/alternativa ; elección ; opción
-unusual/excepcional ; extraordinario ; insólito
+beyond/tras ; detras de ;
+option  ; alternative  ; choice/alternativa ; eleccion ; opcion
+unusual/excepcional ; extraordinario ; insolito
 professional/profesional
 miss/fallar
-finally  ; last  ; lastly  ; in conclusion/último
-research  ; inquiry  ; enquiry/estudio ; investigación
+finally  ; last  ; lastly  ; in conclusion/ultimo
+research  ; inquiry  ; enquiry/estudio ; investigacion
 evidence/evidencia
-Spanish/castellano ; español
+Spanish/castellano ; espaniol
 serve/ejercer
 seventeen  ; 17  ; xvii/diecisiete
 recent/reciente
@@ -1486,7 +1486,7 @@ express  ; limited/expreso
 outside  ; exterior/exterior
 dainty  ; nice  ; overnice  ; prissy  ; squeamish/quisquilloso
 die  ; decease  ; perish  ; go  ; exit  ; pass away  ; expire  ; pass  ; kick the bucket  ; cash in one's chips  ; buy the farm  ; conk  ; give-up the ghost  ; drop dead  ; pop off  ; choke  ; croak  ; snuff it/expirar  ; fallecer  ; sucumbir
-attitude  ; mental attitude/actitud ; disposición ; postura
+attitude  ; mental attitude/actitud ; disposicion ; postura
 catch  ; grab  ; take hold of/cazar
 former  ; erstwhile  ; old  ; onetime  ; one-time  ; quondam  ; sometime/antiguo ; anterior
 financial  ; fiscal/fiscal ; financiero
@@ -1500,7 +1500,7 @@ major/principal
 render  ; return/devolver ; entregar
 please  ; delight/agradar ; complacer ; encantar
 remember  ; retrieve  ; recall  ; call back  ; call up  ; recollect  ; think/recordar ; avisar ; recuperar
-usual/común ; habitual ; normal ; usual
+usual/comun ; habitual ; normal ; usual
 report  ; study  ; written report/estudio ; informe ; memoria
 silly  ; airheaded  ; dizzy  ; empty-headed  ; featherbrained  ; giddy  ; light-headed  ; lightheaded/tonto
 parent/madre
@@ -1523,7 +1523,7 @@ today/hoy
 before  ; ahead  ; in front/adelante
 mostly  ; by and large  ; generally  ; more often than not/generalmente
 businesswoman/mujer de negocios ; mujer empresaria
-add/agregar ; añadir
+add/agregar ; aniadir
 rest/reposar
 clearly/claramente ; desnudamente ;claramente ; evidentemente ; obviamente ; ostensiblemente
 particular/particular
@@ -1536,11 +1536,11 @@ good  ; just  ; upright/justo ; recto
 serial  ; series/serie
 include/incluir
 deliver/entregar ; librar
-further  ; farther/más
+further  ; farther/mas
 social/social
 suppose  ; say/suponer
 benefit  ; do good/beneficiar
-preferably  ; sooner  ; rather/más bien
+preferably  ; sooner  ; rather/mas bien
 share/compartir
 imply  ; involve/implicar ; suponer
 pass  ; laissez passer/pase
@@ -1548,9 +1548,9 @@ least  ; to the lowest degree/por lo menos ; como minimo
 think  ; cogitate  ; cerebrate/discurrir ; pensar
 express  ; state/expresar ; indicar
 indeed  ; so/verdaderamente
-instead  ; alternatively  ; or else/en lugar de eso ; en cambio ; en vez ; más bien
+instead  ; alternatively  ; or else/en lugar de eso ; en cambio ; en vez ; mas bien
 deep/profundo ; ahuecado ; grave ; hondo ; abstruso ; intenso
-hit  ; smash  ; smasher  ; strike  ; bang/éxito
+hit  ; smash  ; smasher  ; strike  ; bang/exito
 used  ; secondhand/empleado
 call  ; phone call  ; telephone call/llamada
 different/diferente ; distinto
@@ -1559,28 +1559,28 @@ life/existencia ; vida
 determine  ; check  ; find out  ; see  ; ascertain  ; watch  ; learn/averiguar ; determinar
 discovery  ; breakthrough  ; find/hallazgo
 discover  ; find/descubrir
-function  ; office  ; part  ; role/función ; oficio ; papel
+function  ; office  ; part  ; role/funcion ; oficio ; papel
 mean/representar ; significar
-dislike/desagradar ; caer mal ; desfavorecer ; disgustar ; displacer ; malquerer ; mirar con mala cara ; no gustar de ; odiar ; repugnar ; tener antipatía a ; tener aversión a ; tener tema a
+dislike/desagradar ; caer mal ; desfavorecer ; disgustar ; displacer ; malquerer ; mirar con mala cara ; no gustar de ; odiar ; repugnar ; tener antipatia a ; tener aversion a ; tener tema a
 previous  ; old/anterior
 image/imagen
-seat/asiento ; banco ; butaca ; escaño ; silla
+seat/asiento ; banco ; butaca ; escanio ; silla
 model/modelo
 individual/individuo
 member  ; fellow member/miembro
 wear/desgaste
-connect  ; associate  ; tie in  ; relate  ; link  ; colligate  ; link up/conectar ; acoplar ; empalmar ; encadenar ; unir ; asociar ; relacionar ; estar conectado ; hacer conexión ;
+connect  ; associate  ; tie in  ; relate  ; link  ; colligate  ; link up/conectar ; acoplar ; empalmar ; encadenar ; unir ; asociar ; relacionar ; estar conectado ; hacer conexion ;
 encourage/animar  ; estimular
 first  ; 1st/primero ; primeramente ; primer
 several/varios
-useful  ; utile/útil ; aprovechable ; conveniente ; de provecho ; práctico ; provechoso ; usable
-through/a través de ; dentro de ; por
+useful  ; utile/util ; aprovechable ; conveniente ; de provecho ; practico ; provechoso ; usable
+through/a traves de ; dentro de ; por
 against/contra
 among  ; amongst  ; amid  ; amidst/en medio de
-and/más
+and/mas
 anyone/cualquiera
 because/porque
-beside/además de
+beside/ademas de
 during/durante
 everybody  ; everyone/todos
 everything/todo
@@ -1589,8 +1589,8 @@ for/para
 from/de
 her/su
 herself/se
-him/él
-himself/sí
+him/el
+himself/si
 his/su
 if/si
 into/en
@@ -1617,9 +1617,9 @@ we/nosotros
 what/que
 when/cuando
 whenever/cuando quiera
-which/cuál
-who/quién
-whom/quién
+which/cual
+who/quien
+whom/quien
 whose/cuyo
 with/con
 without/sin
@@ -1628,72 +1628,72 @@ yourself/te
 that/aquel
 the/el
 at/a
-why/por qué
+why/por que
 on/sobre
-he/él
+he/el
 a  ; an/un
 thunder/trueno
 September  ; Sep  ; Sept/septiembre
 May/mayo
 Tuesday  ; Tues/martes
 August  ; Aug/agosto
-lemon/limón
-ecology  ; bionomics  ; environmental science/ecología
+lemon/limon
+ecology  ; bionomics  ; environmental science/ecologia
 storm  ; violent storm/tormenta
 carrot  ; cultivated carrot  ; Daucus carota sativa/zanahoria
 how are you/¿es
 on/sobre
 from/de
 you're welcome/de nada
-I don't know/no sé
+I don't know/no se
 cheers/salud
 at/a
-do you speak English/hablas inglés
+do you speak English/hablas ingles
 many thanks/muchas gracias
-good day/buenos días
+good day/buenos dias
 thank you very much/muchas gracias
 I don't understand/no entiendo
 my name is/me llamo
 good luck/buena suerte
-sorry/discúlpame
-sorry/¿cómo
-which/cuál
+sorry/disculpame
+sorry/¿como
+which/cual
 with/con
-what is your name/cómo se llama usted
+what is your name/como se llama usted
 garlic  ; ail/ajo
 rainbow/arco iris
 plum/ciruela
 onion  ; onion plant  ; Allium cepa/cebolla
 cucumber  ; cuke/pepino
-bean  ; edible bean/alubia ; judía
+bean  ; edible bean/alubia ; judia
 strawberry/fresa
-peach/melocotón
-banana/plátano
+peach/melocoton
+banana/platano
 raspberry/frambuesa
 cabbage  ; chou/repollo
 rich/rico
 lightning/rayo
-weak/débil
+weak/debil
 apricot/damasco
 pear/pera
 ozone/ozono
-dew/rocío
+dew/rocio
 olive/aceituna
-atmosphere  ; air/aire ; atmósfera
-pollution/contaminación
-pineapple  ; ananas/ananá
+atmosphere  ; air/aire ; atmosfera
+pollution/contaminacion
+pineapple  ; ananas/anana
 cherry/cereza
 global warming/calentamiento global
 greenhouse effect  ; greenhouse warming/efecto invernadero
 recycling/reciclaje
 frost  ; hoar  ; hoarfrost  ; rime/escarcha
 hide  ; conceal/esconder ; ocultar ; tapar
-radish/rábano
-acid rain  ; acid precipitation/lluvia ácida
+radish/rabano
+acid rain  ; acid precipitation/lluvia acida
 fog/niebla
-fossil fuel/combustible fósil
+fossil fuel/combustible fosil
 smog  ; smogginess/niebla mezclada con humo
 blackberry/mora
-climate change  ; global climate change/cambio climático
+climate change  ; global climate change/cambio climatico
 parsnip  ; Pastinaca sativa/pastinaca sativa
 dump  ; garbage dump  ; trash dump  ; rubbish dump  ; wasteyard  ; waste-yard  ; dumpsite/vaciadero
