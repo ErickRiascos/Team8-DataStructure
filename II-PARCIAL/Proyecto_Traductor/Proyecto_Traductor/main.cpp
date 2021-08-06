@@ -19,14 +19,14 @@ using namespace std;
 bool contiene(const char* a,const char* b) {
 	bool c = false;
 	int j = 0;
-	char* aux = (char*)calloc(20, sizeof(char));
+	char* aux = (char*)calloc(200, sizeof(char));
 	for (int i = 0; i <= strlen(a); i++) {
-		if (*(a + i) != ' '){
-			if (*(a + i) == ';' || *(a + i) == '\0') {
+		if (*(a + i) != ' ' ){
+			if (*(a + i) == ';' || *(a + i) == '\0' ) {
 				j = 0;
 				if (!strcmp(aux, b))
 					c = true;
-				aux = (char*)calloc(20, sizeof(char));
+				aux = (char*)calloc(200, sizeof(char));
 			}
 			else {
 				*(aux + j++) = *(a + i);
@@ -85,50 +85,41 @@ char* expPrim(const char* a) {
 	return aux;
 }
 
-char* ingresarLet(const char* msj)
-{
-	char* datos = (char*)calloc(30, sizeof(char));
-	int i = 0;
-	char c;
-	printf("%s", msj);
-	while ((c = getch()) != 13) {
-		if (c >= 97 && c <= 122 || (c == 32)) {
-			printf("%c", c);
-			*(datos + i++) = c;
-		}
-	}
-	return datos;
-}
 
 int main()
 {
-	setlocale(LC_CTYPE, "Spanish"); // Cambiar locale - Suficiente para máquinas Linux
-	SetConsoleCP(1252); // Cambiar STDIN -  Para máquinas Windows
-	SetConsoleOutputCP(1252); // Cambiar STDOUT - Para máquinas Windows
+	std::setlocale(LC_ALL, "¨Spanish");
+	SetConsoleCP(1252); 
+	SetConsoleOutputCP(1252); 
 	char* word = NULL;
-	Nodo* raizIng = new Nodo();
-	Nodo* raizEsp = new Nodo();
-	RadixTree o;
+	char* aux = NULL;	
+	char* test = (char*)calloc(100,sizeof(char));
+	char* test_1 = (char*)calloc(100, sizeof(char));
 	bool repite = true;
 	int n = 0, x = 0;
 	const char* titulo = "MENU PRINCIPAL";
-	const char* opciones[] = { "Ingles-Español","Español-Ingles","Salir" };
+	const char* opciones[] = { "Inglés-Español","Español-Inglés","Salir" };
 	string s;
-	char* aux = NULL;	
 	bool z = false;
+	Nodo* raizIng = new Nodo();
+	Nodo* raizEsp = new Nodo();
+	RadixTree o;
 	ifstream f;
 	do {
 		z = false;
 		Menu m(titulo, opciones, 3);
-		aux = (char*)calloc(100, sizeof(char));
-		word = (char*)calloc(20, sizeof(char));
+		aux = (char*)calloc(200, sizeof(char));
+		word = (char*)calloc(200, sizeof(char));
 		system("CLS");
 		int opcion = m.getOpcion();
 		switch (opcion) {
 		case 1: {
+			std::setlocale(LC_ALL, ".UTF-8");
+			cout << "Ingrese una palabra en ingles:";
+			cin>> test;
 			x = 0;
 			n = 0;
-			strcpy(word, ingresarLet("Ingrese palabra en ingles:"));
+			strcpy(word, test);
 			f.open("dic1.txt");
 			if (f.is_open()) {
 				while (!f.eof()&&x!=1) {
@@ -146,7 +137,7 @@ int main()
 			else cout << "Error de apertura del archivo." << endl;
 			if (z) {
 				x = 0;
-				aux = (char*)calloc(100, sizeof(char));
+				aux = (char*)calloc(200, sizeof(char));
 				f.open("dic1.txt");
 				if (f.is_open()) {
 					while (!f.eof()) {
@@ -166,6 +157,8 @@ int main()
 			else {
 				cout<< "\nLa palabra no existe en el arbol Radix, ni en la base del diccionario o ingreso una palabra incorrecta intentelo de nuevo...";
 			}
+			setlocale(LC_ALL, "");// Cambiar locale - Suficiente para máquinas Linux
+			
 			cout << endl;
 			system("pause");
 			break;
@@ -173,8 +166,10 @@ int main()
 		case 2: {
 			x = 0;
 			n = 0;
-			strcpy(word, ingresarLet("Ingrese palabra en espaniol: "));
-			f.close();
+			setlocale(LC_ALL, "sr_ME.UTF-8@latin");// Cambiar locale - Suficiente para máquinas Linux
+			cout << "Ingrese una palabra en español:";
+			cin>> test_1;
+			strcpy(word, test_1);
 			f.open("dic2.txt");
 			if (f.is_open()) {
 				while (!f.eof() && x != 1) {
@@ -192,7 +187,7 @@ int main()
 			else cout << "Error de apertura del archivo." << endl;
 			if (z) {
 				x = 0;
-				aux = (char*)calloc(100, sizeof(char));
+				aux = (char*)calloc(200, sizeof(char));
 				f.open("dic2.txt");
 				if (f.is_open()) {
 					while (!f.eof()) {
@@ -206,11 +201,14 @@ int main()
 					f.close();
 				}
 				else cout << "Error de apertura del archivo." << endl;
+
 				cout << endl << "Traduccion: " << aux << endl;
 			}
 			else {
 				cout << "\nLa palabra no existe en el arbol Radix, ni en la base del diccionario o ingreso una palabra incorrecta intentelo de nuevo...";
 			}
+			setlocale(LC_ALL, "");// Cambiar locale - Suficiente para máquinas Linux
+
 			cout << endl;
 			system("pause");
 			break;

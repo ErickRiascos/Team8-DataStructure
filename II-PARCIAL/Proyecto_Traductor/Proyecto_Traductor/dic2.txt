@@ -1,3 +1,7 @@
+árbol/xdddd
+piña/xdd
+lán/xd
+galápagos/isla
 mortal/person  ; individual  ; someone  ; somebody  ; mortal  ; soul
 animal ; bestia ; criatura/animal  ; animate being  ; beast  ; brute  ; creature  ; fauna
 flora ; planta/plant  ; flora  ; plant life
@@ -7,7 +11,7 @@ sentimiento/feeling
 espacio/space  ; infinite
 evento ; suceso ; episodio ; hecho/event
 proceso/process  ; physical process
-accion ; acto/act  ; deed  ; human action  ; human activity
+acción ; acto/act  ; deed  ; human action  ; human activity; ña
 agrupacion ; colectivo ; grupo/group  ; grouping
 relacion/relation
 descubrimiento ; hallazgo/discovery  ; find  ; uncovering
@@ -66,6 +70,7 @@ cola/tail
 insecto/insect
 mosca/fly
 abeja/bee
+veinteavo/ twentieth
 hormiga/ant  ; emmet  ; pismire
 caballo/horse  ; Equus caballus
 marrano/pig  ; hog  ; grunter  ; squealer  ; Sus scrofa
@@ -165,7 +170,7 @@ boton ; tecla/button  ; push button  ; push
 anillo/ring  ; band
 carretera/road  ; route
 techo/roof
-cuarto ; habitacion/room
+cuarto ; habitacion/room; fourth
 vela/sail  ; canvas  ; canvass  ; sheet
 colegio ; escuela/school  ; schoolhouse
 tijeras/scissors  ; pair of scissors
@@ -228,7 +233,7 @@ coste ; precio/price  ; cost  ; toll
 energia/power  ; powerfulness
 control ; mando ; poder/control
 autoridad ; dominacion ; dominio ; poder ; potencia ; autorizacion/authority  ; authorization  ; authorisation  ; potency  ; dominance  ; say-so
-piel/skin  ; tegument  ; cutis
+piel/skin  ; tegument  ; cutis 
 pelo  ; cabello/hair  ; pilus
 pelo/hair
 hueso/bone  ; os
@@ -524,10 +529,10 @@ peligro ; riesgo/danger
 materia/material  ; stuff
 acido ; agrio/acid
 metal/metallic element  ; metal
-oro/gold  ; Au  ; atomic number 79
-hierro/iron  ; Fe  ; atomic number 26
-plomo/lead  ; Pb  ; atomic number 82
-plata/silver  ; Ag  ; atomic number 47
+oro/gold  ; Au  ; atomic number   
+hierro/iron  ; Fe  ; atomic number   
+plomo/lead  ; Pb  ; atomic number   
+plata/silver  ; Ag  ; atomic number   
 cuero ; piel/leather
 acero/steel
 sustancia quimica/chemical  ; chemical substance
@@ -536,7 +541,7 @@ polvo/dust
 aire/air
 aliento ; respiracion ; animo ; soplo ; anhelo/breath
 tierra/earth  ; ground
-agua/water  ; H2O
+agua/water  ; H O
 desperdicios/waste  ; waste material  ; waste matter  ; waste product
 grasa/fat
 vidrio/glass
@@ -559,13 +564,13 @@ historia/history
 futuro ; porvenir/future  ; hereafter  ; futurity  ; time to come
 tiempo/time  ; fourth dimension
 semana/week  ; calendar week
-dia/day  ; twenty-four hours  ; twenty-four hour period  ; 24-hour interval  ; solar day  ; mean solar day
+dia/day  ; twenty-four hours  ; twenty-four hour period  ;   -hour interval  ; solar day  ; mean solar day
 maniana/tomorrow
 maniana/morning  ; morn  ; morning time  ; forenoon
 noche/night  ; nighttime  ; dark
 anio/year  ; twelvemonth  ; yr
 mes/month  ; calendar month
-h ; hora/hour  ; hr  ; 60 minutes
+h ; hora/hour  ; hr  ; minutes
 minuto/minute  ; min
 s ; segundo/second  ; sec  ; s
 otonio/autumn  ; fall
@@ -842,7 +847,7 @@ contrario/opposite
 separado/separate
 serio/serious
 comun ; mutuo ; corriente ; ordinario ; general/common  ; mutual
-segundo/second  ; 2nd  ; 2d
+segundo/second  ;  nd  ;  d
 habil/skilful  ; adept  ; expert  ; good  ; practiced  ; proficient  ; skillful
 liso ; llano ; suave/smooth
 aspero/rough  ; unsmooth
@@ -955,14 +960,14 @@ doctor ; medico/doctor  ; doc  ; physician  ; MD  ; Dr.  ; medico
 civilizacion ; cultura ; conocimiento ; ilustracion/culture  ; civilization  ; civilisation
 tenis/tennis  ; lawn tennis
 ciudad ; metropolis/city  ; metropolis  ; urban center
-tres/three  ; 3  ; iii
+tres/three  ;    ; iii
 banco/bank  ; depository financial institution  ; banking concern  ; banking company
 poesia ; verso/poetry  ; poesy  ; verse
 naturaleza/nature
-ocho/eight  ; 8  ; viii
-diez/ten  ; 10  ; x
+ocho/eight ; viii
+diez/ten  ; x
 actor ; interprete ; farandulero ; comico/actor  ; histrion  ; player  ; thespian  ; role player
-mil ; millar/thousand  ; one thousand  ; 1000  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard
+mil ; millar/thousand  ; one thousand  ; M  ; K  ; chiliad  ; G  ; grand  ; thou  ; yard
 juego/game
 gran ; grande ; voluminoso/big  ; large
 autobus ; colectivo ; camion/bus  ; autobus  ; coach  ; charabanc  ; double-decker  ; jitney  ; motorbus  ; motorcoach  ; omnibus  ; passenger vehicle
@@ -970,11 +975,11 @@ aeropuerto ; aerodromo/airport  ; airdrome  ; aerodrome  ; drome
 playa/beach
 castillo/castle
 bosque ; floresta ; jungla/forest  ; wood  ; woods
-seis/six  ; 6  ; vi  ; half dozen  ; half-dozen
+seis/six  ; vi  ; half dozen  ; half-dozen
 oso/bear
 hindi/Hindi
 tecnologia/technology  ; engineering
-nueve/nine  ; 9  ; ix
+nueve/nine  ; ix
 pico/beak  ; bill  ; neb  ; nib  ; pecker
 sabado/Saturday  ; Sabbatum  ; Sat
 siglo/century
@@ -986,7 +991,7 @@ salud/health  ; wellness
 silla/chair
 existencia ; vida/life
 profesor ; maestro ; educador/teacher  ; instructor
-millon/million  ; 1000000  ; one thousand thousand  ; meg
+millon/million   one thousand thousand  ; meg
 materia ; sustancia/matter
 monarca ; rey/king  ; male monarch  ; Rex
 capital/capital
@@ -998,9 +1003,9 @@ gen/gene  ; cistron  ; factor
 edad/age
 ordenador/computer  ; computing machine  ; computing device  ; data processor  ; electronic computer  ; information processing system
 museo/museum
-cinco/five  ; 5  ; v
+cinco/five  ; v
 hotel/hotel
-uno ; a/one  ; 1  ; i  ; ane
+uno ; a/one   ; i  ; ane
 alumno ; estudiante/student  ; pupil  ; educatee
 accidente/accident
 ingles/English  ; English language
@@ -1021,7 +1026,7 @@ conjunto/set
 fabrica ; planta ; taller ; manufactura ; industria ; construccion/factory  ; mill  ; manufacturing plant  ; manufactory
 pueblo/village  ; small town  ; settlement
 cumpleanios/birthday
-cero ; nada/nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch  ; zip  ; zippo
+cero ; nada/nothing  ; nil  ; nix  ; nada  ; null  ; aught  ; cipher  ; cypher  ; goose egg  ; naught  ; zero  ; zilch ; zip  ; zippo
 carga/charge  ; electric charge
 programa/program  ; programme  ; computer program  ; computer programme
 eleccion/election
@@ -1034,18 +1039,18 @@ advertencia ; consejo/advice
 almuerzo ; comida/lunch  ; luncheon  ; tiffin  ; dejeuner
 direccion/management  ; direction
 pelicula ; produccion/movie  ; film  ; picture  ; moving picture  ; moving-picture show  ; motion picture  ; motion-picture show  ; picture show  ; pic  ; flick
-treinta/thirty  ; 30  ; xxx
+treinta/thirty  ; xxx
 orquesta/orchestra
 huesped ; invitado/guest  ; invitee
 oracion ; frase/sentence
 concierto/concert
 fecha/date  ; day of the month
 correo/mail  ; mail service  ; postal service  ; post
-dieciocho/eighteen  ; 18  ; xviii
-trece/thirteen  ; 13  ; xiii
-cuarenta/forty  ; 40  ; xl  ; twoscore
-once/eleven  ; 11  ; xi
-sesenta/sixty  ; 60  ; lx  ; threescore
+dieciocho/eighteen  ; xviii
+trece/thirteen  ; xiii
+cuarenta/forty  ; xl  ; twoscore
+once/eleven  ; xi
+sesenta/sixty  ; lx  ; threescore
 temporada/season
 estado/state
 ministro/minister  ; government minister
@@ -1054,12 +1059,12 @@ casa ; hogar ; techo ; familia/home  ; place
 escribir/write
 siempre/always  ; ever  ; e'er
 corbata/tie  ; necktie
-cuatro/four  ; 4  ; iv
+cuatro/four  ; iv
 informacion/information  ; info
 habla ; lenguaje ; decir/speech  ; speech communication  ; spoken communication  ; spoken language  ; language  ; voice communication  ; oral communication
 trabajador/worker
 juzgado ; tribunal/court  ; tribunal  ; judicature
-ochenta/eighty  ; 80  ; lxxx  ; fourscore
+ochenta/eighty  ; lxxx  ; fourscore
 leer/read
 frente/forehead  ; brow
 cliente/customer  ; client
@@ -1071,7 +1076,7 @@ sobre/envelope
 cochera/garage
 marinero/sailor  ; crewman
 colina ; monte/hill
-catorce/fourteen  ; 14  ; xiv
+catorce/fourteen  ; xiv
 celula ; camara/cell
 pronto/soon  ; shortly  ; presently  ; before long
 preguntar ; solicitar ; interrogar ; averiguar/ask  ; inquire  ; enquire
@@ -1090,8 +1095,8 @@ venta/sale
 verja ; reja ; valla/gate
 boda/wedding  ; marriage  ; marriage ceremony
 salsa/sauce
-dieciseis/sixteen  ; 16  ; xvi
-setenta/seventy  ; 70  ; lxx
+dieciseis/sixteen  ; xvi
+setenta/seventy  ; lxx
 ensalada/salad
 componente ; elemento ; factor/component  ; constituent  ; element  ; factor  ; ingredient
 estilo/style
@@ -1112,14 +1117,14 @@ ingreso ; ingresos/income
 armario/cupboard  ; closet
 exito/success
 almuerzo ; desayuno/breakfast
-noventa/ninety  ; 90  ; xc
+noventa/ninety  ; xc
 pasaporte/passport
 fresco ; helado ; refrescante/fresh
 estupido ; imbecil ; tonto/stupid
 instante ; momento/moment  ; minute  ; second  ; instant
 eleccion ; seleccion ; decision/choice  ; selection  ; option  ; pick
 ya/already
-siete/seven  ; 7  ; vii
+siete/seven  ;vii
 enseniar ; instruir/teach  ; learn  ; instruct
 artista/artist  ; creative person
 aceptar ; querer ; alojar/accept  ; take  ; have
@@ -1130,7 +1135,7 @@ superioridad ; ventaja/advantage  ; vantage
 cine ; biografo/cinema  ; movie theater  ; movie theatre  ; movie house  ; picture palace
 politica/policy
 parque/park  ; commons  ; common  ; green
-decimoquinto/fifteen  ; 15  ; xv
+decimoquinto/fifteen  ; xv
 presion/pressure  ; pressure level  ; force per unit area
 pesado/heavy
 alteracion ; cambio ; modificacion ; variacion/change  ; alteration  ; modification
@@ -1141,9 +1146,9 @@ ver ; visitar/visit  ; see
 produccion ; producto/product  ; production
 paciente/patient
 encima de/above  ; higher up  ; in a higher place  ; to a higher place
-mil ; millar/thousand  ; one thousand  ; 1000  ; m  ; k
+mil ; millar/thousand  ; one thousand  ; m  ; k
 cola ; goma ; pegamento/glue  ; gum  ; mucilage
-cincuenta/fifty  ; 50  ; l
+cincuenta/fifty  ;l
 piloto/pilot  ; airplane pilot
 criterio ; estandar ; patron ; pauta ; regla/standard  ; criterion  ; measure  ; touchstone
 clase ; curso ; seccion/class  ; form  ; grade  ; course
@@ -1165,11 +1170,11 @@ pecho/chest  ; breast
 razon ; motivo/reason  ; ground
 construir ; edificar ; fabricar/build  ; construct  ; make
 facil/easy
-diecinueve/nineteen  ; 19  ; xix
+diecinueve/nineteen  ; xix
 servicio/service
 asociacion ; club ; clube ; sociedad ; circulo/club  ; social club  ; society  ; guild  ; gild  ; lodge  ; order
 aguardar ; contar ; esperar/expect  ; look  ; await  ; wait
-dos/two  ; 2  ; ii
+dos/two  ; ii
 formacion ; preparacion ; capacitacion ; entrenamiento/training  ; preparation  ; grooming
 verdaderamente/really  ; actually
 pedazo ; trozo/piece
@@ -1202,7 +1207,7 @@ recibir/receive  ; have
 explicar ; contar ; desarrollar ; comentar/explain  ; explicate
 economia/economy  ; economic system
 recientemente/now
-alcoba ; dormitorio ; habitacion ; pieza ; cuarto ; dependencia/bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber
+alcoba ; dormitorio ; habitacion ; pieza ; dependencia/bedroom  ; sleeping room  ; sleeping accommodation  ; chamber  ; bedchamber
 decidir ; determinar/decide  ; make up one's mind  ; determine
 politico/politician  ; politico  ; pol  ; political leader
 poema ; poesia ; verso/poem  ; verse form
@@ -1222,7 +1227,7 @@ interesante/interesting
 entrada ; recibidor ; vestibulo/hall  ; anteroom  ; antechamber  ; entrance hall  ; foyer  ; lobby  ; vestibule
 amistoso ; amigable/friendly
 fotografo/photographer  ; lensman
-veinte/twenty  ; 20  ; xx
+veinte/twenty  ; xx
 practica/practice
 existente ; real/real  ; existent
 planeta/world
@@ -1376,7 +1381,7 @@ golpe/hit  ; hitting  ; striking
 llevar ; traer/bear
 ortografia/spelling
 casarse/marry  ; get married  ; wed  ; conjoin  ; hook up with  ; get hitched with  ; espouse
-tercero/third  ; 3rd  ; tertiary
+tercero/third  ;  rd  ; tertiary
 pensar ; fraguar/mean  ; intend  ; think
 accion ; actividad/activity  ; action  ; activeness
 chino/Chinese
@@ -1479,7 +1484,7 @@ estudio ; investigacion/research  ; inquiry  ; enquiry
 evidencia/evidence
 castellano ; espaniol/Spanish
 ejercer/serve
-diecisiete/seventeen  ; 17  ; xvii
+diecisiete/seventeen  ; xvii
 reciente/recent
 alrededor/about  ; around
 expreso/express  ; limited
@@ -1554,7 +1559,7 @@ exito/hit  ; smash  ; smasher  ; strike  ; bang
 empleado/used  ; secondhand
 llamada/call  ; phone call  ; telephone call
 diferente ; distinto/different
-cien ; ciento ; centenar/hundred  ; one hundred  ; 100  ; c
+cien ; ciento ; centenar/hundred  ; one hundred  ; c
 existencia ; vida/life
 averiguar ; determinar/determine  ; check  ; find out  ; see  ; ascertain  ; watch  ; learn
 hallazgo/discovery  ; breakthrough  ; find
@@ -1571,7 +1576,7 @@ miembro/member  ; fellow member
 desgaste/wear
 conectar ; acoplar ; empalmar ; encadenar ; unir ; asociar ; relacionar ; estar conectado ; hacer conexion ;/connect  ; associate  ; tie in  ; relate  ; link  ; colligate  ; link up
 animar  ; estimular/encourage
-primero ; primeramente ; primer/first  ; 1st
+primero ; primeramente ; primer/first  ;  st
 varios/several
 util ; aprovechable ; conveniente ; de provecho ; practico ; provechoso ; usable/useful  ; utile
 a traves de ; dentro de ; por/through
@@ -1697,3 +1702,22 @@ mora/blackberry
 cambio climatico/climate change  ; global climate change
 pastinaca sativa/parsnip  ; Pastinaca sativa
 vaciadero/dump  ; garbage dump  ; trash dump  ; rubbish dump  ; wasteyard  ; waste-yard  ; dumpsite
+primero/ first
+segundo/ second
+tercero / third
+cuarto/ fourth
+quinto/ fifth
+sexto/ sixth
+séptimo/ seventh
+octavo/ eighth
+noveno/ ninth
+decimo/  tenth
+onceavo/ eleventh
+doceavo/  twelfth
+treceavo/ thirteenth
+catorceavo/ fourteenth
+quinceavo/ fifteenth
+dieciseisavo/ sixteenth
+diecisieteavo/ seventeenth
+dieciochoavo/ eighteenth
+diecinueveavo/ nineteenth
