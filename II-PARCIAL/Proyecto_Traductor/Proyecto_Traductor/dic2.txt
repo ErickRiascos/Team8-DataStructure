@@ -1,7 +1,4 @@
-árbol/xdddd
-piña/xdd
-lán/xd
-galápagos/isla
+galapagos/isla
 mortal/person  ; individual  ; someone  ; somebody  ; mortal  ; soul
 animal ; bestia ; criatura/animal  ; animate being  ; beast  ; brute  ; creature  ; fauna
 flora ; planta/plant  ; flora  ; plant life
@@ -1115,7 +1112,6 @@ proyecto/project  ; projection
 diferencia ; desigualdad ; divergencia ; desemejanza/difference
 ingreso ; ingresos/income
 armario/cupboard  ; closet
-exito/success
 almuerzo ; desayuno/breakfast
 noventa/ninety  ; xc
 pasaporte/passport
@@ -1555,7 +1551,7 @@ expresar ; indicar/express  ; state
 verdaderamente/indeed  ; so
 en lugar de eso ; en cambio ; en vez ; mas bien/instead  ; alternatively  ; or else
 profundo ; ahuecado ; grave ; hondo ; abstruso ; intenso/deep
-exito/hit  ; smash  ; smasher  ; strike  ; bang
+exito/hit  ; smash  ; smasher  ; strike  ; bang; success
 empleado/used  ; secondhand
 llamada/call  ; phone call  ; telephone call
 diferente ; distinto/different
@@ -1708,7 +1704,7 @@ tercero / third
 cuarto/ fourth
 quinto/ fifth
 sexto/ sixth
-séptimo/ seventh
+septimo/ seventh
 octavo/ eighth
 noveno/ ninth
 decimo/  tenth
@@ -1721,3 +1717,303 @@ dieciseisavo/ sixteenth
 diecisieteavo/ seventeenth
 dieciochoavo/ eighteenth
 diecinueveavo/ nineteenth
+antonio/antonio
+manuel/manuel
+jose/jose
+francisco/francisco
+david/david
+juan/juan
+javier/javier
+jose antonio/jose antonio
+daniel/daniel
+jose luis/jose luis
+francisco javier/francisco javier
+carlos/carlos
+jesus/jesus
+alejandro/alejandro
+miguel/miguel
+jose manuel/jose manuel
+rafael/rafael
+miguel angel/miguel angel
+pablo/pablo
+pedro/pedro
+angel/angel
+sergio/sergio
+jose maria/jose maria
+fernando/fernando
+jorge/jorge
+luis/luis
+alberto/alberto
+alvaro/alvaro
+juan carlos/juan carlos
+adrian/adrian
+diego/diego
+juan jose/juan jose
+raul/raul
+ivan/ivan
+juan antonio/juan antonio
+ruben/ruben
+enrique/enrique
+oscar/oscar
+ramon/ramon
+andres/andres
+vicente/vicente
+juan manuel/juan manuel
+santiago/santiago
+joaquin/joaquin
+victor/victor
+mario/mario
+eduardo/eduardo
+roberto/roberto
+jaime/jaime
+francisco jose/francisco jose
+marcos/marcos
+ignacio/ignacio
+hugo/hugo
+alfonso/alfonso
+jordi/jordi
+ricardo/ricardo
+salvador/salvador
+guillermo/guillermo
+gabriel/gabriel
+marc/marc
+emilio/emilio
+mohamed/mohamed
+gonzalo/gonzalo
+julio/agosto
+julian/julian
+martin/martin
+jose miguel/jose miguel
+tomas/tomas
+agustin/agustin
+nicolas/nicolas
+jose ramon/jose ramon
+samuel/samuel
+ismael/ismael
+joan/joan
+cristian/cristian
+felix/felix
+lucas/lucas
+aitor/aitor
+hector/hector
+juan francisco/juan francisco
+iker/iker
+alex/alex
+jose carlos/jose carlos
+josep/josep
+sebastian/sebastian
+mariano/mariano
+cesar/cesar
+alfredo/alfredo
+domingo/lunes
+jose angel/jose angel
+felipe/felipe
+victor manuel/victor manuel
+rodrigo/rodrigo
+jose ignacio/jose ignacio
+mateo/mateo
+luis miguel/luis miguel
+jose francisco/jose francisco
+juan luis/juan luis
+xavier/xavier
+albert/albert
+jose/jose
+antonio/antonio
+juan/juan
+manuel/manuel
+francisco/francisco
+luis/luis
+javier/javier
+miguel/miguel
+carlos/carlos
+angel/angel
+jesus/jesus
+david/david
+daniel/daniel
+pedro/pedro
+alejandro/alejandro
+maria/maria
+alberto/alberto
+rafael/rafael
+pablo/pablo
+fernando/fernando
+jorge/jorge
+ramon/ramon
+sergio/sergio
+enrique/enrique
+andres/andres
+diego/diego
+vicente/vicente
+adrian/adrian
+victor/victor
+alvaro/alvaro
+ignacio/ignacio
+raul/raul
+eduardo/eduardo
+ivan/ivan
+oscar/oscar
+ruben/ruben
+joaquin/joaquin
+santiago/santiago
+mario/mario
+roberto/roberto
+gabriel/gabriel
+alfonso/alfonso
+jaime/jaime
+marcos/marcos
+ricardo/ricardo
+julio/agosto
+emilio/emilio
+hugo/hugo
+salvador/salvador
+guillermo/guillermo
+martin/martin
+mohamed/mohamed
+tomas/tomas
+julian/julian
+jordi/jordi
+nicolas/nicolas
+agustin/agustin
+gonzalo/gonzalo
+cristian/cristian
+felix/felix
+cesar/cesar
+marc/marc
+josep/josep
+joan/joan
+sebastian/sebastian
+samuel/samuel
+felipe/felipe
+domingo/lunes
+hector/hector
+ismael/ismael
+alfredo/alfredo
+lucas/lucas
+mariano/mariano
+aitor/aitor
+alex/alex
+rodrigo/rodrigo
+iker/iker
+alexander/alexander
+xavier/xavier
+esteban/esteban
+mateo/mateo
+marco/marco
+gregorio/gregorio
+arturo/arturo
+lorenzo/lorenzo
+albert/albert
+borja/borja
+eugenio/eugenio
+cristobal/cristobal
+joel/joel
+aaron/aaron
+dario/dario
+isaac/isaac
+jonathan/jonathan
+christian/christian
+german/german
+valentin/valentin
+adolfo/adolfo
+erick/erick
+pau/pau
+maria carmen/maria carmen
+maria/maria
+carmen/carmen
+ana maria/ana maria
+josefa/josefa
+maria pilar/maria pilar
+isabel/isabel
+laura/laura
+maria dolores/maria dolores
+maria teresa/maria teresa
+ana/ana
+cristina/cristina
+marta/marta
+maria angeles/maria angeles
+lucia/lucia
+francisca/francisca
+maria isabel/maria isabel
+maria jose/maria jose
+antonia/antonia
+dolores/dolores
+sara/sara
+paula/paula
+elena/elena
+maria luisa/maria luisa
+raquel/raquel
+rosa maria/rosa maria
+pilar/pilar
+manuela/manuela
+concepcion/concepcion
+maria jesus/maria jesus
+mercedes/mercedes
+julia/julia
+beatriz/beatriz
+nuria/nuria
+silvia/silvia
+alba/alba
+irene/irene
+rosario/rosario
+juana/juana
+teresa/teresa
+patricia/patricia
+encarnacion/encarnacion
+montserrat/montserrat
+andrea/andrea
+rocio/rocio
+monica/monica
+alicia/alicia
+maria mar/maria mar
+rosa/rosa
+sonia/sonia
+sandra/sandra
+marina/marina
+angela/angela
+susana/susana
+natalia/natalia
+yolanda/yolanda
+margarita/margarita
+maria josefa/maria josefa
+claudia/claudia
+sofia/sofia
+eva/eva
+carla/carla
+maria rosario/maria rosario
+inmaculada/inmaculada
+maria mercedes/maria mercedes
+ana isabel/ana isabel
+esther/esther
+noelia/noelia
+veronica/veronica
+nerea/nerea
+carolina/carolina
+angeles/angeles
+daniela/daniela
+maria victoria/maria victoria
+eva maria/eva maria
+ines/ines
+miriam/miriam
+lorena/lorena
+maria rosa/maria rosa
+maria elena/maria elena
+ana belen/ana belen
+victoria/victoria
+maria concepcion/maria concepcion
+amparo/amparo
+martina/martina
+maria antonia/maria antonia
+alejandra/alejandra
+lidia/lidia
+catalina/catalina
+celia/celia
+maria nieves/maria nieves
+consuelo/consuelo
+fatima/fatima
+olga/olga
+ainhoa/ainhoa
+gloria/gloria
+clara/clara
+maria cristina/maria cristina
+maria soledad/maria soledad
+emilia/emilia

@@ -20,11 +20,72 @@ bool contiene(const char* a,const char* b) {
 	bool c = false;
 	int j = 0;
 	char* aux = (char*)calloc(200, sizeof(char));
+	char* aux1 = (char*)calloc(strlen(b) + 3, sizeof(char));
 	for (int i = 0; i <= strlen(a); i++) {
 		if (*(a + i) != ' ' ){
 			if (*(a + i) == ';' || *(a + i) == '\0' ) {
 				j = 0;
-				if (!strcmp(aux, b))
+				for (int x = 0; x < strlen(b); x++){
+					if (*(b+x)=='ñ') {
+						*(aux1 + j++) = 'n';
+						*(aux1 + j++) = 'i';
+					}
+					else {
+						*(aux1 + j++) = *(b + x);
+					}
+				}
+				if (!strcmp(aux, aux1))
+					c = true;
+				for (int x = 0; x < strlen(b); x++) {
+					if (*(b + x) == 'á') {
+						*(aux1 + x) = 'a';
+					}
+					else {
+						*(aux1 + x) = *(b + x);
+					}
+				}
+				if (!strcmp(aux, aux1))
+					c = true;
+				for (int x = 0; x < strlen(b); x++) {
+					if (*(b + x) == 'é') {
+						*(aux1 + x) = 'e';
+					}
+					else {
+						*(aux1 + x) = *(b + x);
+					}
+				}
+				if (!strcmp(aux, aux1))
+					c = true;
+				for (int x = 0; x < strlen(b); x++) {
+					if (*(b + x) == 'í') {
+						*(aux1 + x) = 'i';
+					}
+					else {
+						*(aux1 + x) = *(b + x);
+					}
+				}
+				if (!strcmp(aux, aux1))
+					c = true;
+				for (int x = 0; x < strlen(b); x++) {
+					if (*(b + x) == 'ó') {
+						*(aux1 + x) = 'o';
+					}
+					else {
+						*(aux1 + x) = *(b + x);
+					}
+				}
+				if (!strcmp(aux, aux1))
+					c = true;
+				for (int x = 0; x < strlen(b); x++) {
+					if (*(b + x) == 'ú') {
+						*(aux1 + x) = 'u';
+					}
+					else {
+						*(aux1 + x) = *(b + x);
+					}
+				}
+				j = 0;
+				if (!strcmp(aux, b)||!strcmp(aux,aux1))
 					c = true;
 				aux = (char*)calloc(200, sizeof(char));
 			}
@@ -208,7 +269,6 @@ int main()
 				cout << "\nLa palabra no existe en el arbol Radix, ni en la base del diccionario o ingreso una palabra incorrecta intentelo de nuevo...";
 			}
 			setlocale(LC_ALL, "");// Cambiar locale - Suficiente para máquinas Linux
-
 			cout << endl;
 			system("pause");
 			break;
