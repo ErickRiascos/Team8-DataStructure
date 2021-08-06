@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['get_5fposicion_5fcorte_19',['get_posicion_corte',['../class_operaciones.html#a571dfa04a3795bc5cad5aa261777eeed',1,'Operaciones']]]
+  ['eliminar_45',['eliminar',['../class_radix_tree.html#aa5b2c0f45ebd9e0509611a76df9d17d0',1,'RadixTree']]],
+  ['expprim_46',['expPrim',['../main_8cpp.html#a5654a1f248422d5cfbf758821b3fb3eb',1,'main.cpp']]],
+  ['expsec_47',['expSec',['../main_8cpp.html#a386e5390be46c491211349d870c3b777',1,'main.cpp']]]
 ];

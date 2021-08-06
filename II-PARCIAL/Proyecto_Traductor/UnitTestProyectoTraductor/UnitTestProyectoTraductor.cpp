@@ -13,6 +13,9 @@ namespace UnitTestProyectoTraductor
 	TEST_CLASS(UnitTestProyectoTraductor)
 	{
 	public:
+		/**
+		* La función "Insertar" inserta palabras al árbol Radix
+		*/
 		TEST_METHOD(insertar_test)
 		{
 			Nodo* c=new Nodo();
@@ -20,6 +23,9 @@ namespace UnitTestProyectoTraductor
 			b.insertar("prueba",c);
 			Assert::IsNotNull(c);
 		}
+		/**
+		 * La función "Buscar" busca palabras al árbol Radix
+		*/
 		TEST_METHOD(buscar_test)
 		{
 			Nodo* c = new Nodo();
