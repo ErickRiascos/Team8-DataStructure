@@ -1,11 +1,1 @@
-﻿  main.cpp
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(24,20): warning C4018: '<=': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(28,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(39,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(49,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(59,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(69,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(79,23): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(104,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Proyecto_Traductor\main.cpp(125,20): warning C4018: '<': no coinciden signed/unsigned
-  Proyecto_Traductor.vcxproj -> C:\Users\Erick\Documents\GitHub\Team8-DataStructure\II-PARCIAL\Proyecto_Traductor\Debug\Proyecto_Traductor.exe
+﻿  Proyecto_Traductor.vcxproj -> C:\Users\leito\Team8-DataStructure-NRC3294\II-PARCIAL\Proyecto_Traductor\Debug\Proyecto_Traductor.exe

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hoja_5fizquierda_4',['hoja_izquierda',['../class_operaciones.html#adc06ecd9a0ab8bf48515064de7dd9815',1,'Operaciones']]]
+  ['fin_5fpalabra_6',['fin_palabra',['../class_nodo.html#af61a96dd48c627326e94dc3b87ac5ab0',1,'Nodo']]]
 ];

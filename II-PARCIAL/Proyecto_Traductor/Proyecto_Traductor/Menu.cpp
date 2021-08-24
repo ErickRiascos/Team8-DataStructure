@@ -4,6 +4,9 @@
 #include<iostream>
 #include<conio.h>
 
+/**
+ * La función "Menú" crea las opciones de funcionamiento
+ */
 Menu::Menu(const char* _titulo, const char* _opciones[6], int _n){
 	this->titulo = _titulo;
 	for (int i = 0; i < 6; i++){
@@ -42,7 +45,9 @@ Menu::Menu(const char* _titulo, const char* _opciones[6], int _n){
 	} while (repite);
 	this->opcion = opcionSeleccionada;
 }
-
+/**
+ * La función "Gotoxy" ayuda a mover el curso para el desplazamiento del menú
+ */
 void Menu::gotoxy(short x, short y){
 	COORD ord;
 	ord.X = x;

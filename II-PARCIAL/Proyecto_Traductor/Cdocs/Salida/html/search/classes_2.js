@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operaciones_15',['Operaciones',['../class_operaciones.html',1,'']]]
+  ['radixtree_34',['RadixTree',['../class_radix_tree.html',1,'']]]
 ];
