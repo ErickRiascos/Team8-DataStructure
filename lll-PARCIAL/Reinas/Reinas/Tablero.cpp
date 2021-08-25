@@ -1,50 +1,65 @@
 #include "Tablero.h"
 #include <stdlib.h>
 #include <iostream>
-Tablero::Tablero(int n)
-{
-	reinas = (int*)calloc(n * 4, sizeof(int));
+Tablero::Tablero(int n){
+	reinas = (int*)malloc(n * 4);
 	dimension = n;
-	for (int i = 0;i < dimension;i++) {
-		*(reinas + i) = n+1;
-	}
+	exito = true;
+	solucion = false;
+	soluciones = 0;
 }
 
-bool Tablero::validacion(int etapa)
-{
-	imprimir();
-	printf("\n");
-	for (int i = 0; i < dimension; i++){
-		if (i!=etapa&&(*(reinas+i)==*(reinas+etapa)||abs(*(reinas + i)-*(reinas + etapa))==abs(i-etapa))) {
-			printf("%d-%d",i,etapa);
+bool Tablero::validacion(int etapa){
+	for (int i = 0; i < etapa; i++){
+		if (*(reinas + i) == *(reinas + etapa) || abs(*(reinas + i) - *(reinas + etapa)) == abs(i - etapa))
 			return false;
-		}
 	}
 	return true;
 }
 
 bool Tablero::posReinas(int etapa)
 {
-	if (etapa>dimension)
+	if (etapa > dimension)
 		return false;
-	exito = false;
 	*(reinas + etapa) = 0;
 	do {
-		*(reinas + etapa) = *(reinas + etapa) + 1;
 		if (validacion(etapa)) {
-			if (etapa <= dimension) {
-				exito = posReinas(etapa+1);
-			}
+			if (etapa != dimension-1)
+				exito = posReinas(etapa + 1);
 			else {
-				exito = true;
-			}
+				exito = false;
+			}			
 		}
-	} while (exito);
+		if (validacion(dimension - 1) && etapa == dimension - 1) {
+			soluciones++;
+			printf("Solucion %d: ",soluciones);
+			imprimir();
+		}
+		if (*(reinas + etapa) == dimension - 1) {
+			break;
+		}
+		*(reinas + etapa) = *(reinas + etapa) + 1;
+	} while (1);		
 	return exito;
 }
 
-void Tablero::imprimir(){
-	for (int i = 0; i < dimension; i++){
-		std::cout << *(reinas + i) << " ";
+void Tablero::imprimir() {
+	printf("\n\n");
+	for (int y = 0;y < dimension;y++) {
+		for (int x = 0; x < dimension; x++)
+		{
+			if (y == *(reinas + x)) {
+				printf("Q ");
+			}
+			else {
+				printf("* ");
+			}
+		}
+		printf("\n");
 	}
+}
+
+int Tablero::getSoluciones()
+{
+	return soluciones;
 }
