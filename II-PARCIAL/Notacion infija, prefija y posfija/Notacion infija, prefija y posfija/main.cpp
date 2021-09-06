@@ -207,6 +207,7 @@ int main() {
         }
         
     }
+    
     while (oper.pilaVacia()!=true)//si es que la pila aun no esta nula pasamos los operadores a lista
     {
         c = oper.desapilar();
@@ -265,7 +266,7 @@ int main() {
         }
 
     }
-    
+  
     while (oper1.pilaVacia() != true)//si es que la pila aun no esta nula pasamos los operadores a lista
     {
         c = oper1.desapilar();
@@ -301,10 +302,12 @@ int main() {
             secuencia= fun.asa(secuencia);
         }
     }
-
+   
 
     std::cout << std::endl << "NOTACION FUNCIONAL: ";
     fun.mostrar();
     std::cout << std::endl;
+    getch();
     return 0;
+    
 }

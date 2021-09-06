@@ -1,6 +1,0 @@
-﻿  main.cpp
-C:\Users\Erick\Documents\Curso cshar\netcore\Ordenamiento Interno\Ordenamiento Interno\Lista.cpp(74,26): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\Erick\Documents\Curso cshar\netcore\Ordenamiento Interno\Ordenamiento Interno\Lista.cpp(73): message : al compilar la función del miembro clase plantilla "void Lista<int>::generarLista(int)"
-C:\Users\Erick\Documents\Curso cshar\netcore\Ordenamiento Interno\Ordenamiento Interno\main.cpp(6): message : Vea la referencia a la creación de una instancia de la función plantilla "void Lista<int>::generarLista(int)" que se está compilando
-C:\Users\Erick\Documents\Curso cshar\netcore\Ordenamiento Interno\Ordenamiento Interno\Ordenamiento.h(7): message : Vea la referencia a la creación de una instancia de clase plantilla "Lista<int>" que se está compilando
-  Ordenamiento Interno.vcxproj -> C:\Users\Erick\Documents\Curso cshar\netcore\Ordenamiento Interno\Debug\Ordenamiento Interno.exe
